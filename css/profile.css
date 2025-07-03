@@ -1,0 +1,159 @@
+@import "variables.css";
+@import "navbar.css";
+@import "footer.css";
+@import "default.css";
+
+
+.main {
+    margin-top: 10rem;
+    padding-top: 8rem;
+}
+
+.profile-sidebar {
+    background-color: var(--bg-color);
+    padding: 3.3rem 2.5rem;
+    width: 35rem;
+    border-radius: 1.6rem;
+}
+
+.profile-sidebar-top {
+    width: 100%;
+    height: 13rem;
+    border-radius: 16px;
+    background-color: var(--main-color);
+}
+
+.profile-sidebar_header {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    height: 18rem;
+    position: relative;
+}
+
+.profile-sidebar_header-img {
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 100%;
+    overflow: hidden;
+    border: 6px solid var(--border-profile);
+}
+
+.profile-sidebar_header-img img {
+    width: 100%;
+    height: auto;
+}
+
+.profile-sidebar-items-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 2.2rem;
+    margin-top: 2rem;
+}
+
+.profile-sidebar-item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 16px;
+    transition: all .2s ease;
+}
+
+.profile-sidebar-item svg path {}
+
+
+
+
+.profile-sidebar-item.item-active::after {
+    content: "";
+    position: absolute;
+    right: -2.4rem;
+    top: 0;
+    width: 5px;
+    height: 5rem;
+    background-color: var(--main-color);
+    border-radius: 10px 0 0 10px;
+    bottom: 0;
+    margin: auto;
+    transition: all .2s ease;
+}
+
+
+
+
+.item-active {
+    position: relative;
+    color: var(--main-color);
+    font-size: 2rem;
+}
+
+.logout-account {
+    color: #DF0F0F;
+}
+
+
+
+/* *================================= user panel header===================================== * */
+.user-panel {}
+
+.user-panel-container {
+    width: 72%;
+}
+
+.user-panel-header {
+    margin-bottom: 3.5rem;
+
+
+}
+
+.user-panel-header-title {
+    font-weight: 600;
+    font-size: 22px;
+
+}
+
+.user-panel-header-desc {
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 1rem;
+}
+
+
+
+
+.section-content {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(10px);
+    transition: all 0.3s ease-in-out;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.section-content.active {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+    position: relative;
+}
+
+.profile-sidebar-item svg {
+    width: 24px;
+    height: 24px;
+    color: #a3a3a3;
+    transition: all 0.3s ease;
+}
+
+.profile-sidebar-item.item-active svg {
+    color: #831FC1;
+    /* وقتی فعال شد */
+}

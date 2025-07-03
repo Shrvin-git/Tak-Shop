@@ -1,0 +1,320 @@
+@import "variables.css";
+@import "navbar.css";
+@import "footer.css";
+@import "default.css";
+
+
+.main {
+    margin-top: 10rem;
+    padding-top: 8rem;
+}
+
+
+
+.blog-header {
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+}
+
+.blog-header img {
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+    border-radius: .9rem;
+}
+
+.blog1 {
+    height: 8rem;
+}
+
+.blog2 {
+    height: 46rem;
+}
+
+.blog-header-left,
+.blog-header-righ {
+    width: 49.3%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.blog-header-left img {
+    width: 100%;
+}
+
+.blog3 {
+    height: 27rem;
+}
+
+.blog4 {
+    height: 27rem;
+}
+
+.blog1,
+.blog2,
+.blog3,
+.blog4 {
+    border-radius: .9rem;
+    cursor: pointer;
+}
+
+
+
+
+
+
+.section_header_container {
+    margin-top: 11rem;
+}
+
+.category {
+    margin-top: 10rem;
+}
+
+.section_title {
+    font-size: 2.4rem;
+    font-weight: bold;
+    color: var(--main-color);
+    text-align: center;
+    margin-bottom: 1.2rem;
+}
+
+.section_title::before {
+    content: "";
+    display: block;
+    width: 8rem;
+    height: 0.8rem;
+    border-radius: 0.8rem;
+    background-color: var(--main-color);
+    margin: 0 auto;
+    margin-bottom: 1rem;
+}
+
+.section_desc {
+    font-size: 1.2rem;
+    text-align: center;
+    color: var(--txt-color3);
+    display: block;
+    margin-bottom: 3.5rem;
+}
+
+
+/* !============================ Blog New Started =============================== */
+
+.blog {}
+
+.blog_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.blog_item {
+    width: 24rem;
+    background-color: var(--bg-color);
+    border-radius: 0.8rem;
+    padding-bottom: 1.2rem;
+}
+
+
+.blog_cover img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-top-left-radius: .8rem;
+    border-top-right-radius: .8rem;
+}
+
+.blog_cover {
+    height: 15rem;
+}
+
+.blog_title {
+    padding: 0 1.8rem;
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+    color: var(--txt-black);
+    margin-top: 1.4rem;
+}
+
+.blog_info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--links-color);
+    font-size: 14px;
+    margin: 1.4rem 0;
+}
+
+.blog_date {
+    color: var(--links-color);
+    font-size: 14px;
+}
+
+.blog_date svg path,
+.blog_category svg path {
+    fill: var(--svg-color);
+}
+
+.blog_category {}
+
+.blog_date,
+.blog_category {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    color: var(--links-color);
+    font-size: 1.4rem;
+    padding: 0 1.8rem;
+}
+
+.show_all {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    color: var(--main-color);
+    text-shadow: 0 0 10px #00000033;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 5rem;
+}
+
+.show_blog {
+    text-shadow: 0px 0px 5px #d772ff35;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+    color: var(--main-color);
+}
+
+.popular_laptop {
+    margin: 10rem 0;
+}
+
+.popular_laptop img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* !============================ Blog New Finishd =============================== */
+
+
+
+
+
+
+
+
+/* ? ============================ Blog New Started =============================== */
+
+.blog-category-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 5rem;
+    background-color: var(--border-profile);
+    border-radius: 2.4rem;
+    width: 30%;
+    margin: 0 auto 4rem auto;
+}
+
+.blog-category-items {
+    padding: .9rem 3.6rem;
+    border-radius: 2.4rem;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.blog-category--active {
+    background-color: var(--main-color);
+    transition: all .3s ease;
+    color: #EAEAEA;
+}
+
+/* ? ============================ Blog New Finishd =============================== */
+
+
+
+
+
+
+
+/* * ============================ Blog New Started =============================== */
+
+.most-visited-blog {}
+
+.most-visited-blog-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 2rem;
+    justify-content: space-between;
+}
+
+.most-visited-blog-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--bg-color);
+    border-radius: .8rem;
+    width: 49.3%;
+    gap: 2rem;
+    padding: .9rem;
+}
+
+.most-visited-blog-right {}
+
+.most-visited-blog-left {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.most-visited-title {
+    font-weight: 600;
+    font-size: 18px;
+    border-bottom: 1px solid #CCCCCC;
+    padding-bottom: 1rem;
+    margin-bottom: 1.2rem;
+}
+
+.most-visited-desc {
+    font-size: 14px;
+}
+
+.most-visited-date {
+    color: var(--c737373);
+    font-size: 12px;
+}
+
+.most-visited-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.blog-category-label {
+    color: var(--bg-label-color);
+    background-color: var(--bg-color-violet);
+    padding: .4rem 1.6rem;
+    border-radius: 35px;
+    font-size: 12px;
+}
+
+.most-visited-footer a {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    font-size: 14px;
+    color: var(--main-color);
+}
+
+/* * ============================ Blog New Finishd =============================== */

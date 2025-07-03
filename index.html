@@ -1,0 +1,1541 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./css/reset.css" />
+  <link rel="stylesheet" href="./css/index.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <title>Tak Shop</title>
+</head>
+
+<body>
+  <!-- ============== Start Navbar ============== -->
+  <div class="navbar">
+    <div class="container">
+      <div class="navbar-wrapper">
+        <div class="logo-site">
+          <a href="./index.html">
+            <img src="./images/logo/Vector.png" alt="Tak Shop Logo" />
+            <span>تک شاپ</span>
+          </a>
+        </div>
+
+        <div class="nav-bar__links-container">
+          <ul class="nav-bar__links">
+            <li><a href="./index.html">صفحه اصلی</a></li>
+            <li id="category_items">
+              <a href="./products-categories.html">
+                دسته بندی کالاها
+                <svg width="15" height="9" viewBox="0 0 15 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M14.7 1.6L13.5 0.48L7.50001 6.4L1.50001 0.48L0.300013 1.6L7.50001 8.8L14.7 1.6Z"
+                    fill="black" />
+                </svg>
+              </a>
+
+              <div class="menu-container">
+
+
+                <ul class="menu-categories">
+                  <li class="active">
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M20 30.3333H12C6.12 30.3333 4.33333 28.5466 4.33333 22.6666V9.33329C4.33333 3.45329 6.12 1.66663 12 1.66663H20C25.88 1.66663 27.6667 3.45329 27.6667 9.33329V22.6666C27.6667 28.5466 25.88 30.3333 20 30.3333ZM12 3.66663C7.22667 3.66663 6.33333 4.57329 6.33333 9.33329V22.6666C6.33333 27.4266 7.22667 28.3333 12 28.3333H20C24.7733 28.3333 25.6667 27.4266 25.6667 22.6666V9.33329C25.6667 4.57329 24.7733 3.66663 20 3.66663H12Z"
+                        fill="#831FC1" />
+                      <path
+                        d="M18.6667 8.33337H13.3333C12.7867 8.33337 12.3333 7.88004 12.3333 7.33337C12.3333 6.78671 12.7867 6.33337 13.3333 6.33337H18.6667C19.2133 6.33337 19.6667 6.78671 19.6667 7.33337C19.6667 7.88004 19.2133 8.33337 18.6667 8.33337Z"
+                        fill="#831FC1" />
+                      <path
+                        d="M16 26.48C14.3067 26.48 12.9333 25.1067 12.9333 23.4133C12.9333 21.72 14.3067 20.3467 16 20.3467C17.6933 20.3467 19.0667 21.72 19.0667 23.4133C19.0667 25.1067 17.6933 26.48 16 26.48ZM16 22.3333C15.4133 22.3333 14.9333 22.8133 14.9333 23.4C14.9333 23.9867 15.4133 24.4667 16 24.4667C16.5867 24.4667 17.0667 23.9867 17.0667 23.4C17.0667 22.8133 16.5867 22.3333 16 22.3333Z"
+                        fill="#831FC1" />
+                    </svg>
+
+                    موبایل
+                  </li>
+                  <li>
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M23.4133 23.96H8.58667C3.28 23.96 1.66667 22.3467 1.66667 17.04V8.58669C1.66667 3.28002 3.28 1.66669 8.58667 1.66669H23.4C28.7067 1.66669 30.32 3.28002 30.32 8.58669V17.0267C30.3333 22.3467 28.72 23.96 23.4133 23.96ZM8.58667 3.66669C4.4 3.66669 3.66667 4.40002 3.66667 8.58669V17.0267C3.66667 21.2134 4.4 21.9467 8.58667 21.9467H23.4C27.5867 21.9467 28.32 21.2134 28.32 17.0267V8.58669C28.32 4.40002 27.5867 3.66669 23.4 3.66669H8.58667Z"
+                        fill="#131313" />
+                      <path
+                        d="M16 30.3334C15.4533 30.3334 15 29.88 15 29.3334V22.96C15 22.4134 15.4533 21.96 16 21.96C16.5467 21.96 17 22.4134 17 22.96V29.3334C17 29.88 16.5467 30.3334 16 30.3334Z"
+                        fill="#131313" />
+                      <path
+                        d="M29.3333 18.3333H2.66667C2.12 18.3333 1.66667 17.88 1.66667 17.3333C1.66667 16.7866 2.12 16.3333 2.66667 16.3333H29.3333C29.88 16.3333 30.3333 16.7866 30.3333 17.3333C30.3333 17.88 29.88 18.3333 29.3333 18.3333Z"
+                        fill="#131313" />
+                      <path
+                        d="M22 30.3333H10C9.45333 30.3333 9 29.88 9 29.3333C9 28.7866 9.45333 28.3333 10 28.3333H22C22.5467 28.3333 23 28.7866 23 29.3333C23 29.88 22.5467 30.3333 22 30.3333Z"
+                        fill="#131313" />
+                    </svg>
+
+                    <a href="./laptop.html">لپ تاپ</a>
+                  </li>
+                  <li>
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M8.69333 21.68C8.44 21.68 8.18667 21.5866 7.98667 21.3866C7.6 21 7.6 20.36 7.98667 19.9733L12.0533 15.9066C12.44 15.52 13.08 15.52 13.4667 15.9066C13.8533 16.2933 13.8533 16.9333 13.4667 17.32L9.4 21.3866C9.2 21.5733 8.94667 21.68 8.69333 21.68Z"
+                        fill="#131313" />
+                      <path
+                        d="M12.8 21.72C12.5467 21.72 12.2933 21.6267 12.0933 21.4267L8.02667 17.36C7.64 16.9733 7.64 16.3333 8.02667 15.9467C8.41333 15.56 9.05333 15.56 9.44 15.9467L13.5067 20.0133C13.8933 20.4 13.8933 21.04 13.5067 21.4267C13.3067 21.6267 13.0533 21.72 12.8 21.72Z"
+                        fill="#131313" />
+                      <path
+                        d="M18.0533 20C17.32 20 16.7067 19.4 16.7067 18.6666C16.7067 17.9333 17.2933 17.3333 18.0267 17.3333H18.0533C18.7867 17.3333 19.3867 17.9333 19.3867 18.6666C19.3867 19.4 18.8 20 18.0533 20Z"
+                        fill="#131313" />
+                      <path
+                        d="M23.3067 20C22.5733 20 21.96 19.4 21.96 18.6666C21.96 17.9333 22.5467 17.3333 23.28 17.3333H23.3067C24.04 17.3333 24.64 17.9333 24.64 18.6666C24.64 19.4 24.04 20 23.3067 20Z"
+                        fill="#131313" />
+                      <path
+                        d="M20.6667 22.6267C19.9333 22.6267 19.3333 22.04 19.3333 21.3067V21.28C19.3333 20.5467 19.9333 19.9467 20.6667 19.9467C21.4 19.9467 22 20.5467 22 21.28C22 22.0133 21.4133 22.6267 20.6667 22.6267Z"
+                        fill="#131313" />
+                      <path
+                        d="M20.6667 17.3734C19.9333 17.3734 19.3333 16.7867 19.3333 16.0534V16.0267C19.3333 15.2934 19.9333 14.6934 20.6667 14.6934C21.4 14.6934 22 15.2934 22 16.0267C22 16.76 21.4133 17.3734 20.6667 17.3734Z"
+                        fill="#131313" />
+                      <path
+                        d="M20 30.3333H12C4.76 30.3333 1.66667 27.24 1.66667 20V17.3333C1.66667 10.0933 4.76 7 12 7H20C27.24 7 30.3333 10.0933 30.3333 17.3333V20C30.3333 27.24 27.24 30.3333 20 30.3333ZM12 9C5.85333 9 3.66667 11.1867 3.66667 17.3333V20C3.66667 26.1467 5.85333 28.3333 12 28.3333H20C26.1467 28.3333 28.3333 26.1467 28.3333 20V17.3333C28.3333 11.1867 26.1467 9 20 9H12Z"
+                        fill="#131313" />
+                      <path
+                        d="M17.32 9.00002H15.9867C14.7067 9.00002 13.6533 7.94669 13.6533 6.66669C13.6533 5.38669 14.6933 4.33335 15.9733 4.33335C16.1867 4.33335 16.3333 4.18669 16.3467 4.00002L16.36 2.65335C16.3733 2.10669 16.8133 1.66669 17.36 1.66669H17.3733C17.92 1.68002 18.3733 2.13335 18.36 2.68002L18.3467 4.02669C18.3333 5.29335 17.28 6.33335 16.0133 6.33335C15.8 6.33335 15.6667 6.48002 15.6667 6.66669C15.6667 6.85335 15.8133 7.00002 16 7.00002H17.3333C17.88 7.00002 18.3333 7.45335 18.3333 8.00002C18.3333 8.54669 17.8667 9.00002 17.32 9.00002Z"
+                        fill="#131313" />
+                    </svg>
+
+                    لوازم جانبی لپ تاپ
+                  </li>
+                  <li>
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M7.42667 30.2667C4.30667 30.2667 1.66667 27.6267 1.66667 24.5067V16.2933C1.6 12.4 3.04 8.73334 5.73333 5.98667C8.42667 3.25334 12.04 1.73334 15.9333 1.73334C23.88 1.73334 30.3333 8.2 30.3333 16.1333V24.3467C30.3333 27.52 27.7467 30.1067 24.5733 30.1067C21.4533 30.1067 18.8133 27.4667 18.8133 24.3467V20.6C18.8133 18.6667 20.3333 17.1467 22.2667 17.1467C24.2 17.1467 25.72 18.6667 25.72 20.6V24.64C25.72 25.1867 25.2667 25.64 24.72 25.64C24.1733 25.64 23.72 25.1867 23.72 24.64V20.6C23.72 19.6933 22.9867 19.1467 22.2667 19.1467C21.36 19.1467 20.8133 19.88 20.8133 20.6V24.3467C20.8133 26.3867 22.5333 28.1067 24.5733 28.1067C26.6133 28.1067 28.3333 26.3867 28.3333 24.3467V16.1333C28.3333 9.29334 22.7733 3.73334 15.9333 3.73334C12.5867 3.73334 9.48 5.02667 7.16 7.38667C4.84 9.74667 3.6 12.9067 3.66667 16.2667V24.5067C3.66667 26.5467 5.38667 28.2667 7.42667 28.2667C9.46667 28.2667 11.1867 26.5467 11.1867 24.5067V20.76C11.1867 19.8533 10.4533 19.3067 9.73333 19.3067C8.82667 19.3067 8.28 20.04 8.28 20.76V24.6533C8.28 25.2 7.82667 25.6533 7.28 25.6533C6.73333 25.6533 6.28 25.2 6.28 24.6533V20.76C6.28 18.8267 7.8 17.3067 9.73333 17.3067C11.6667 17.3067 13.1867 18.8267 13.1867 20.76V24.5067C13.1867 27.6267 10.5467 30.2667 7.42667 30.2667Z"
+                        fill="#131313" />
+                    </svg>
+
+                    هدست و هدفون
+                  </li>
+                  <li>
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M22.9867 30.3334H9.01334C5.28 30.3334 2.90667 28.1067 2.69333 24.3867L2 13.3867C1.89333 11.72 2.46667 10.12 3.61333 8.90669C4.74667 7.69335 6.34667 7.00002 8 7.00002C8.42667 7.00002 8.84 6.74669 9.04 6.34669L10 4.44002C10.7867 2.88002 12.76 1.66669 14.48 1.66669H17.5333C19.2533 1.66669 21.2133 2.88002 22 4.42669L22.96 6.37335C23.16 6.74669 23.56 7.00002 24 7.00002C25.6533 7.00002 27.2533 7.69335 28.3867 8.90669C29.5333 10.1334 30.1067 11.72 30 13.3867L29.3067 24.4C29.0667 28.1734 26.76 30.3334 22.9867 30.3334ZM14.48 3.66669C13.4933 3.66669 12.24 4.44002 11.7867 5.33335L10.8267 7.25335C10.2667 8.33335 9.18667 9.00002 8 9.00002C6.88 9.00002 5.84 9.45335 5.06667 10.2667C4.30667 11.08 3.92 12.1467 4 13.2534L4.69333 24.2667C4.85333 26.96 6.30667 28.3334 9.01334 28.3334H22.9867C25.68 28.3334 27.1333 26.96 27.3067 24.2667L28 13.2534C28.0667 12.1467 27.6933 11.08 26.9333 10.2667C26.16 9.45335 25.12 9.00002 24 9.00002C22.8133 9.00002 21.7333 8.33335 21.1733 7.28002L20.2 5.33335C19.76 4.45335 18.5067 3.68002 17.52 3.68002H14.48V3.66669Z"
+                        fill="#131313" />
+                      <path
+                        d="M18 11.6667H14C13.4533 11.6667 13 11.2134 13 10.6667C13 10.12 13.4533 9.66669 14 9.66669H18C18.5467 9.66669 19 10.12 19 10.6667C19 11.2134 18.5467 11.6667 18 11.6667Z"
+                        fill="#131313" />
+                      <path
+                        d="M16 25C13.0533 25 10.6667 22.6133 10.6667 19.6666C10.6667 16.72 13.0533 14.3333 16 14.3333C18.9467 14.3333 21.3333 16.72 21.3333 19.6666C21.3333 22.6133 18.9467 25 16 25ZM16 16.3333C14.16 16.3333 12.6667 17.8266 12.6667 19.6666C12.6667 21.5066 14.16 23 16 23C17.84 23 19.3333 21.5066 19.3333 19.6666C19.3333 17.8266 17.84 16.3333 16 16.3333Z"
+                        fill="#131313" />
+                    </svg>
+
+                    دوربین
+                  </li>
+                  <li>
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M26.6667 19.6666C24.64 19.6666 23 18.0266 23 16C23 13.9733 24.64 12.3333 26.6667 12.3333C28.6933 12.3333 30.3333 13.9733 30.3333 16C30.3333 18.0266 28.6933 19.6666 26.6667 19.6666ZM26.6667 14.3333C25.7467 14.3333 25 15.08 25 16C25 16.92 25.7467 17.6666 26.6667 17.6666C27.5867 17.6666 28.3333 16.92 28.3333 16C28.3333 15.08 27.5867 14.3333 26.6667 14.3333Z"
+                        fill="#131313" />
+                      <path
+                        d="M26.6667 9.00002C24.64 9.00002 23 7.36002 23 5.33335C23 3.30669 24.64 1.66669 26.6667 1.66669C28.6933 1.66669 30.3333 3.30669 30.3333 5.33335C30.3333 7.36002 28.6933 9.00002 26.6667 9.00002ZM26.6667 3.66669C25.7467 3.66669 25 4.41335 25 5.33335C25 6.25335 25.7467 7.00002 26.6667 7.00002C27.5867 7.00002 28.3333 6.25335 28.3333 5.33335C28.3333 4.41335 27.5867 3.66669 26.6667 3.66669Z"
+                        fill="#131313" />
+                      <path
+                        d="M26.6667 30.3333C24.64 30.3333 23 28.6933 23 26.6667C23 24.64 24.64 23 26.6667 23C28.6933 23 30.3333 24.64 30.3333 26.6667C30.3333 28.6933 28.6933 30.3333 26.6667 30.3333ZM26.6667 25C25.7467 25 25 25.7467 25 26.6667C25 27.5867 25.7467 28.3333 26.6667 28.3333C27.5867 28.3333 28.3333 27.5867 28.3333 26.6667C28.3333 25.7467 27.5867 25 26.6667 25Z"
+                        fill="#131313" />
+                      <path
+                        d="M5.33333 19.6666C3.30667 19.6666 1.66667 18.0266 1.66667 16C1.66667 13.9733 3.30667 12.3333 5.33333 12.3333C7.36 12.3333 9 13.9733 9 16C9 18.0266 7.36 19.6666 5.33333 19.6666ZM5.33333 14.3333C4.41333 14.3333 3.66667 15.08 3.66667 16C3.66667 16.92 4.41333 17.6666 5.33333 17.6666C6.25333 17.6666 7 16.92 7 16C7 15.08 6.25333 14.3333 5.33333 14.3333Z"
+                        fill="#131313" />
+                      <path
+                        d="M24 17H8C7.45333 17 7 16.5467 7 16C7 15.4533 7.45333 15 8 15H24C24.5467 15 25 15.4533 25 16C25 16.5467 24.5467 17 24 17Z"
+                        fill="#131313" />
+                      <path
+                        d="M24 27.6666H18.6667C15.44 27.6666 13.6667 25.8933 13.6667 22.6666V9.33331C13.6667 6.10665 15.44 4.33331 18.6667 4.33331H24C24.5467 4.33331 25 4.78665 25 5.33331C25 5.87998 24.5467 6.33331 24 6.33331H18.6667C16.56 6.33331 15.6667 7.22665 15.6667 9.33331V22.6666C15.6667 24.7733 16.56 25.6666 18.6667 25.6666H24C24.5467 25.6666 25 26.12 25 26.6666C25 27.2133 24.5467 27.6666 24 27.6666Z"
+                        fill="#131313" />
+                    </svg>
+
+                    اینترنت
+                  </li>
+                  <li>
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M20.6667 26.3334H11.3333C7.68 26.3334 5.66667 24.32 5.66667 20.6667V11.3334C5.66667 7.68002 7.68 5.66669 11.3333 5.66669H20.6667C24.32 5.66669 26.3333 7.68002 26.3333 11.3334V20.6667C26.3333 24.32 24.32 26.3334 20.6667 26.3334ZM11.3333 7.66669C8.76 7.66669 7.66667 8.76002 7.66667 11.3334V20.6667C7.66667 23.24 8.76 24.3334 11.3333 24.3334H20.6667C23.24 24.3334 24.3333 23.24 24.3333 20.6667V11.3334C24.3333 8.76002 23.24 7.66669 20.6667 7.66669H11.3333Z"
+                        fill="#131313" />
+                      <path
+                        d="M21.3333 3.66669H10.6667C10.12 3.66669 9.66667 3.21335 9.66667 2.66669C9.66667 2.12002 10.12 1.66669 10.6667 1.66669H21.3333C21.88 1.66669 22.3333 2.12002 22.3333 2.66669C22.3333 3.21335 21.88 3.66669 21.3333 3.66669Z"
+                        fill="#131313" />
+                      <path
+                        d="M21.3333 30.3333H10.6667C10.12 30.3333 9.66667 29.88 9.66667 29.3333C9.66667 28.7866 10.12 28.3333 10.6667 28.3333H21.3333C21.88 28.3333 22.3333 28.7866 22.3333 29.3333C22.3333 29.88 21.88 30.3333 21.3333 30.3333Z"
+                        fill="#131313" />
+                      <path
+                        d="M19.3333 17.6667H15.3333C14.7867 17.6667 14.3333 17.2134 14.3333 16.6667V12.6667C14.3333 12.12 14.7867 11.6667 15.3333 11.6667C15.88 11.6667 16.3333 12.12 16.3333 12.6667V15.6667H19.3333C19.88 15.6667 20.3333 16.12 20.3333 16.6667C20.3333 17.2134 19.88 17.6667 19.3333 17.6667Z"
+                        fill="#131313" />
+                    </svg>
+
+                    ساعت هوشمند
+                  </li>
+                </ul>
+
+
+                <div class="mega-content-wrapper">
+                  <div class="mega-section">
+                    <h4>دسته بندی بر اساس برند</h4>
+                    <ul>
+                      <li>آیفون</li>
+                      <li>سامسونگ</li>
+                      <li>شیائومی</li>
+                      <li>هواوی</li>
+                      <li>آنر</li>
+                      <li>ریلمی</li>
+                      <li>نوکیا</li>
+                    </ul>
+                  </div>
+
+                  <div class="mega-section">
+                    <h4>دسته بندی بر اساس قیمت</h4>
+                    <ul>
+                      <li>زیر پنج میلیون تومان</li>
+                      <li>بین پنح تا هفت میلیون تومان </li>
+                      <li>بین هفت تا ده میلیون تومان</li>
+                      <li>بین ده تا پانزده میلیون تومان</li>
+                      <li>بین پانزده تا بیست میلیون تومان</li>
+                      <li>بین بیست تا سی میلیون تومان</li>
+                      <li>بیش از سی میلیون تومان</li>
+                    </ul>
+                  </div>
+
+                  <div class="mega-section">
+                    <h4>دسته بندی بر اساس عملکرد</h4>
+                    <ul>
+                      <li>آیفون</li>
+                      <li>سامسونگ</li>
+                      <li>شیائومی</li>
+                      <li>هواوی</li>
+                      <li>آنر</li>
+                      <li>ریلمی</li>
+                      <li>نوکیا</li>
+                    </ul>
+                  </div>
+                </div>
+
+              </div>
+
+            </li>
+            <li><a href="./blog.html">بلاگ پست</a></li>
+            <li><a href="./offer.html">تخفیف</a></li>
+            <li><a href="./about-us.html"> درباره ما </a></li>
+            <li><a href="./contact-us.html">تماس با ما</a></li>
+          </ul>
+
+
+        </div>
+
+        <div class="nav-bar__icons-container">
+          <div class="search-icon">
+            <img src="./images/svgs/Vector.svg" alt="" />
+          </div>
+
+          <div class="change-them">
+            <img class="dark_icon" src="./images/svgs/dark.svg" alt="" />
+            <img class="light_icon" src="./images/svgs/mynaui_sun.svg" alt="" />
+          </div>
+
+          <a class="user-profile" href="../login.html">
+            <span>ثبت نام / ورود</span>
+          </a>
+
+          <a class="cart" href="./cart.html">
+            <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M35.9594 9.19844C35.842 9.05802 35.6953 8.94509 35.5295 8.8676C35.3637 8.79011 35.183 8.74997 35 8.75H9.79375L8.84375 3.52656C8.79142 3.23854 8.63967 2.97802 8.41495 2.79042C8.19023 2.60282 7.9068 2.50004 7.61406 2.5H3.75C3.41848 2.5 3.10054 2.6317 2.86612 2.86612C2.6317 3.10054 2.5 3.41848 2.5 3.75C2.5 4.08152 2.6317 4.39946 2.86612 4.63388C3.10054 4.8683 3.41848 5 3.75 5H6.5625L10.5562 26.9203C10.6739 27.5704 10.9612 28.1779 11.3891 28.6812C10.7985 29.2328 10.3723 29.9372 10.1576 30.7163C9.94292 31.4953 9.9482 32.3186 10.1729 33.0948C10.3975 33.871 10.8328 34.5699 11.4304 35.1139C12.0279 35.6578 12.7645 36.0256 13.5584 36.1766C14.3522 36.3275 15.1724 36.2555 15.9279 35.9688C16.6834 35.682 17.3447 35.1916 17.8385 34.552C18.3323 33.9123 18.6393 33.1484 18.7255 32.3449C18.8116 31.5414 18.6735 30.7298 18.3266 30H25.4234C25.1438 30.5854 24.9991 31.2262 25 31.875C25 32.7403 25.2566 33.5862 25.7373 34.3056C26.2181 35.0251 26.9013 35.5858 27.7008 35.917C28.5002 36.2481 29.3799 36.3347 30.2285 36.1659C31.0772 35.9971 31.8567 35.5804 32.4686 34.9686C33.0804 34.3567 33.4971 33.5772 33.6659 32.7285C33.8347 31.8799 33.7481 31.0002 33.417 30.2008C33.0858 29.4013 32.5251 28.7181 31.8056 28.2373C31.0862 27.7566 30.2403 27.5 29.375 27.5H14.2453C13.9526 27.5 13.6691 27.3972 13.4444 27.2096C13.2197 27.022 13.068 26.7615 13.0156 26.4734L12.5203 23.75H30.6453C31.5235 23.7499 32.3738 23.4415 33.048 22.8787C33.7221 22.3159 34.1774 21.5344 34.3344 20.6703L36.2344 10.2234C36.2665 10.0429 36.2586 9.85745 36.211 9.6803C36.1635 9.50316 36.0776 9.33865 35.9594 9.19844ZM16.25 31.875C16.25 32.2458 16.14 32.6084 15.934 32.9167C15.728 33.225 15.4351 33.4654 15.0925 33.6073C14.7499 33.7492 14.3729 33.7863 14.0092 33.714C13.6455 33.6416 13.3114 33.463 13.0492 33.2008C12.787 32.9386 12.6084 32.6045 12.536 32.2408C12.4637 31.8771 12.5008 31.5001 12.6427 31.1575C12.7846 30.8149 13.025 30.522 13.3333 30.316C13.6416 30.11 14.0042 30 14.375 30C14.8723 30 15.3492 30.1975 15.7008 30.5492C16.0525 30.9008 16.25 31.3777 16.25 31.875ZM31.25 31.875C31.25 32.2458 31.14 32.6084 30.934 32.9167C30.728 33.225 30.4351 33.4654 30.0925 33.6073C29.7499 33.7492 29.3729 33.7863 29.0092 33.714C28.6455 33.6416 28.3114 33.463 28.0492 33.2008C27.7869 32.9386 27.6084 32.6045 27.536 32.2408C27.4637 31.8771 27.5008 31.5001 27.6427 31.1575C27.7846 30.8149 28.025 30.522 28.3333 30.316C28.6416 30.11 29.0042 30 29.375 30C29.8723 30 30.3492 30.1975 30.7008 30.5492C31.0525 30.9008 31.25 31.3777 31.25 31.875ZM31.875 20.2234C31.8225 20.5122 31.6701 20.7734 31.4444 20.9611C31.2187 21.1488 30.9342 21.2511 30.6406 21.25H12.0656L10.2484 11.25H33.5016L31.875 20.2234Z" fill="#831FC1"/>
+</svg>
+
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ============== Finish Navbar ============== -->
+
+  <!-- ============== Start Main ============== -->
+  <main class="main">
+
+
+    <div class="hero-section">
+      <div class="container">
+
+
+        <div class="swiper hero-section-slider">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide"> <img src="./images/HeroSection.png" alt="" /></div>
+            <div class="swiper-slide"> <img src="./images/HeroSection.png" alt="" /></div>
+            <div class="swiper-slide"> <img src="./images/HeroSection.png" alt="" /></div>
+            <div class="swiper-slide"> <img src="./images/HeroSection.png" alt="" /></div>
+          </div>
+
+          <div class="swiper-pagination"></div>
+
+          <div class="swiper-nav-buttons">
+            <div class="swiper-button-next">
+              <svg width="14" height="22" viewBox="0 0 14 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M11.6 0.199951L13.28 1.99995L4.40003 11L13.28 20L11.6 21.8L0.800029 11L11.6 0.199951Z"
+                  fill="#831FC1" />
+              </svg>
+            </div>
+            <div class="swiper-button-prev">
+              <svg width="14" height="22" viewBox="0 0 14 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M2.39997 0.199951L0.719971 1.99995L9.59997 11L0.719971 20L2.39997 21.8L13.2 11L2.39997 0.199951Z"
+                  fill="#831FC1" />
+              </svg>
+
+
+            </div>
+
+
+          </div>
+
+
+        </div>
+
+
+
+      </div>
+    </div>
+
+    <section class="category">
+      <div class="container">
+        <div class="section_header_container">
+          <h2 class="section_title">دسته بندی محصولات ما</h2>
+          <span class="section_desc">در این سکشن شما میتوانید محصولات ما را به صورت دسته بندی مشاهده
+            کنید و در صورت تمایل به صفحه مورد نظر بروید</span>
+        </div>
+
+        <div class="category_items_container">
+          <div class="category_item">
+            <img src="./images/mobile-category.png" alt="" />
+            <span>موبایل</span>
+          </div>
+
+          <div class="category_item">
+            <img src="./images/laptop-category.png" alt="" />
+            <span>لپ تاب</span>
+          </div>
+
+          <div class="category_item">
+            <img src="./images/accesory-category.png" alt="" />
+            <span>لوازم جانبی</span>
+          </div>
+
+          <div class="category_item">
+            <img src="./images/headphone-category.png" alt="" />
+            <span>هدست و هدفون</span>
+          </div>
+
+          <div class="category_item">
+            <img src="./images/camera-category.png" alt="" />
+            <span>دوربین</span>
+          </div>
+
+          <div class="category_item">
+            <img src="./images/modem-category.png" alt="" />
+            <span>اینترنت</span>
+          </div>
+
+          <div class="category_item">
+            <img src="./images/smart-watch-category.png" alt="" />
+            <span>ساعت هوشمند</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="discount">
+      <div class="container">
+        <div class="discount_wrapper">
+          <div class="discount_right">
+            <h3 class="discount_right_title">کالاهایی با بیشترین تخفیف</h3>
+            <p class="discount_right_desc">
+              در این سکشن شما میتوانید کالاهایی که تخفیف زیادی دارن رومشاهده
+              کنید.
+            </p>
+
+            <div class="discount_right_timer">
+              <span class="">زمان <br />
+                باقیمانده</span>
+
+              <div class="timer_box">
+
+
+                <div class="timer_box_item">
+                  <span class="timer_box_item_number discount_second">59</span>
+                  <span class="timer_box_item_label">ثانیه</span>
+                </div>
+
+                <div class="timer_box_item" id="box-center">
+                  <span class="timer_box_item_number discount_minut">:10</span>
+                  <span class="timer_box_item_label">دقیقه</span>
+                </div>
+
+                <div class="timer_box_item">
+                  <span class="timer_box_item_number discount_hour">:13</span>
+                  <span class="timer_box_item_label">ساعت</span>
+                </div>
+
+
+              </div>
+            </div>
+
+            <a href="#" class="discount_right_btn">
+              مشاهده همه
+              <svg width="11" height="18" viewBox="0 0 11 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M9.00002 18L10.4 16.5L3.00002 9L10.4 1.5L9.00002 0L2.47955e-05 9L9.00002 18Z" fill="white" />
+              </svg>
+
+            </a>
+          </div>
+
+          <div class="discount_left">
+
+
+
+            <div class="swiper discount_slider">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="discount_left_item">
+                    <img src="./images/Offer/macbook.png" alt="" />
+                    <div class="discount_left_item_info">
+                      <span class="discount_left_item_title">لپ تاپ 16 اینچی ایسوس مدل Vivobook 16 </span>
+                      <div class="discount_left_item_rating">
+                        <span class="product_send_post">
+                          <img src="./images/svgs/post.svg" alt="">
+                          رایگان
+                        </span>
+                        <span class="product_rating_count">4.0
+                          <img src="./images/svgs/product-rating.svg" alt="">
+                        </span>
+                      </div>
+
+                      <div class="product_org_price">
+                        <span class="discount_range">7%</span>
+
+                        <span id="sss"><del>41,720,000 </del> تومان</span>
+
+                      </div>
+
+                      <h3 class="orginal_price">39,000,000 تومان</h3>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="discount_left_item">
+                    <img src="./images/Offer/headphone.png" alt="" />
+                    <div class="discount_left_item_info">
+                      <span class="discount_left_item_title"> هدفون بلوتوثی مانستر مدلCozy Pods </span>
+                      <div class="discount_left_item_rating">
+                        <span class="product_send_post">
+                          <img src="./images/svgs/post.svg" alt="">
+                          رایگان
+                        </span>
+                        <span class="product_rating_count">3.8
+                          <img src="./images/svgs/product-rating.svg" alt="">
+                        </span>
+                      </div>
+
+                      <div class="product_org_price">
+                        <span class="discount_range">34%</span>
+
+                        <span id="sss"><del> 2,500,000 </del> تومان</span>
+
+                      </div>
+
+                      <h3 class="orginal_price">1,640,000 تومان </h3>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="discount_left_item">
+                    <img src="./images/Offer/macbook.png" alt="" />
+                    <div class="discount_left_item_info">
+                      <span class="discount_left_item_title">لپ تاپ 16 اینچی ایسوس مدل Vivobook 16 </span>
+                      <div class="discount_left_item_rating">
+                        <span class="product_send_post">
+                          <img src="./images/svgs/post.svg" alt="">
+                          رایگان
+                        </span>
+                        <span class="product_rating_count">4.8
+                          <img src="./images/svgs/product-rating.svg" alt="">
+                        </span>
+                      </div>
+
+                      <div class="product_org_price">
+                        <span class="discount_range">7%</span>
+
+                        <span id="sss"><del>109,850,000 </del> تومان</span>
+
+                      </div>
+
+                      <h3 class="orginal_price">101,700,000 تومان </h3>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="discount_left_item">
+                    <img src="./images/Offer/camera.png" alt="" />
+                    <div class="discount_left_item_info">
+                      <span class="discount_left_item_title"> دوربین عکاسی مدلEOS 250D </span>
+                      <div class="discount_left_item_rating">
+                        <span class="product_send_post">
+                          <img src="./images/svgs/post.svg" alt="">
+                          رایگان
+                        </span>
+                        <span class="product_rating_count">4.7
+                          <img src="./images/svgs/product-rating.svg" alt="">
+                        </span>
+                      </div>
+
+                      <div class="product_org_price">
+                        <span class="discount_range">15%</span>
+
+                        <span id="sss"><del>52,200,000 </del> تومان</span>
+
+                      </div>
+
+                      <h3 class="orginal_price">44,400,000 تومان </h3>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="discount_left_item">
+                    <img src="./images/Offer/nothingphone.png" alt="" />
+                    <div class="discount_left_item_info">
+                      <span class="discount_left_item_title">گوشی موبایل مدل Phone 2 </span>
+                      <div class="discount_left_item_rating">
+                        <span class="product_send_post">
+                          <img src="./images/svgs/post.svg" alt="">
+                          رایگان
+                        </span>
+                        <span class="product_rating_count">4.0
+                          <img src="./images/svgs/product-rating.svg" alt="">
+                        </span>
+                      </div>
+
+                      <div class="product_org_price">
+                        <span class="discount_range">3%</span>
+
+                        <span id="sss"><del>33,500,000 </del> تومان</span>
+
+                      </div>
+
+                      <h3 class="orginal_price">31,200,000 تومان </h3>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="discount_left_item">
+                    <img src="./images/Offer/nothingphone.png" alt="" />
+                    <div class="discount_left_item_info">
+                      <span class="discount_left_item_title">گوشی موبایل مدل Phone 2 </span>
+                      <div class="discount_left_item_rating">
+                        <span class="product_send_post">
+                          <img src="./images/svgs/post.svg" alt="">
+                          رایگان
+                        </span>
+                        <span class="product_rating_count">4.0
+                          <img src="./images/svgs/product-rating.svg" alt="">
+                        </span>
+                      </div>
+
+                      <div class="product_org_price">
+                        <span class="discount_range">3%</span>
+
+                        <span id="sss"><del>33,500,000 </del> تومان</span>
+
+                      </div>
+
+                      <h3 class="orginal_price">31,200,000 تومان </h3>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="discount_left_item">
+                    <img src="./images/Offer/nothingphone.png" alt="" />
+                    <div class="discount_left_item_info">
+                      <span class="discount_left_item_title">گوشی موبایل مدل Phone 2 </span>
+                      <div class="discount_left_item_rating">
+                        <span class="product_send_post">
+                          <img src="./images/svgs/post.svg" alt="">
+                          رایگان
+                        </span>
+                        <span class="product_rating_count">4.0
+                          <img src="./images/svgs/product-rating.svg" alt="">
+                        </span>
+                      </div>
+
+                      <div class="product_org_price">
+                        <span class="discount_range">3%</span>
+
+                        <span id="sss"><del>33,500,000 </del> تومان</span>
+
+                      </div>
+
+                      <h3 class="orginal_price">31,200,000 تومان </h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="swiper-button-prev">
+                <svg width="14" height="22" viewBox="0 0 14 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M11.6 0.199951L13.28 1.99995L4.40003 11L13.28 20L11.6 21.8L0.800029 11L11.6 0.199951Z"
+                    fill="#831FC1"></path>
+                </svg>
+              </div>
+              <div class="swiper-button-next">
+                <svg width="14" height="22" viewBox="0 0 14 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M2.39997 0.199951L0.719971 1.99995L9.59997 11L0.719971 20L2.39997 21.8L13.2 11L2.39997 0.199951Z"
+                    fill="#831FC1"></path>
+                </svg>
+              </div>
+
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          </div>
+        </div>
+    </section>
+
+    <section class="best_selling_products">
+      <div class="container">
+        <div class="section_header_container">
+          <h2 class="section_title">محصولات پر فروش</h2>
+          <span class="section_desc">در این سکشن شما میتوانید محصولات پر فروش تک شاپ را در طول هفته گذشته مشاهده
+            بکنید</span>
+        </div>
+
+        <div class="best_selling_products_wrapper">
+
+
+
+          <!-- Slider main container -->
+          <div class="swiper best-sell-slider">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+
+
+              <div class="swiper-slide">
+                <div class="selling_products_item">
+                  <img class="best_product_img" src="./images/best-sell/PS5.png" alt="">
+
+                  <span class="discount_left_item_title best-sell-title"> کنسول سونی مدل <br>Ps5 Slim </span>
+
+                  <div id="info" class="discount_left_item_rating">
+                    <span class="product_send_post">
+                      <img src="./images/svgs/post.svg" alt="">
+                      رایگان
+                    </span>
+                    <span class="product_rating_count">3.8
+                      <img src="./images/svgs/product-rating.svg" alt="">
+                    </span>
+                  </div>
+
+                  <h3 class="orginal_price">38,000,000 تومان</h3>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="selling_products_item">
+                  <img class="best_product_img" src="./images/best-sell/Headset.png" alt="">
+
+                  <span class="discount_left_item_title best-sell-title"> هدست بلوتوثی وونک مدلV800 </span>
+
+                  <div id="info" class="discount_left_item_rating">
+                    <span class="product_send_post">
+                      <img src="./images/svgs/post.svg" alt="">
+                      رایگان
+                    </span>
+                    <span class="product_rating_count">3.8
+                      <img src="./images/svgs/product-rating.svg" alt="">
+                    </span>
+                  </div>
+
+                  <div class="product_org_price">
+                    <span class="discount_range">5%</span>
+
+                    <span id="sss"><del> 2,050,000 </del> تومان</span>
+
+                  </div>
+
+                  <h3 class="orginal_price">1,950,000 تومان </h3>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="selling_products_item">
+                  <img class="best_product_img" src="./images/best-sell/Modem.png" alt="">
+
+                  <span class="discount_left_item_title best-sell-title"> مودم روتر<br> VDSL/ADSL </span>
+
+                  <div id="info" class="discount_left_item_rating">
+                    <span class="product_send_post">
+                      <img src="./images/svgs/post.svg" alt="">
+                      رایگان
+                    </span>
+                    <span class="product_rating_count">3.1
+                      <img src="./images/svgs/product-rating.svg" alt="">
+                    </span>
+                  </div>
+
+                  <h3 class="orginal_price">1,700,000 تومان </h3>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="selling_products_item">
+                  <img class="best_product_img" src="./images/best-sell/TUF.png" alt="">
+
+                  <span class="discount_left_item_title best-sell-title"> لپ تاب 17.3 اینچی ایسوس مدلTUF Gaming F17
+                  </span>
+
+                  <div id="info" class="discount_left_item_rating info">
+
+                    <span class="product_rating_count">4.8
+                      <img src="./images/svgs/product-rating.svg" alt="">
+                    </span>
+                  </div>
+
+                  <div class="product_org_price">
+                    <span class="discount_range">5%</span>
+
+                    <span id="sss"><del> 84,000,000 </del> تومان</span>
+
+                  </div>
+
+                  <h3 class="orginal_price">83,000,000 تومان </h3>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="selling_products_item">
+                  <img class="best_product_img" src="./images/best-sell/Speaker.png" alt="">
+
+                  <span class="discount_left_item_title best-sell-title">اسپیکر بلوتوثی تسکو مدلTS 2316 </span>
+
+                  <div id="info" class="discount_left_item_rating">
+
+                    <span class="product_send_post">
+                      <img src="./images/svgs/post.svg" alt="">
+                      رایگان
+                    </span>
+
+                    <span class="product_rating_count">4.7
+                      <img src="./images/svgs/product-rating.svg" alt="">
+                    </span>
+                  </div>
+
+                  <div class="product_org_price">
+                    <span class="discount_range">5%</span>
+
+                    <span id="sss"><del> 968,000 </del> تومان</span>
+
+                  </div>
+
+                  <h3 class="orginal_price">841,000 تومان </h3>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="selling_products_item">
+                  <img class="best_product_img" src="./images/best-sell/Modem.png" alt="">
+
+                  <span class="discount_left_item_title best-sell-title"> مودم روتر<br> VDSL/ADSL </span>
+
+                  <div id="info" class="discount_left_item_rating">
+                    <span class="product_send_post">
+                      <img src="./images/svgs/post.svg" alt="">
+                      رایگان
+                    </span>
+                    <span class="product_rating_count">3.1
+                      <img src="./images/svgs/product-rating.svg" alt="">
+                    </span>
+                  </div>
+
+                  <h3 class="orginal_price">1,700,000 تومان </h3>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="selling_products_item">
+                  <img class="best_product_img" src="./images/best-sell/PS5.png" alt="">
+
+                  <span class="discount_left_item_title best-sell-title"> کنسول سونی مدل <br>Ps5 Slim </span>
+
+                  <div id="info" class="discount_left_item_rating">
+                    <span class="product_send_post">
+                      <img src="./images/svgs/post.svg" alt="">
+                      رایگان
+                    </span>
+                    <span class="product_rating_count">3.8
+                      <img src="./images/svgs/product-rating.svg" alt="">
+                    </span>
+                  </div>
+
+                  <h3 class="orginal_price">38,000,000 تومان</h3>
+                </div>
+              </div>
+
+            </div>
+
+
+
+            <div class="swiper-button-prev">
+              <svg width="14" height="22" viewBox="0 0 14 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M11.6 0.199951L13.28 1.99995L4.40003 11L13.28 20L11.6 21.8L0.800029 11L11.6 0.199951Z"
+                  fill="#831FC1"></path>
+              </svg>
+            </div>
+            <div class="swiper-button-next">
+              <svg width="14" height="22" viewBox="0 0 14 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M2.39997 0.199951L0.719971 1.99995L9.59997 11L0.719971 20L2.39997 21.8L13.2 11L2.39997 0.199951Z"
+                  fill="#831FC1"></path>
+              </svg>
+            </div>
+
+
+          </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+
+      </div>
+
+      <a class="show_all" href="#">
+        مشاهده همه
+        <img src="./images/Vector (1).png" alt="">
+      </a>
+    </section>
+
+    <section class="brand">
+      <div class="container">
+        <div class="section_header_container">
+          <h2 class="section_title">برند های محبوب</h2>
+          <span class="section_desc">در این سکشن شما میتوانید برند های محبوب را که بیشترین فروش را دارن مشاهده
+            بکنید</span>
+        </div>
+        <div class="branding_wrapper">
+          <div class="brand_img">
+            <img src="./images/brand/samsung.png" alt="">
+          </div>
+          <div class="brand_img">
+            <img src="./images/brand/X.Vision.png" alt="">
+          </div>
+          <div class="brand_img">
+            <img src="./images/brand/Huawei.png" alt="">
+          </div>
+          <div class="brand_img">
+            <img src="./images/brand/HP.png" alt="">
+          </div>
+          <div class="brand_img">
+            <img src="./images/brand/TSCO.png" alt="">
+          </div>
+          <div class="brand_img">
+            <img src="./images/brand/Apple.png" alt="">
+          </div>
+          <div class="brand_img">
+            <img src="./images/brand/Canon.png" alt="">
+          </div>
+          <div class="brand_img">
+            <img src="./images/brand/xiaomi.png" alt="">
+          </div>
+        </div>
+        <a class="show_all" href="#">
+          مشاهده همه
+          <img src="./images/Vector (1).png" alt="">
+        </a>
+      </div>
+    </section>
+
+    <section class="new_product">
+      <div class="container">
+
+
+        <div class="section_header_container">
+          <h2 class="section_title"> محصولات تازه </h2>
+          <span class="section_desc">در این سکشن شما میتوانید محصولاتی را که جدیدا به سایت اضافه شده اند را مشاهده
+            بکنید</span>
+        </div>
+
+        <div class="new_product_wrapper">
+
+          <div class="swiper new-product-slider">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="selling_products_item">
+                  <img class="best_product_img" src="./images/new-product-img/dual-shock.png" alt="">
+
+                  <span class="discount_left_item_title best-sell-title"> دسته بازی کنسول مدلDUAL.SHOCK4 </span>
+
+                  <div id="info" class="discount_left_item_rating">
+                    <span class="product_send_post">
+                      <img src="./images/svgs/post.svg" alt="">
+                      رایگان
+                    </span>
+                    <span class="product_rating_count">4.6
+                      <img src="./images/svgs/product-rating.svg" alt="">
+                    </span>
+                  </div>
+
+                  <h3 class="orginal_price">38,000,000 تومان</h3>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="selling_products_item">
+                  <img class="best_product_img" src="./images/new-product-img/hard.png" alt="">
+                  <span class="discount_left_item_title best-sell-title"> هارد اکستنرال مدلMy Passport </span>
+
+                  <div id="info" class="discount_left_item_rating">
+                    <span class="product_send_post">
+                      <img src="./images/svgs/post.svg" alt="">
+                      رایگان
+                    </span>
+                    <span class="product_rating_count">4.0
+                      <img src="./images/svgs/product-rating.svg" alt="">
+                    </span>
+                  </div>
+
+                  <h3 class="orginal_price">5,950,000 تومان</h3>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="selling_products_item">
+                  <img class="best_product_img" src="./images/new-product-img/flsh.png" alt="">
+                  <span class="discount_left_item_title best-sell-title"> فلش مموری کوئین مدل GLINK - 64GB </span>
+
+                  <div id="info" class="discount_left_item_rating">
+                    <span class="product_send_post">
+                      <img src="./images/svgs/post.svg" alt="">
+                      رایگان
+                    </span>
+                    <span class="product_rating_count">3.1
+                      <img src="./images/svgs/product-rating.svg" alt="">
+                    </span>
+                  </div>
+
+                  <h3 class="orginal_price">213,000 تومان</h3>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="selling_products_item">
+                  <img class="best_product_img" src="./images/new-product-img/tablet.png" alt="">
+                  <span class="discount_left_item_title best-sell-title"> تبلت 11 اینچ شیائومی مدلRedmi Pad SE </span>
+
+                  <div id="info" class="discount_left_item_rating">
+                    <span class="product_send_post">
+                      <img src="./images/svgs/post.svg" alt="">
+                      رایگان
+                    </span>
+                    <span class="product_rating_count">3.8
+                      <img src="./images/svgs/product-rating.svg" alt="">
+                    </span>
+                  </div>
+
+                  <h3 class="orginal_price">14,720,000 تومان</h3>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="selling_products_item">
+                  <img class="best_product_img" src="./images/new-product-img/dual-shock.png" alt="">
+
+                  <span class="discount_left_item_title best-sell-title"> دسته بازی کنسول مدلDUAL.SHOCK4 </span>
+
+                  <div id="info" class="discount_left_item_rating">
+                    <span class="product_send_post">
+                      <img src="./images/svgs/post.svg" alt="">
+                      رایگان
+                    </span>
+                    <span class="product_rating_count">4.6
+                      <img src="./images/svgs/product-rating.svg" alt="">
+                    </span>
+                  </div>
+
+                  <h3 class="orginal_price">38,000,000 تومان</h3>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="selling_products_item">
+                  <img class="best_product_img" src="./images/new-product-img/speaker.png" alt="">
+                  <span class="discount_left_item_title best-sell-title"> اسپیکر <br> بلوتوثی تسکو مدلTS 2316 </span>
+
+                  <div id="info" class="discount_left_item_rating">
+                    <span class="product_send_post">
+                      <img src="./images/svgs/post.svg" alt="">
+                      رایگان
+                    </span>
+                    <span class="product_rating_count">4.7
+                      <img src="./images/svgs/product-rating.svg" alt="">
+                    </span>
+                  </div>
+
+                  <h3 class="orginal_price">841,000 تومان</h3>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="selling_products_item">
+                  <img class="best_product_img" src="./images/new-product-img/hard.png" alt="">
+                  <span class="discount_left_item_title best-sell-title"> هارد اکستنرال مدلMy Passport </span>
+
+                  <div id="info" class="discount_left_item_rating">
+                    <span class="product_send_post">
+                      <img src="./images/svgs/post.svg" alt="">
+                      رایگان
+                    </span>
+                    <span class="product_rating_count">4.0
+                      <img src="./images/svgs/product-rating.svg" alt="">
+                    </span>
+                  </div>
+
+                  <h3 class="orginal_price">5,950,000 تومان</h3>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="swiper-button-prev">
+              <svg width="14" height="22" viewBox="0 0 14 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M11.6 0.199951L13.28 1.99995L4.40003 11L13.28 20L11.6 21.8L0.800029 11L11.6 0.199951Z"
+                  fill="#831FC1"></path>
+              </svg>
+            </div>
+            <div class="swiper-button-next">
+              <svg width="14" height="22" viewBox="0 0 14 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M2.39997 0.199951L0.719971 1.99995L9.59997 11L0.719971 20L2.39997 21.8L13.2 11L2.39997 0.199951Z"
+                  fill="#831FC1"></path>
+              </svg>
+            </div>
+
+          </div>
+
+
+
+
+
+
+
+        </div>
+
+
+        <a class="show_all" href="#">
+          مشاهده همه
+          <img src="./images/Vector (1).png" alt="">
+        </a>
+      </div>
+    </section>
+
+    <section class="popular_laptop">
+
+      <div class="container">
+        <div class="swiper hero-section-slider">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide"> <img src="./images/hero2.jpg" alt="" /></div>
+            <div class="swiper-slide"> <img src="./images/hero2.jpg" alt="" /></div>
+            <div class="swiper-slide"> <img src="./images/hero2.jpg" alt="" /></div>
+            <div class="swiper-slide"> <img src="./images/hero2.jpg" alt="" /></div>
+          </div>
+
+          <div class="swiper-pagination"></div>
+
+          <div class="swiper-nav-buttons">
+            <div class="swiper-button-next">
+              <svg width="14" height="22" viewBox="0 0 14 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M11.6 0.199951L13.28 1.99995L4.40003 11L13.28 20L11.6 21.8L0.800029 11L11.6 0.199951Z"
+                  fill="#831FC1" />
+              </svg>
+            </div>
+            <div class="swiper-button-prev">
+              <svg width="14" height="22" viewBox="0 0 14 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M2.39997 0.199951L0.719971 1.99995L9.59997 11L0.719971 20L2.39997 21.8L13.2 11L2.39997 0.199951Z"
+                  fill="#831FC1" />
+              </svg>
+
+
+            </div>
+
+
+          </div>
+
+
+        </div>
+      </div>
+
+    </section>
+
+    <section class="blog">
+
+      <div class="container">
+        <div class="section_header_container">
+          <h2 class="section_title"> بلاگ پست </h2>
+          <span class="section_desc">در این سکشن شما میتوانید اخبار و مقالات تک شاپ را مشاهده بکنید</span>
+        </div>
+        <div class="blow-container">
+          <div class="blog_wrapper">
+
+
+            <div class="swiper blog-slider">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="blog_item">
+                    <div class="blog_cover">
+                      <img src="./images/blog-img/blog1.png" alt="">
+                    </div>
+
+                    <h3 class="blog_title">نقد و بررسی گوشی Samsung S25-Ultra</h3>
+                    <div class="blog_info">
+                      <span class="blog_date">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path
+                            d="M8 14C7.71667 14 7.47933 13.904 7.288 13.712C7.09667 13.52 7.00067 13.2827 7 13C6.99933 12.7173 7.09533 12.48 7.288 12.288C7.48067 12.096 7.718 12 8 12C8.282 12 8.51967 12.096 8.713 12.288C8.90633 12.48 9.002 12.7173 9 13C8.998 13.2827 8.902 13.5203 8.712 13.713C8.522 13.9057 8.28467 14.0013 8 14ZM12 14C11.7167 14 11.4793 13.904 11.288 13.712C11.0967 13.52 11.0007 13.2827 11 13C10.9993 12.7173 11.0953 12.48 11.288 12.288C11.4807 12.096 11.718 12 12 12C12.282 12 12.5197 12.096 12.713 12.288C12.9063 12.48 13.002 12.7173 13 13C12.998 13.2827 12.902 13.5203 12.712 13.713C12.522 13.9057 12.2847 14.0013 12 14ZM16 14C15.7167 14 15.4793 13.904 15.288 13.712C15.0967 13.52 15.0007 13.2827 15 13C14.9993 12.7173 15.0953 12.48 15.288 12.288C15.4807 12.096 15.718 12 16 12C16.282 12 16.5197 12.096 16.713 12.288C16.9063 12.48 17.002 12.7173 17 13C16.998 13.2827 16.902 13.5203 16.712 13.713C16.522 13.9057 16.2847 14.0013 16 14ZM5 22C4.45 22 3.97933 21.8043 3.588 21.413C3.19667 21.0217 3.00067 20.5507 3 20V6C3 5.45 3.196 4.97934 3.588 4.588C3.98 4.19667 4.45067 4.00067 5 4H6V3C6 2.71667 6.096 2.47934 6.288 2.288C6.48 2.09667 6.71733 2.00067 7 2C7.28267 1.99934 7.52033 2.09534 7.713 2.288C7.90567 2.48067 8.00133 2.718 8 3V4H16V3C16 2.71667 16.096 2.47934 16.288 2.288C16.48 2.09667 16.7173 2.00067 17 2C17.2827 1.99934 17.5203 2.09534 17.713 2.288C17.9057 2.48067 18.0013 2.718 18 3V4H19C19.55 4 20.021 4.196 20.413 4.588C20.805 4.98 21.0007 5.45067 21 6V20C21 20.55 20.8043 21.021 20.413 21.413C20.0217 21.805 19.5507 22.0007 19 22H5ZM5 20H19V10H5V20ZM5 8H19V6H5V8Z"
+                            fill="#2A2A2A" />
+                        </svg>
+
+                        10 بهمن
+                      </span>
+                      <span class="blog_category">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <g clip-path="url(#clip0_1058_5485)">
+                            <path
+                              d="M4.50943e-06 3.75C4.50943e-06 3.15326 0.237057 2.58097 0.659014 2.15901C1.08097 1.73705 1.65327 1.5 2.25 1.5H18.75C19.3467 1.5 19.919 1.73705 20.341 2.15901C20.763 2.58097 21 3.15326 21 3.75V19.542C21 19.992 20.925 20.523 20.643 21H21.75C21.9489 21 22.1397 20.921 22.2803 20.7803C22.421 20.6397 22.5 20.4489 22.5 20.25V6.75C22.5 6.55109 22.579 6.36032 22.7197 6.21967C22.8603 6.07902 23.0511 6 23.25 6C23.4489 6 23.6397 6.07902 23.7803 6.21967C23.921 6.36032 24 6.55109 24 6.75V20.25C24 20.8467 23.763 21.419 23.341 21.841C22.919 22.2629 22.3467 22.5 21.75 22.5H2.2455C1.95024 22.5 1.65788 22.4418 1.38515 22.3286C1.11242 22.2155 0.864676 22.0497 0.656103 21.8407C0.44753 21.6317 0.282222 21.3837 0.16964 21.1107C0.0570577 20.8377 -0.000587199 20.5453 4.50943e-06 20.25V3.75ZM18 21C18.555 21 18.981 20.6835 19.2795 20.3385C19.4175 20.1795 19.5 19.92 19.5 19.542V3.75C19.5 3.55109 19.421 3.36032 19.2803 3.21967C19.1397 3.07902 18.9489 3 18.75 3H2.25C2.05109 3 1.86033 3.07902 1.71967 3.21967C1.57902 3.36032 1.5 3.55109 1.5 3.75V20.25C1.5 20.667 1.8345 21 2.2455 21H18Z"
+                              fill="#2A2A2A" />
+                            <path
+                              d="M3 4.5H18V7.5H3V4.5ZM3 9H9V13.5H3V9ZM3 15H9V16.5H3V15ZM3 18H9V19.5H3V18ZM10.5 9H13.5V10.5H10.5V9ZM15 9H18V10.5H15V9ZM10.5 12H13.5V13.5H10.5V12ZM15 12H18V13.5H15V12ZM10.5 15H13.5V16.5H10.5V15ZM15 15H18V16.5H15V15ZM10.5 18H13.5V19.5H10.5V18ZM15 18H18V19.5H15V18Z"
+                              fill="#2A2A2A" />
+                          </g>
+                          <defs>
+                            <clipPath id="clip0_1058_5485">
+                              <rect width="24" height="24" fill="white" />
+                            </clipPath>
+                          </defs>
+                        </svg>
+
+                        نقد و بررسی
+                      </span>
+                    </div>
+
+                    <a href="#" class="show_blog">
+                      ادامه مطلب
+                      <img src="./images/logo/s.png" alt="">
+                    </a>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="blog_item">
+                    <div class="blog_cover">
+                      <img src="./images/blog-img/blog2.jpg" alt="">
+                    </div>
+
+                    <h3 class="blog_title"> بهترین لپ تاب های گیمینگ سال 2025 </h3>
+                    <div class="blog_info">
+                      <span class="blog_date">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path
+                            d="M8 14C7.71667 14 7.47933 13.904 7.288 13.712C7.09667 13.52 7.00067 13.2827 7 13C6.99933 12.7173 7.09533 12.48 7.288 12.288C7.48067 12.096 7.718 12 8 12C8.282 12 8.51967 12.096 8.713 12.288C8.90633 12.48 9.002 12.7173 9 13C8.998 13.2827 8.902 13.5203 8.712 13.713C8.522 13.9057 8.28467 14.0013 8 14ZM12 14C11.7167 14 11.4793 13.904 11.288 13.712C11.0967 13.52 11.0007 13.2827 11 13C10.9993 12.7173 11.0953 12.48 11.288 12.288C11.4807 12.096 11.718 12 12 12C12.282 12 12.5197 12.096 12.713 12.288C12.9063 12.48 13.002 12.7173 13 13C12.998 13.2827 12.902 13.5203 12.712 13.713C12.522 13.9057 12.2847 14.0013 12 14ZM16 14C15.7167 14 15.4793 13.904 15.288 13.712C15.0967 13.52 15.0007 13.2827 15 13C14.9993 12.7173 15.0953 12.48 15.288 12.288C15.4807 12.096 15.718 12 16 12C16.282 12 16.5197 12.096 16.713 12.288C16.9063 12.48 17.002 12.7173 17 13C16.998 13.2827 16.902 13.5203 16.712 13.713C16.522 13.9057 16.2847 14.0013 16 14ZM5 22C4.45 22 3.97933 21.8043 3.588 21.413C3.19667 21.0217 3.00067 20.5507 3 20V6C3 5.45 3.196 4.97934 3.588 4.588C3.98 4.19667 4.45067 4.00067 5 4H6V3C6 2.71667 6.096 2.47934 6.288 2.288C6.48 2.09667 6.71733 2.00067 7 2C7.28267 1.99934 7.52033 2.09534 7.713 2.288C7.90567 2.48067 8.00133 2.718 8 3V4H16V3C16 2.71667 16.096 2.47934 16.288 2.288C16.48 2.09667 16.7173 2.00067 17 2C17.2827 1.99934 17.5203 2.09534 17.713 2.288C17.9057 2.48067 18.0013 2.718 18 3V4H19C19.55 4 20.021 4.196 20.413 4.588C20.805 4.98 21.0007 5.45067 21 6V20C21 20.55 20.8043 21.021 20.413 21.413C20.0217 21.805 19.5507 22.0007 19 22H5ZM5 20H19V10H5V20ZM5 8H19V6H5V8Z"
+                            fill="#2A2A2A" />
+                        </svg>
+
+                        9 بهمن
+                      </span>
+                      <span class="blog_category">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <g clip-path="url(#clip0_1058_5485)">
+                            <path
+                              d="M4.50943e-06 3.75C4.50943e-06 3.15326 0.237057 2.58097 0.659014 2.15901C1.08097 1.73705 1.65327 1.5 2.25 1.5H18.75C19.3467 1.5 19.919 1.73705 20.341 2.15901C20.763 2.58097 21 3.15326 21 3.75V19.542C21 19.992 20.925 20.523 20.643 21H21.75C21.9489 21 22.1397 20.921 22.2803 20.7803C22.421 20.6397 22.5 20.4489 22.5 20.25V6.75C22.5 6.55109 22.579 6.36032 22.7197 6.21967C22.8603 6.07902 23.0511 6 23.25 6C23.4489 6 23.6397 6.07902 23.7803 6.21967C23.921 6.36032 24 6.55109 24 6.75V20.25C24 20.8467 23.763 21.419 23.341 21.841C22.919 22.2629 22.3467 22.5 21.75 22.5H2.2455C1.95024 22.5 1.65788 22.4418 1.38515 22.3286C1.11242 22.2155 0.864676 22.0497 0.656103 21.8407C0.44753 21.6317 0.282222 21.3837 0.16964 21.1107C0.0570577 20.8377 -0.000587199 20.5453 4.50943e-06 20.25V3.75ZM18 21C18.555 21 18.981 20.6835 19.2795 20.3385C19.4175 20.1795 19.5 19.92 19.5 19.542V3.75C19.5 3.55109 19.421 3.36032 19.2803 3.21967C19.1397 3.07902 18.9489 3 18.75 3H2.25C2.05109 3 1.86033 3.07902 1.71967 3.21967C1.57902 3.36032 1.5 3.55109 1.5 3.75V20.25C1.5 20.667 1.8345 21 2.2455 21H18Z"
+                              fill="#2A2A2A" />
+                            <path
+                              d="M3 4.5H18V7.5H3V4.5ZM3 9H9V13.5H3V9ZM3 15H9V16.5H3V15ZM3 18H9V19.5H3V18ZM10.5 9H13.5V10.5H10.5V9ZM15 9H18V10.5H15V9ZM10.5 12H13.5V13.5H10.5V12ZM15 12H18V13.5H15V12ZM10.5 15H13.5V16.5H10.5V15ZM15 15H18V16.5H15V15ZM10.5 18H13.5V19.5H10.5V18ZM15 18H18V19.5H15V18Z"
+                              fill="#2A2A2A" />
+                          </g>
+                          <defs>
+                            <clipPath id="clip0_1058_5485">
+                              <rect width="24" height="24" fill="white" />
+                            </clipPath>
+                          </defs>
+                        </svg>
+
+                        پیشنهادات
+                      </span>
+                    </div>
+
+                    <a href="#" class="show_blog">
+                      ادامه مطلب
+                      <img src="./images/logo/s.png" alt="">
+                    </a>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="blog_item">
+                    <div class="blog_cover">
+                      <img src="./images/blog-img/blog3.png" alt="">
+                    </div>
+
+                    <h3 class="blog_title">رونمایی «کانن» از دوربین EOS M۵ و یک لنز جدید </h3>
+                    <div class="blog_info">
+                      <span class="blog_date">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path
+                            d="M8 14C7.71667 14 7.47933 13.904 7.288 13.712C7.09667 13.52 7.00067 13.2827 7 13C6.99933 12.7173 7.09533 12.48 7.288 12.288C7.48067 12.096 7.718 12 8 12C8.282 12 8.51967 12.096 8.713 12.288C8.90633 12.48 9.002 12.7173 9 13C8.998 13.2827 8.902 13.5203 8.712 13.713C8.522 13.9057 8.28467 14.0013 8 14ZM12 14C11.7167 14 11.4793 13.904 11.288 13.712C11.0967 13.52 11.0007 13.2827 11 13C10.9993 12.7173 11.0953 12.48 11.288 12.288C11.4807 12.096 11.718 12 12 12C12.282 12 12.5197 12.096 12.713 12.288C12.9063 12.48 13.002 12.7173 13 13C12.998 13.2827 12.902 13.5203 12.712 13.713C12.522 13.9057 12.2847 14.0013 12 14ZM16 14C15.7167 14 15.4793 13.904 15.288 13.712C15.0967 13.52 15.0007 13.2827 15 13C14.9993 12.7173 15.0953 12.48 15.288 12.288C15.4807 12.096 15.718 12 16 12C16.282 12 16.5197 12.096 16.713 12.288C16.9063 12.48 17.002 12.7173 17 13C16.998 13.2827 16.902 13.5203 16.712 13.713C16.522 13.9057 16.2847 14.0013 16 14ZM5 22C4.45 22 3.97933 21.8043 3.588 21.413C3.19667 21.0217 3.00067 20.5507 3 20V6C3 5.45 3.196 4.97934 3.588 4.588C3.98 4.19667 4.45067 4.00067 5 4H6V3C6 2.71667 6.096 2.47934 6.288 2.288C6.48 2.09667 6.71733 2.00067 7 2C7.28267 1.99934 7.52033 2.09534 7.713 2.288C7.90567 2.48067 8.00133 2.718 8 3V4H16V3C16 2.71667 16.096 2.47934 16.288 2.288C16.48 2.09667 16.7173 2.00067 17 2C17.2827 1.99934 17.5203 2.09534 17.713 2.288C17.9057 2.48067 18.0013 2.718 18 3V4H19C19.55 4 20.021 4.196 20.413 4.588C20.805 4.98 21.0007 5.45067 21 6V20C21 20.55 20.8043 21.021 20.413 21.413C20.0217 21.805 19.5507 22.0007 19 22H5ZM5 20H19V10H5V20ZM5 8H19V6H5V8Z"
+                            fill="#2A2A2A" />
+                        </svg>
+
+                        9 بهمن
+                      </span>
+                      <span class="blog_category">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <g clip-path="url(#clip0_1058_5485)">
+                            <path
+                              d="M4.50943e-06 3.75C4.50943e-06 3.15326 0.237057 2.58097 0.659014 2.15901C1.08097 1.73705 1.65327 1.5 2.25 1.5H18.75C19.3467 1.5 19.919 1.73705 20.341 2.15901C20.763 2.58097 21 3.15326 21 3.75V19.542C21 19.992 20.925 20.523 20.643 21H21.75C21.9489 21 22.1397 20.921 22.2803 20.7803C22.421 20.6397 22.5 20.4489 22.5 20.25V6.75C22.5 6.55109 22.579 6.36032 22.7197 6.21967C22.8603 6.07902 23.0511 6 23.25 6C23.4489 6 23.6397 6.07902 23.7803 6.21967C23.921 6.36032 24 6.55109 24 6.75V20.25C24 20.8467 23.763 21.419 23.341 21.841C22.919 22.2629 22.3467 22.5 21.75 22.5H2.2455C1.95024 22.5 1.65788 22.4418 1.38515 22.3286C1.11242 22.2155 0.864676 22.0497 0.656103 21.8407C0.44753 21.6317 0.282222 21.3837 0.16964 21.1107C0.0570577 20.8377 -0.000587199 20.5453 4.50943e-06 20.25V3.75ZM18 21C18.555 21 18.981 20.6835 19.2795 20.3385C19.4175 20.1795 19.5 19.92 19.5 19.542V3.75C19.5 3.55109 19.421 3.36032 19.2803 3.21967C19.1397 3.07902 18.9489 3 18.75 3H2.25C2.05109 3 1.86033 3.07902 1.71967 3.21967C1.57902 3.36032 1.5 3.55109 1.5 3.75V20.25C1.5 20.667 1.8345 21 2.2455 21H18Z"
+                              fill="#2A2A2A" />
+                            <path
+                              d="M3 4.5H18V7.5H3V4.5ZM3 9H9V13.5H3V9ZM3 15H9V16.5H3V15ZM3 18H9V19.5H3V18ZM10.5 9H13.5V10.5H10.5V9ZM15 9H18V10.5H15V9ZM10.5 12H13.5V13.5H10.5V12ZM15 12H18V13.5H15V12ZM10.5 15H13.5V16.5H10.5V15ZM15 15H18V16.5H15V15ZM10.5 18H13.5V19.5H10.5V18ZM15 18H18V19.5H15V18Z"
+                              fill="#2A2A2A" />
+                          </g>
+                          <defs>
+                            <clipPath id="clip0_1058_5485">
+                              <rect width="24" height="24" fill="white" />
+                            </clipPath>
+                          </defs>
+                        </svg>
+
+                        اخبار
+                      </span>
+                    </div>
+
+                    <a href="#" class="show_blog">
+                      ادامه مطلب
+                      <img src="./images/logo/s.png" alt="">
+                    </a>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="blog_item">
+                    <div class="blog_cover">
+                      <img src="./images/blog-img/blog1.png" alt="">
+                    </div>
+
+                    <h3 class="blog_title">نقد و بررسی گوشی Samsung S25-Ultra</h3>
+                    <div class="blog_info">
+                      <span class="blog_date">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path
+                            d="M8 14C7.71667 14 7.47933 13.904 7.288 13.712C7.09667 13.52 7.00067 13.2827 7 13C6.99933 12.7173 7.09533 12.48 7.288 12.288C7.48067 12.096 7.718 12 8 12C8.282 12 8.51967 12.096 8.713 12.288C8.90633 12.48 9.002 12.7173 9 13C8.998 13.2827 8.902 13.5203 8.712 13.713C8.522 13.9057 8.28467 14.0013 8 14ZM12 14C11.7167 14 11.4793 13.904 11.288 13.712C11.0967 13.52 11.0007 13.2827 11 13C10.9993 12.7173 11.0953 12.48 11.288 12.288C11.4807 12.096 11.718 12 12 12C12.282 12 12.5197 12.096 12.713 12.288C12.9063 12.48 13.002 12.7173 13 13C12.998 13.2827 12.902 13.5203 12.712 13.713C12.522 13.9057 12.2847 14.0013 12 14ZM16 14C15.7167 14 15.4793 13.904 15.288 13.712C15.0967 13.52 15.0007 13.2827 15 13C14.9993 12.7173 15.0953 12.48 15.288 12.288C15.4807 12.096 15.718 12 16 12C16.282 12 16.5197 12.096 16.713 12.288C16.9063 12.48 17.002 12.7173 17 13C16.998 13.2827 16.902 13.5203 16.712 13.713C16.522 13.9057 16.2847 14.0013 16 14ZM5 22C4.45 22 3.97933 21.8043 3.588 21.413C3.19667 21.0217 3.00067 20.5507 3 20V6C3 5.45 3.196 4.97934 3.588 4.588C3.98 4.19667 4.45067 4.00067 5 4H6V3C6 2.71667 6.096 2.47934 6.288 2.288C6.48 2.09667 6.71733 2.00067 7 2C7.28267 1.99934 7.52033 2.09534 7.713 2.288C7.90567 2.48067 8.00133 2.718 8 3V4H16V3C16 2.71667 16.096 2.47934 16.288 2.288C16.48 2.09667 16.7173 2.00067 17 2C17.2827 1.99934 17.5203 2.09534 17.713 2.288C17.9057 2.48067 18.0013 2.718 18 3V4H19C19.55 4 20.021 4.196 20.413 4.588C20.805 4.98 21.0007 5.45067 21 6V20C21 20.55 20.8043 21.021 20.413 21.413C20.0217 21.805 19.5507 22.0007 19 22H5ZM5 20H19V10H5V20ZM5 8H19V6H5V8Z"
+                            fill="#2A2A2A" />
+                        </svg>
+
+                        10 بهمن
+                      </span>
+                      <span class="blog_category">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <g clip-path="url(#clip0_1058_5485)">
+                            <path
+                              d="M4.50943e-06 3.75C4.50943e-06 3.15326 0.237057 2.58097 0.659014 2.15901C1.08097 1.73705 1.65327 1.5 2.25 1.5H18.75C19.3467 1.5 19.919 1.73705 20.341 2.15901C20.763 2.58097 21 3.15326 21 3.75V19.542C21 19.992 20.925 20.523 20.643 21H21.75C21.9489 21 22.1397 20.921 22.2803 20.7803C22.421 20.6397 22.5 20.4489 22.5 20.25V6.75C22.5 6.55109 22.579 6.36032 22.7197 6.21967C22.8603 6.07902 23.0511 6 23.25 6C23.4489 6 23.6397 6.07902 23.7803 6.21967C23.921 6.36032 24 6.55109 24 6.75V20.25C24 20.8467 23.763 21.419 23.341 21.841C22.919 22.2629 22.3467 22.5 21.75 22.5H2.2455C1.95024 22.5 1.65788 22.4418 1.38515 22.3286C1.11242 22.2155 0.864676 22.0497 0.656103 21.8407C0.44753 21.6317 0.282222 21.3837 0.16964 21.1107C0.0570577 20.8377 -0.000587199 20.5453 4.50943e-06 20.25V3.75ZM18 21C18.555 21 18.981 20.6835 19.2795 20.3385C19.4175 20.1795 19.5 19.92 19.5 19.542V3.75C19.5 3.55109 19.421 3.36032 19.2803 3.21967C19.1397 3.07902 18.9489 3 18.75 3H2.25C2.05109 3 1.86033 3.07902 1.71967 3.21967C1.57902 3.36032 1.5 3.55109 1.5 3.75V20.25C1.5 20.667 1.8345 21 2.2455 21H18Z"
+                              fill="#2A2A2A" />
+                            <path
+                              d="M3 4.5H18V7.5H3V4.5ZM3 9H9V13.5H3V9ZM3 15H9V16.5H3V15ZM3 18H9V19.5H3V18ZM10.5 9H13.5V10.5H10.5V9ZM15 9H18V10.5H15V9ZM10.5 12H13.5V13.5H10.5V12ZM15 12H18V13.5H15V12ZM10.5 15H13.5V16.5H10.5V15ZM15 15H18V16.5H15V15ZM10.5 18H13.5V19.5H10.5V18ZM15 18H18V19.5H15V18Z"
+                              fill="#2A2A2A" />
+                          </g>
+                          <defs>
+                            <clipPath id="clip0_1058_5485">
+                              <rect width="24" height="24" fill="white" />
+                            </clipPath>
+                          </defs>
+                        </svg>
+
+                        نقد و بررسی
+                      </span>
+                    </div>
+
+                    <a href="#" class="show_blog">
+                      ادامه مطلب
+                      <img src="./images/logo/s.png" alt="">
+                    </a>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="blog_item">
+                    <div class="blog_cover">
+                      <img src="./images/blog-img/blog4.jpg" alt="">
+                    </div>
+
+                    <h3 class="blog_title">بهترین هارد دیسک برای ایکس باکس سری اس</h3>
+                    <div class="blog_info">
+                      <span class="blog_date">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path
+                            d="M8 14C7.71667 14 7.47933 13.904 7.288 13.712C7.09667 13.52 7.00067 13.2827 7 13C6.99933 12.7173 7.09533 12.48 7.288 12.288C7.48067 12.096 7.718 12 8 12C8.282 12 8.51967 12.096 8.713 12.288C8.90633 12.48 9.002 12.7173 9 13C8.998 13.2827 8.902 13.5203 8.712 13.713C8.522 13.9057 8.28467 14.0013 8 14ZM12 14C11.7167 14 11.4793 13.904 11.288 13.712C11.0967 13.52 11.0007 13.2827 11 13C10.9993 12.7173 11.0953 12.48 11.288 12.288C11.4807 12.096 11.718 12 12 12C12.282 12 12.5197 12.096 12.713 12.288C12.9063 12.48 13.002 12.7173 13 13C12.998 13.2827 12.902 13.5203 12.712 13.713C12.522 13.9057 12.2847 14.0013 12 14ZM16 14C15.7167 14 15.4793 13.904 15.288 13.712C15.0967 13.52 15.0007 13.2827 15 13C14.9993 12.7173 15.0953 12.48 15.288 12.288C15.4807 12.096 15.718 12 16 12C16.282 12 16.5197 12.096 16.713 12.288C16.9063 12.48 17.002 12.7173 17 13C16.998 13.2827 16.902 13.5203 16.712 13.713C16.522 13.9057 16.2847 14.0013 16 14ZM5 22C4.45 22 3.97933 21.8043 3.588 21.413C3.19667 21.0217 3.00067 20.5507 3 20V6C3 5.45 3.196 4.97934 3.588 4.588C3.98 4.19667 4.45067 4.00067 5 4H6V3C6 2.71667 6.096 2.47934 6.288 2.288C6.48 2.09667 6.71733 2.00067 7 2C7.28267 1.99934 7.52033 2.09534 7.713 2.288C7.90567 2.48067 8.00133 2.718 8 3V4H16V3C16 2.71667 16.096 2.47934 16.288 2.288C16.48 2.09667 16.7173 2.00067 17 2C17.2827 1.99934 17.5203 2.09534 17.713 2.288C17.9057 2.48067 18.0013 2.718 18 3V4H19C19.55 4 20.021 4.196 20.413 4.588C20.805 4.98 21.0007 5.45067 21 6V20C21 20.55 20.8043 21.021 20.413 21.413C20.0217 21.805 19.5507 22.0007 19 22H5ZM5 20H19V10H5V20ZM5 8H19V6H5V8Z"
+                            fill="#2A2A2A" />
+                        </svg>
+
+                        8 بهمن
+                      </span>
+                      <span class="blog_category">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <g clip-path="url(#clip0_1058_5485)">
+                            <path
+                              d="M4.50943e-06 3.75C4.50943e-06 3.15326 0.237057 2.58097 0.659014 2.15901C1.08097 1.73705 1.65327 1.5 2.25 1.5H18.75C19.3467 1.5 19.919 1.73705 20.341 2.15901C20.763 2.58097 21 3.15326 21 3.75V19.542C21 19.992 20.925 20.523 20.643 21H21.75C21.9489 21 22.1397 20.921 22.2803 20.7803C22.421 20.6397 22.5 20.4489 22.5 20.25V6.75C22.5 6.55109 22.579 6.36032 22.7197 6.21967C22.8603 6.07902 23.0511 6 23.25 6C23.4489 6 23.6397 6.07902 23.7803 6.21967C23.921 6.36032 24 6.55109 24 6.75V20.25C24 20.8467 23.763 21.419 23.341 21.841C22.919 22.2629 22.3467 22.5 21.75 22.5H2.2455C1.95024 22.5 1.65788 22.4418 1.38515 22.3286C1.11242 22.2155 0.864676 22.0497 0.656103 21.8407C0.44753 21.6317 0.282222 21.3837 0.16964 21.1107C0.0570577 20.8377 -0.000587199 20.5453 4.50943e-06 20.25V3.75ZM18 21C18.555 21 18.981 20.6835 19.2795 20.3385C19.4175 20.1795 19.5 19.92 19.5 19.542V3.75C19.5 3.55109 19.421 3.36032 19.2803 3.21967C19.1397 3.07902 18.9489 3 18.75 3H2.25C2.05109 3 1.86033 3.07902 1.71967 3.21967C1.57902 3.36032 1.5 3.55109 1.5 3.75V20.25C1.5 20.667 1.8345 21 2.2455 21H18Z"
+                              fill="#2A2A2A" />
+                            <path
+                              d="M3 4.5H18V7.5H3V4.5ZM3 9H9V13.5H3V9ZM3 15H9V16.5H3V15ZM3 18H9V19.5H3V18ZM10.5 9H13.5V10.5H10.5V9ZM15 9H18V10.5H15V9ZM10.5 12H13.5V13.5H10.5V12ZM15 12H18V13.5H15V12ZM10.5 15H13.5V16.5H10.5V15ZM15 15H18V16.5H15V15ZM10.5 18H13.5V19.5H10.5V18ZM15 18H18V19.5H15V18Z"
+                              fill="#2A2A2A" />
+                          </g>
+                          <defs>
+                            <clipPath id="clip0_1058_5485">
+                              <rect width="24" height="24" fill="white" />
+                            </clipPath>
+                          </defs>
+                        </svg>
+
+                        پیشنهادات
+                      </span>
+                    </div>
+
+                    <a href="#" class="show_blog">
+                      ادامه مطلب
+                      <img src="./images/logo/s.png" alt="">
+                    </a>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="blog_item">
+                    <div class="blog_cover">
+                      <img src="./images/blog-img/blog5.jpg" alt="">
+                    </div>
+
+                    <h3 class="blog_title">اس 25 اولترا ایفون 16 پرومکس را در بنچمارک شکست داد</h3>
+                    <div class="blog_info">
+                      <span class="blog_date">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path
+                            d="M8 14C7.71667 14 7.47933 13.904 7.288 13.712C7.09667 13.52 7.00067 13.2827 7 13C6.99933 12.7173 7.09533 12.48 7.288 12.288C7.48067 12.096 7.718 12 8 12C8.282 12 8.51967 12.096 8.713 12.288C8.90633 12.48 9.002 12.7173 9 13C8.998 13.2827 8.902 13.5203 8.712 13.713C8.522 13.9057 8.28467 14.0013 8 14ZM12 14C11.7167 14 11.4793 13.904 11.288 13.712C11.0967 13.52 11.0007 13.2827 11 13C10.9993 12.7173 11.0953 12.48 11.288 12.288C11.4807 12.096 11.718 12 12 12C12.282 12 12.5197 12.096 12.713 12.288C12.9063 12.48 13.002 12.7173 13 13C12.998 13.2827 12.902 13.5203 12.712 13.713C12.522 13.9057 12.2847 14.0013 12 14ZM16 14C15.7167 14 15.4793 13.904 15.288 13.712C15.0967 13.52 15.0007 13.2827 15 13C14.9993 12.7173 15.0953 12.48 15.288 12.288C15.4807 12.096 15.718 12 16 12C16.282 12 16.5197 12.096 16.713 12.288C16.9063 12.48 17.002 12.7173 17 13C16.998 13.2827 16.902 13.5203 16.712 13.713C16.522 13.9057 16.2847 14.0013 16 14ZM5 22C4.45 22 3.97933 21.8043 3.588 21.413C3.19667 21.0217 3.00067 20.5507 3 20V6C3 5.45 3.196 4.97934 3.588 4.588C3.98 4.19667 4.45067 4.00067 5 4H6V3C6 2.71667 6.096 2.47934 6.288 2.288C6.48 2.09667 6.71733 2.00067 7 2C7.28267 1.99934 7.52033 2.09534 7.713 2.288C7.90567 2.48067 8.00133 2.718 8 3V4H16V3C16 2.71667 16.096 2.47934 16.288 2.288C16.48 2.09667 16.7173 2.00067 17 2C17.2827 1.99934 17.5203 2.09534 17.713 2.288C17.9057 2.48067 18.0013 2.718 18 3V4H19C19.55 4 20.021 4.196 20.413 4.588C20.805 4.98 21.0007 5.45067 21 6V20C21 20.55 20.8043 21.021 20.413 21.413C20.0217 21.805 19.5507 22.0007 19 22H5ZM5 20H19V10H5V20ZM5 8H19V6H5V8Z"
+                            fill="#2A2A2A" />
+                        </svg>
+
+                        8 بهمن
+                      </span>
+                      <span class="blog_category">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <g clip-path="url(#clip0_1058_5485)">
+                            <path
+                              d="M4.50943e-06 3.75C4.50943e-06 3.15326 0.237057 2.58097 0.659014 2.15901C1.08097 1.73705 1.65327 1.5 2.25 1.5H18.75C19.3467 1.5 19.919 1.73705 20.341 2.15901C20.763 2.58097 21 3.15326 21 3.75V19.542C21 19.992 20.925 20.523 20.643 21H21.75C21.9489 21 22.1397 20.921 22.2803 20.7803C22.421 20.6397 22.5 20.4489 22.5 20.25V6.75C22.5 6.55109 22.579 6.36032 22.7197 6.21967C22.8603 6.07902 23.0511 6 23.25 6C23.4489 6 23.6397 6.07902 23.7803 6.21967C23.921 6.36032 24 6.55109 24 6.75V20.25C24 20.8467 23.763 21.419 23.341 21.841C22.919 22.2629 22.3467 22.5 21.75 22.5H2.2455C1.95024 22.5 1.65788 22.4418 1.38515 22.3286C1.11242 22.2155 0.864676 22.0497 0.656103 21.8407C0.44753 21.6317 0.282222 21.3837 0.16964 21.1107C0.0570577 20.8377 -0.000587199 20.5453 4.50943e-06 20.25V3.75ZM18 21C18.555 21 18.981 20.6835 19.2795 20.3385C19.4175 20.1795 19.5 19.92 19.5 19.542V3.75C19.5 3.55109 19.421 3.36032 19.2803 3.21967C19.1397 3.07902 18.9489 3 18.75 3H2.25C2.05109 3 1.86033 3.07902 1.71967 3.21967C1.57902 3.36032 1.5 3.55109 1.5 3.75V20.25C1.5 20.667 1.8345 21 2.2455 21H18Z"
+                              fill="#2A2A2A" />
+                            <path
+                              d="M3 4.5H18V7.5H3V4.5ZM3 9H9V13.5H3V9ZM3 15H9V16.5H3V15ZM3 18H9V19.5H3V18ZM10.5 9H13.5V10.5H10.5V9ZM15 9H18V10.5H15V9ZM10.5 12H13.5V13.5H10.5V12ZM15 12H18V13.5H15V12ZM10.5 15H13.5V16.5H10.5V15ZM15 15H18V16.5H15V15ZM10.5 18H13.5V19.5H10.5V18ZM15 18H18V19.5H15V18Z"
+                              fill="#2A2A2A" />
+                          </g>
+                          <defs>
+                            <clipPath id="clip0_1058_5485">
+                              <rect width="24" height="24" fill="white" />
+                            </clipPath>
+                          </defs>
+                        </svg>
+
+                        اخبار
+                      </span>
+                    </div>
+
+                    <a href="#" class="show_blog">
+                      ادامه مطلب
+                      <img src="./images/logo/s.png" alt="">
+                    </a>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="blog_item">
+                    <div class="blog_cover">
+                      <img src="./images/blog-img/blog2.jpg" alt="">
+                    </div>
+
+                    <h3 class="blog_title"> بهترین لپ تاب های گیمینگ سال 2025 </h3>
+                    <div class="blog_info">
+                      <span class="blog_date">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path
+                            d="M8 14C7.71667 14 7.47933 13.904 7.288 13.712C7.09667 13.52 7.00067 13.2827 7 13C6.99933 12.7173 7.09533 12.48 7.288 12.288C7.48067 12.096 7.718 12 8 12C8.282 12 8.51967 12.096 8.713 12.288C8.90633 12.48 9.002 12.7173 9 13C8.998 13.2827 8.902 13.5203 8.712 13.713C8.522 13.9057 8.28467 14.0013 8 14ZM12 14C11.7167 14 11.4793 13.904 11.288 13.712C11.0967 13.52 11.0007 13.2827 11 13C10.9993 12.7173 11.0953 12.48 11.288 12.288C11.4807 12.096 11.718 12 12 12C12.282 12 12.5197 12.096 12.713 12.288C12.9063 12.48 13.002 12.7173 13 13C12.998 13.2827 12.902 13.5203 12.712 13.713C12.522 13.9057 12.2847 14.0013 12 14ZM16 14C15.7167 14 15.4793 13.904 15.288 13.712C15.0967 13.52 15.0007 13.2827 15 13C14.9993 12.7173 15.0953 12.48 15.288 12.288C15.4807 12.096 15.718 12 16 12C16.282 12 16.5197 12.096 16.713 12.288C16.9063 12.48 17.002 12.7173 17 13C16.998 13.2827 16.902 13.5203 16.712 13.713C16.522 13.9057 16.2847 14.0013 16 14ZM5 22C4.45 22 3.97933 21.8043 3.588 21.413C3.19667 21.0217 3.00067 20.5507 3 20V6C3 5.45 3.196 4.97934 3.588 4.588C3.98 4.19667 4.45067 4.00067 5 4H6V3C6 2.71667 6.096 2.47934 6.288 2.288C6.48 2.09667 6.71733 2.00067 7 2C7.28267 1.99934 7.52033 2.09534 7.713 2.288C7.90567 2.48067 8.00133 2.718 8 3V4H16V3C16 2.71667 16.096 2.47934 16.288 2.288C16.48 2.09667 16.7173 2.00067 17 2C17.2827 1.99934 17.5203 2.09534 17.713 2.288C17.9057 2.48067 18.0013 2.718 18 3V4H19C19.55 4 20.021 4.196 20.413 4.588C20.805 4.98 21.0007 5.45067 21 6V20C21 20.55 20.8043 21.021 20.413 21.413C20.0217 21.805 19.5507 22.0007 19 22H5ZM5 20H19V10H5V20ZM5 8H19V6H5V8Z"
+                            fill="#2A2A2A" />
+                        </svg>
+
+                        9 بهمن
+                      </span>
+                      <span class="blog_category">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <g clip-path="url(#clip0_1058_5485)">
+                            <path
+                              d="M4.50943e-06 3.75C4.50943e-06 3.15326 0.237057 2.58097 0.659014 2.15901C1.08097 1.73705 1.65327 1.5 2.25 1.5H18.75C19.3467 1.5 19.919 1.73705 20.341 2.15901C20.763 2.58097 21 3.15326 21 3.75V19.542C21 19.992 20.925 20.523 20.643 21H21.75C21.9489 21 22.1397 20.921 22.2803 20.7803C22.421 20.6397 22.5 20.4489 22.5 20.25V6.75C22.5 6.55109 22.579 6.36032 22.7197 6.21967C22.8603 6.07902 23.0511 6 23.25 6C23.4489 6 23.6397 6.07902 23.7803 6.21967C23.921 6.36032 24 6.55109 24 6.75V20.25C24 20.8467 23.763 21.419 23.341 21.841C22.919 22.2629 22.3467 22.5 21.75 22.5H2.2455C1.95024 22.5 1.65788 22.4418 1.38515 22.3286C1.11242 22.2155 0.864676 22.0497 0.656103 21.8407C0.44753 21.6317 0.282222 21.3837 0.16964 21.1107C0.0570577 20.8377 -0.000587199 20.5453 4.50943e-06 20.25V3.75ZM18 21C18.555 21 18.981 20.6835 19.2795 20.3385C19.4175 20.1795 19.5 19.92 19.5 19.542V3.75C19.5 3.55109 19.421 3.36032 19.2803 3.21967C19.1397 3.07902 18.9489 3 18.75 3H2.25C2.05109 3 1.86033 3.07902 1.71967 3.21967C1.57902 3.36032 1.5 3.55109 1.5 3.75V20.25C1.5 20.667 1.8345 21 2.2455 21H18Z"
+                              fill="#2A2A2A" />
+                            <path
+                              d="M3 4.5H18V7.5H3V4.5ZM3 9H9V13.5H3V9ZM3 15H9V16.5H3V15ZM3 18H9V19.5H3V18ZM10.5 9H13.5V10.5H10.5V9ZM15 9H18V10.5H15V9ZM10.5 12H13.5V13.5H10.5V12ZM15 12H18V13.5H15V12ZM10.5 15H13.5V16.5H10.5V15ZM15 15H18V16.5H15V15ZM10.5 18H13.5V19.5H10.5V18ZM15 18H18V19.5H15V18Z"
+                              fill="#2A2A2A" />
+                          </g>
+                          <defs>
+                            <clipPath id="clip0_1058_5485">
+                              <rect width="24" height="24" fill="white" />
+                            </clipPath>
+                          </defs>
+                        </svg>
+
+                        پیشنهادات
+                      </span>
+                    </div>
+
+                    <a href="#" class="show_blog">
+                      ادامه مطلب
+                      <img src="./images/logo/s.png" alt="">
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="swiper-button-prev">
+                <svg width="14" height="22" viewBox="0 0 14 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M11.6 0.199951L13.28 1.99995L4.40003 11L13.28 20L11.6 21.8L0.800029 11L11.6 0.199951Z"
+                    fill="#831FC1"></path>
+                </svg>
+              </div>
+              <div class="swiper-button-next">
+                <svg width="14" height="22" viewBox="0 0 14 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M2.39997 0.199951L0.719971 1.99995L9.59997 11L0.719971 20L2.39997 21.8L13.2 11L2.39997 0.199951Z"
+                    fill="#831FC1"></path>
+                </svg>
+              </div>
+
+            </div>
+
+
+
+
+
+
+
+
+
+          </div>
+          <a class="show_all" href="#">
+            مشاهده همه
+            <img src="./images/Vector (1).png" alt="">
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="FAQ">
+      <div class="container">
+        <div class="section_header_container">
+          <h2 class="section_title"> سوالات متداول </h2>
+          <span class="section_desc">در این سکشن شما میتوانید سوالات متداول را به صورت دسته بندی شده مشاهده کنید</span>
+        </div>
+        <div class="faq_wrapper">
+          <div class="faq_right">
+            <p class="faq_right_desc">
+              در این سکشن شما میتوانید سوالات متداول را به صورت دسته بندی شده مشاهده بکنید. هدف ما این است که شما را به
+              بهترین نحو راهنمایی کنیم.
+            </p>
+
+            <ul class="faq_right_links">
+              <li class="faq_right_list"><a href="#">سوالات مربوط به تک شاپ</a></li>
+              <li class="faq_right_list"><a href="#"> سوالات مربوط به خرید </a></li>
+              <li class="faq_right_list"><a href="#"> سوالات مربوط به تحویل کالا </a></li>
+              <li class="faq_right_list"><a href="#"> سوالات مربوط به گارانتی </a></li>
+              <li class="faq_right_list"><a href="#"> سوالات مربوط به خدمات </a></li>
+            </ul>
+
+            <a class="call_support_box" href="#">
+              تماس با پشتیبانی
+            </a>
+          </div>
+
+          <div class="faq_left">
+            <div class="accordion">
+
+              <div class="accordion-item">
+                <button class="accordion-toggle">
+                  <span class="accordion_title">تک شاپ چه محصولاتی را ارائه میدهد؟</span>
+                  <span class="arrow"><img src="./images/logo/arrow-bottom.png" alt=""></span>
+                </button>
+                <div class="accordion-panel">
+                  <p class="acordion_faq">محتوای بخش اول اینجاست.</p>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <button class="accordion-toggle">
+                  <span class="accordion_title">آیا محصولات تک شاپ گارانتی دارند؟ </span>
+                  <span class="arrow"><img src="./images/logo/arrow-bottom.png" alt=""></span>
+                </button>
+                <div class="accordion-panel">
+                  <p class="acordion_faq">محتوای بخش اول اینجاست.</p>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <button class="accordion-toggle">
+                  <span class="accordion_title">چگونه میتوانم سفارشم را پیگیری کنم؟</span>
+                  <span class="arrow"><img src="./images/logo/arrow-bottom.png" alt=""></span>
+                </button>
+                <div class="accordion-panel">
+                  <p class="acordion_faq">محتوای بخش اول اینجاست.</p>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <button class="accordion-toggle">
+                  <span class="accordion_title">مدت زمان ارسال سفارش چقدر است؟</span>
+                  <span class="arrow"><img src="./images/logo/arrow-bottom.png" alt=""></span>
+                </button>
+                <div class="accordion-panel">
+                  <p class="acordion_faq">محتوای بخش اول اینجاست.</p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <!-- ============== Finish Main ============== -->
+
+  <!-- ============== Start Footer ============== -->
+  <div data-include="partials/footer.html"></div>
+  <!-- ============== Finish Footer ============== -->
+
+  <div class="mega-menu-overlay" id="mega-menu-overlay"></div>
+</body>
+
+<script src="./js/include.js"></script>
+<script src="./js/accordion.js"></script>
+<script src="./js/index.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="./js/swiper/swiper.js"></script>
+<script src="./js/megaMenu.js"></script>
+<script src="./js/change-them.js"></script>
+
+
+</html>

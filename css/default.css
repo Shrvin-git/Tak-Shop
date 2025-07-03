@@ -1,0 +1,31 @@
+/* ================ Start Default ================ */
+
+html {
+  font-size: 10px;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "yekan";
+  color: var(--txt-color3);
+  background-color: var(--bg-body-color);
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+input {
+  border: none;
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+/* ================ Finish Default ================ */

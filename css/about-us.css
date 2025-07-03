@@ -1,0 +1,103 @@
+@import "variables.css";
+@import "navbar.css";
+@import "footer.css";
+@import "default.css";
+
+.main {
+    margin-top: 10rem;
+    padding-top: 8rem;
+}
+
+
+section {
+    margin-bottom: 4rem;
+}
+
+.about-us-title {
+    display: flex;
+    flex-direction: column;
+    gap: 3.6rem;
+}
+
+.about-us-title h1 {
+    font-weight: 600;
+    font-size: 36px;
+    color: #831FC1;
+}
+
+.about-us-title p {
+    color: var(--links-color);
+}
+
+.about-us-desc {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+}
+
+.about-us-desc h2 {
+    font-weight: 600;
+    font-size: 24px;
+    color: #831FC1;
+}
+
+.about-us-desc p {
+    color: var(--links-color);
+}
+
+.abous-us-sections {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.abous-us-sections img {
+    width: 70%;
+    height: 100%;
+
+}
+
+.abous-us-text {
+    width: 65%;
+}
+
+.abous-us-img {
+    height: 25rem;
+    width: 32%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.abous-us-sections-right {
+    display: flex;
+    flex-direction: column;
+    gap: 1.7rem;
+
+}
+
+.abous-us-sections-title {
+    font-weight: 600;
+    font-size: 20px;
+    position: relative;
+    border-radius: .5rem;
+    padding-right: 2.2rem;
+}
+
+.abous-us-sections-title::before {
+    content: '';
+    position: absolute;
+    right: -15px;
+    width: 4rem;
+    height: .8rem;
+    transform: rotate(90deg);
+    background-color: var(--main-color);
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    border-radius: .8rem;
+}
+
+.abous-us-sections-desc {}
+
+.abous-us-sections-left {}

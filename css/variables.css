@@ -1,0 +1,90 @@
+:root {
+  --primary-font: "yekan";
+  --txt-color: #fff;
+  --txt-color2: #737373;
+  --txt-color3: #131313;
+  --main-color: #831fc1;
+  --links-color: #2a2a2a;
+  --txt-black: #000;
+  --bg-color: #f0f0f0;
+  --bg-Body: #fff;
+  --accordion-bg-color: #f5f5f5;
+  --megamenu-color: #131313;
+  --bg-color-violet: #d9baec;
+  --border-color: #cccccc;
+  --border-color2: #787878;
+  --timer-color: #5D1689;
+  --accordion-open-bg-color: #e1e1e1;
+  --input-form: #F9F9F9;
+  --label: #831FC1;
+  --svg-color: #2A2A2A;
+  --bg-body-color: #ffffff;
+  --bg-accordion: #f5f5f547;
+  --shadow-accordion: #d6d6d6;
+  --button-color: #831FC1;
+  --c737373: #737373;
+  --s292929: #292929;
+  --comment-box-like: #E4FFDA;
+  --comment-box-dis: #FFDADA;
+  --comment-like: #39AE3D;
+  --comment-dis: #953232;
+  --comment-box-wrapper: #FBFBFB;
+  --border-profile: #F8F8F8;
+  --s737373: #737373;
+  --label-order: #727272;
+  --levelC698E2: #C698E2;
+  --line831FC1:#831FC1;
+  --slider-btn:#F3E9F9;
+}
+
+
+
+.dark-mode {
+  --primary-font: "yekan";
+  --txt-color: #fff;
+  --border-color: #cccccc;
+  --accordion-bg-color: #f5f5f5;
+  --txt-color2: #737373;
+
+
+
+
+
+
+
+
+
+  --slider-btn:#121212;
+  --line831FC1:#831FC1;
+  --levelC698E2: #370D51;
+  --label-order: #424242;
+  --s737373: #E1E1E1;
+  --border-profile: #1D1D1D;
+  --comment-box-like: #0D2305;
+  --comment-box-dis: #2D0505;
+  --comment-like: #19A01E;
+  --comment-dis: #C32929;
+  --comment-box-wrapper: #1D1D1D;
+  --s292929: #EAEAEA;
+  --c737373: #9E9E9E;
+  --border-color2: #cccccc;
+  --bg-accordion: #6b6b6b66;
+  --shadow-accordion: #831FC1;
+  --bg-body-color: #171717;
+  --label: #AC69D5;
+  --input-form: #232323;
+  --megamenu-color: #F5F5F5;
+  --svg-color: #E1E1E1;
+  --bg-label-color: #9633d3;
+  --bg-color-violet: #370D51;
+  --accordion-open-bg-color: #232323;
+  --timer-color: #C698E2;
+  --links-color: #F5F5F5;
+  /* --main-color: #48116A; */
+  --main-color: #831FC1;
+  --txt-black: #F5F5F5;
+  --bg-color: #1D1D1D;
+  --txt-color3: #F5F5F5;
+  --bg-Body: #171717;
+
+}

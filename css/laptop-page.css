@@ -1,0 +1,483 @@
+@import "variables.css";
+@import "navbar.css";
+@import "helpers.css";
+@import "swiper.css";
+
+@import "footer.css";
+@import "default.css";
+
+.main {
+  margin-top: 10rem;
+  padding-top: 8rem;
+}
+
+/* =========== popular_laptop ============= */
+
+.popular_laptop {
+  margin: 10rem 0;
+}
+
+.popular_laptop img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+/* =========== Laptop Brand ============= */
+.hero-section {
+  /* margin-top: 10rem; */
+}
+
+.laptop_brand {}
+
+.laptop_brand_wrapper,
+.laptop_brand_items,
+.laptop_brnad_img,
+.laptop_brand_items img,
+.laptop_brand_items a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.laptop_brand_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.laptop_brand_items {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--bg-color);
+  width: 20rem;
+  border-radius: 1.2rem;
+  padding: 2.5rem 0;
+
+}
+
+.laptop_brnad_img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 14rem;
+  height: 14rem;
+}
+
+.laptop_brand_items img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.laptop_brand_items a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  gap: 1.8rem;
+  color: var(--txt-black);
+}
+
+
+
+
+/* ================= laptop_by_usage ================ */
+.category_usage_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.laptop_by_usage {
+  background-color: var(--bg-color);
+  width: 16.5rem;
+  border-radius: 12px;
+  text-align: center;
+  padding: 2.5rem;
+}
+
+.laptop_by_usage img {
+  width: 14rem;
+  height: auto;
+}
+
+.laptop_by_usage div {
+  width: 100%;
+}
+
+.laptop_by_usage span {
+  color: var(--txt-black);
+
+}
+
+
+
+
+/* ================= Best Sell Laptops ================ */
+
+.laptop_best_sell_items,
+.laptop_best_sell_items-header,
+.laptop_best_sell_items-main,
+.laptop_best_sell_items-price {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.laptop_best_sell {}
+
+.laptop_best_sell_wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 2rem;
+}
+
+.laptop_best_sell_items {
+  width: 49%;
+  background-color: var(--bg-color);
+  border-radius: .9rem;
+  padding: 1rem;
+  justify-content: space-between;
+}
+
+.laptop_best_sell_items_right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 25%;
+}
+
+.laptop_best_sell_items_right img {
+  width: 85%;
+}
+
+.laptop_best_sell_items_left {
+  width: 73%;
+}
+
+.laptop_best_sell_items-header {
+  color: var(--txt-black);
+  font-size: 2rem;
+  font-weight: 700;
+  justify-content: start !important;
+  gap: 1rem;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.laptop_best_sell_items-main {}
+
+.div1 {
+  color: var(--links-color);
+  font-size: 14px;
+}
+
+.div1 div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: .8rem;
+  margin-top: 1rem;
+}
+
+.mark {}
+
+.GPU-mark {}
+
+.display {}
+
+.CPU-mark {}
+
+.RAM {}
+
+.HDD {}
+
+.laptop_best_sell_items-price {
+  border-top: 1px solid var(--border-color);
+  padding-top: 1rem;
+}
+
+.laptop-price span {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-left: .5rem;
+}
+
+.laptop-usage-label span {
+  background-color: var(--bg-color-violet);
+  border-radius: 3.5rem;
+  color: var(--label);
+  padding: .5rem 1.6rem;
+  font-size: 12px;
+
+}
+
+
+
+
+
+/* ================= category-by-cpu ================ */
+
+
+.category-by-cpu {}
+
+.category-by-cpu img {
+  width: 100%;
+}
+
+.category-by-cpu__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.category-by-cpu__items {
+  text-align: center;
+  background-color: var(--bg-color);
+  border-radius: .9rem;
+  display: block;
+  width: 19rem;
+  padding-bottom: 2.5rem;
+}
+
+.category-by-cpu__items div {}
+
+
+
+/* ================= category-by-price ================ */
+
+.category-by-price {}
+
+.category-by-price-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.category-by-price-item {
+  display: block;
+  width: 19rem;
+  background-color: var(--bg-color);
+  border-radius: .9rem;
+}
+
+.category-by-price-item img {
+  width: 100%;
+}
+
+
+/* ======================= Blog Section ========================== */
+
+.blog {}
+
+.blog_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.blog_date svg path,
+.blog_category svg path {
+  fill: var(--svg-color);
+}
+
+.blog_item {
+  width: 24rem;
+  background-color: var(--bg-color);
+  border-radius: 0.8rem;
+  padding-bottom: 1.2rem;
+}
+
+
+.blog_cover img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-top-left-radius: .8rem;
+  border-top-right-radius: .8rem;
+}
+
+.blog_cover {
+  height: 15rem;
+}
+
+.blog_title {
+  padding: 0 1.8rem;
+  font-weight: 600;
+  font-size: 16px;
+  text-align: center;
+  color: var(--txt-black);
+  margin-top: 1.4rem;
+}
+
+.blog_info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--links-color);
+  font-size: 14px;
+  margin: 1.4rem 0;
+}
+
+.blog_date {
+  color: var(--links-color);
+  font-size: 14px;
+}
+
+.blog_category {}
+
+.blog_date,
+.blog_category {
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+  color: var(--links-color);
+  font-size: 1.4rem;
+  padding: 0 1.8rem;
+}
+
+.show_blog {
+  text-shadow: 0px 0px 10px #d772ff93;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: .5rem;
+}
+
+.popular_laptop {
+  margin: 10rem 0;
+}
+
+.popular_laptop img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+
+
+
+/* ======================= FAQ Section ========================== */
+.FAQ {
+  margin-bottom: 10rem;
+}
+
+.faq_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.faq_right {
+  width: 25rem;
+  height: 35rem;
+
+}
+
+.faq_right_desc {
+  font-size: 1.5rem;
+  color: var(--txt-black);
+
+}
+
+.faq_right_links {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.faq_right_list {
+  margin-bottom: 11px;
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+.faq_right_list a {
+  color: var(--txt-black) !important;
+
+}
+
+.call_support_box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: var(--main-color);
+  color: var(--txt-color);
+  border-radius: .8rem;
+  padding: .8rem 3.6rem;
+}
+
+.faq_left {
+  width: 75%;
+  height: 35rem;
+}
+
+
+.accordion-item {
+  border-radius: .8rem;
+
+}
+
+.accordion {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.accordion-toggle {
+  padding: 16px 2.4rem;
+  border-radius: .8rem;
+  width: 100%;
+  background: var(--bg-color);
+  border: none;
+  text-align: left;
+  font-size: 1rem;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.accordion-panel {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+
+.accordion-panel.open {
+  max-height: 500px;
+}
+
+.arrow {
+  transition: transform 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.arrow.open {
+  transform: rotate(180deg);
+}
+
+.accordion_title {
+  font-family: yekan;
+  font-weight: 700;
+  font-size: 24px;
+  color: var(--txt-black);
+}
+
+.acordion_faq {
+  padding: 2rem;
+  background-color: rgba(243, 233, 249, 1);
+  color: var(--txt-black);
+
+}

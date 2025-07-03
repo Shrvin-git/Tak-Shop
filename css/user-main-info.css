@@ -1,0 +1,84 @@
+/*!====================================== User Main Info ========================================*/
+
+
+.user-panel {
+    /* width: 72%; */
+}
+
+
+
+
+.main {}
+
+.container {}
+
+.profile-content-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+#edit-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 3rem;
+}
+
+.user-profile-content {
+    display: block;
+}
+
+.user-panel {}
+
+.user-panel-header {}
+
+.user-panel-header-title {}
+
+.user-panel-header-desc {}
+
+.form-items {
+    width: 48%;
+}
+
+.form-items label {
+    display: block;
+    margin-bottom: 1rem;
+    font-size: 14px;
+    color: var(--s737373);
+}
+
+.form-items input {
+    width: 100%;
+    background-color: transparent;
+    border-radius: .9rem;
+    padding-right: 1.2rem;
+    font-size: 1.8rem;
+    color: var(--links-color);
+    font-family: yekan
+}
+
+.input-wrapper {
+    background-color: var(--border-profile);
+    box-shadow: 0px 2px 6px 0px #00000026;
+    display: flex;
+    align-items: center;
+    padding: 1.6rem;
+    justify-content: space-between;
+}
+
+.input-right {
+    width: 80%;
+}
+
+.input-right,
+.edit-btn {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.input-right svg path {
+    stroke: var(--links-color);
+}
+
+.edit-btn {}

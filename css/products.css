@@ -1,0 +1,360 @@
+@import "variables.css";
+@import "navbar.css";
+@import "footer.css";
+@import "default.css";
+
+
+.main {
+    margin-top: 10rem;
+    padding-top: 8rem;
+}
+
+
+/* ==================== Products Filtering ===================== */
+.all_produst {}
+
+.all-labtop-wrapper {
+    display: flex;
+}
+
+.products-filter {
+    width: 30rem;
+    border-left: 1px solid #CCCCCC;
+}
+
+
+.accordion-items-ul {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    padding: 1.6rem 1.2rem;
+    background-color: var(--bg-accordion);
+    box-shadow: inset 0 0 10px var(--shadow-accordion);
+}
+
+.accordion-items-ul li a {
+    color: var(--links-color);
+
+}
+
+.accordion-items-ul li {
+    transition: all .2s ease-in;
+    cursor: pointer;
+}
+
+.accordion-items-ul li:hover {
+    background-color: rgba(183, 183, 183, 0.386);
+}
+
+
+
+
+.accordion-item {
+    border-radius: .8rem;
+
+}
+
+.accordion {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.accordion-toggle,
+.switch-filters {
+    padding: 16px;
+    width: 100%;
+    background: var(--bg-Body);
+    border: none;
+    text-align: left;
+    font-size: 1rem;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.arrow {}
+
+#arrow {}
+
+.accordion-panel {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+    padding-left: .5rem;
+}
+
+.accordion-panel.open {
+    max-height: 500px;
+}
+
+.arrow {
+    transition: transform 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.arrow.open {
+    transform: rotate(180deg);
+}
+
+.accordion_title,
+.switch-filters span {
+    font-family: yekan;
+    font-weight: 700;
+    font-size: 16px;
+    color: var(--txt-color3);
+}
+
+.acordion_faq {
+    padding: 2rem;
+    background-color: var(--accordion-open-bg-color);
+    color: var(--txt-black);
+
+}
+
+
+.toggle-switch {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 24px;
+}
+
+.toggle-switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: transparent;
+    border: 3px solid #831FC1;
+    border-radius: 2.4rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.slider::before {
+    content: "";
+    position: absolute;
+    height: 1.6rem;
+    width: 1.6rem;
+    left: 3px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: #831FC1;
+    border-radius: 50%;
+    transition: all 0.3s ease-in-out;
+}
+
+.toggle-switch input:checked+.slider {
+    background-color: #831FC1;
+}
+
+.toggle-switch input:checked+.slider::before {
+    transform: translateX(24px);
+    background-color: white;
+}
+
+.switch-filters {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.all-products-left {
+    width: 100%;
+}
+
+.all-products-left-wrapper {
+    padding: 1.8rem 1.8rem 1.8rem 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 1.5rem;
+}
+
+.all-products-sort {
+    display: flex;
+    align-items: center;
+    gap: 17px;
+    padding: 0 2rem 1px 0;
+    border-bottom: 1px solid #CCCCCC;
+}
+
+.all-products-sort h3 {
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--txt-black);
+}
+
+.all-products-sort span {
+    font-weight: 600;
+    font-size: 1.6rem;
+    color: var(--txt-black);
+}
+
+.sort-items {
+    display: flex;
+    gap: 17px;
+}
+
+.discount_left_item img {
+    width: 90%;
+    height: 100%;
+
+    object-fit: cover;
+}
+
+.discount_left_item {
+    width: 26.5rem;
+    height: auto;
+    background-color: var(--bg-color);
+    border-radius: 0.8rem;
+    cursor: pointer;
+}
+
+.discount_left_item_info {}
+
+.discount_left_item_title {
+    display: block;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.discount_left_item_rating {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 0.9rem;
+}
+
+.product_send_post img {
+    width: 1.6rem;
+    height: 1.6rem;
+}
+
+.product_rating_count img {
+    width: 2.4rem;
+    height: 2.4rem;
+}
+
+.product-cover {
+    width: 100%;
+    height: 17rem;
+    display: flex;
+    align-items: center;
+
+    justify-content: center;
+}
+
+.product_org_price {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 0.9rem;
+}
+
+#sss {
+    display: flex;
+    gap: 0.5rem;
+    color: var(--links-color);
+    font-size: 1.1rem;
+}
+
+#sss del {
+    font-size: 1.4rem;
+}
+
+.discount_range {
+    font-size: 10px;
+    background-color: #d32f2f;
+    padding: 2px 1.2rem 0;
+
+    border-radius: 1.2rem;
+    color: var(--txt-color);
+}
+
+.orginal_price {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    padding-bottom: .9rem;
+}
+
+.product_send_post {
+    background-color: var(--bg-color-violet);
+    border-radius: 2.4rem;
+    padding: 0.1rem 0.8rem;
+    font-size: 1.2rem;
+    color: var(--bg-label-color);
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+}
+
+.product_rating_count {
+    color: #efc003;
+    font-size: 1.6rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+}
+
+.discount_left_item img,
+.discount_left_item_title,
+.discount_left_item_rating,
+.product_org_price {
+    margin-bottom: 0.4rem;
+}
+
+.best_selling_products_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.selling_products_item {
+    width: 24rem;
+    height: 30rem;
+    border-radius: 0.8rem;
+    background-color: var(--bg-color);
+    padding-bottom: 0.9rem;
+}
+
+.best-sell-title {
+    font-size: 1.6rem;
+    font-weight: 600;
+    padding: 0 1.3rem;
+}
+
+.selling_products_item img {
+    width: 100%;
+    object-fit: contain;
+}
+
+.best_product_img {
+    height: 14rem;
+}
+
+#info {
+    margin: 2rem 0;
+}
+
+.info {
+    display: flex;
+    margin: 0 !important;
+    justify-content: end;
+}

@@ -1,0 +1,192 @@
+@import "variables.css";
+
+
+
+/* ================= Start Swiper Hero Section ================= */
+
+.hero-section-slider {
+    width: 100%;
+    height: 40rem;
+    border-radius: 2.5rem;
+}
+
+.hero-section-slider img {
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover !important;
+}
+
+.hero-section-slider .swiper-pagination-bullet {
+    background-color: rgba(172, 105, 213, 1) !important;
+    width: .8rem;
+    height: .8rem;
+}
+
+.hero-section-slider .swiper-pagination-bullet-active {
+    background-color: rgba(119, 28, 176, 1) !important;
+    width: 1.9rem !important;
+    height: .8rem !important;
+    border-radius: 0.8rem !important;
+}
+
+.hero-section-slider .swiper-button-prev {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 3.6rem;
+    height: 3.6rem;
+    background-color: rgba(243, 233, 249, 1) !important;
+    border-radius: 1rem !important;
+}
+
+.hero-section-slider .swiper-button-next {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 3.6rem;
+    height: 3.6rem;
+    background-color: rgba(243, 233, 249, 1) !important;
+    border-radius: 1rem !important;
+}
+
+.hero-section-slider .swiper-button-prev svg {
+    width: 1.2rem;
+    height: 1.2rem;
+}
+
+.hero-section-slider .swiper-button-next svg {
+    width: 1.2rem;
+    height: 1.2rem;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+    display: none !important;
+    position: static;
+    background: none;
+    padding: 0;
+    margin: 0;
+}
+
+.swiper-nav-buttons {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+    position: absolute;
+    bottom: 35px;
+    right: 120px;
+    z-index: 10;
+}
+
+
+/* ================= Start Swiper Hero Section  ================= */
+
+
+
+
+
+
+
+
+
+
+/* ================= Start Swiper Discount Section ================= */
+
+
+
+.discount_slider .swiper-button-prev,
+.discount_slider .swiper-button-next {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 4.8rem;
+    height: 4.8rem;
+    background-color: rgba(243, 233, 249, 1) !important;
+    border-radius: 1rem !important;
+}
+
+.discount_slider .swiper-button-prev svg,
+.discount_slider .swiper-button-next svg {
+    width: 1.8rem;
+    height: 1.8rem;
+}
+
+/* ================= Start Swiper Discount Section  ================= */
+
+
+
+/** ================= Start Swiper Discount Section ================= */
+
+
+
+.best-sell-slider .swiper-button-prev,
+.best-sell-slider .swiper-button-next {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 4.8rem;
+    height: 4.8rem;
+    background-color: rgba(243, 233, 249, 1) !important;
+    border-radius: 1rem !important;
+}
+
+.best-sell-slider .swiper-button-prev svg,
+.best-sell-slider .swiper-button-next svg {
+    width: 1.8rem;
+    height: 1.8rem;
+}
+
+/** ================= Start Swiper Discount Section  ================= */
+
+
+/* ================= Start Swiper Best Products Section ================= */
+
+
+
+.new-product-slider .swiper-button-prev,
+.new-product-slider .swiper-button-next {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 4.8rem;
+    height: 4.8rem;
+    background-color: rgba(243, 233, 249, 1) !important;
+    border-radius: 1rem !important;
+}
+
+.new-product-slider .swiper-button-prev svg,
+.new-product-slider .swiper-button-next svg {
+    width: 1.8rem;
+    height: 1.8rem;
+}
+
+/* ================= Start Swiper Best Products Section  ================= */
+
+
+
+
+
+
+/** ================= Start Swiper Best Products Section ================= */
+
+
+
+.blog-slider .swiper-button-prev,
+.blog-slider .swiper-button-next {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 4.8rem;
+    height: 4.8rem;
+    background-color: rgba(243, 233, 249, 1) !important;
+    border-radius: 1rem !important;
+}
+
+.blog-slider .swiper-button-prev svg,
+.blog-slider .swiper-button-next svg {
+    width: 1.8rem;
+    height: 1.8rem;
+}
+
+/** ================= Start Swiper Best Products Section  ================= */

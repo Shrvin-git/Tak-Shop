@@ -1,0 +1,128 @@
+@import "variables.css";
+
+
+
+.user-comments {
+    display: none;
+}
+
+.user-panel-header {}
+
+.user-panel-header-title {}
+
+.user-panel-header-desc {}
+
+.user-comments-wrapper {}
+
+.user-comments-items {
+    background-color: var(--bg-color);
+    border-radius: .9rem;
+    padding: 1.6rem 2.4rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 2.4rem;
+    margin-bottom: 2.5rem;
+}
+
+.user-comments-items-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.user-comments-header-right {
+    display: flex;
+    gap: 1.2rem;
+}
+
+.user-profile-img {
+    width: 6.5rem;
+    height: 6.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.user-profile-img img {
+    width: 100%;
+    border-radius: 100%;
+}
+
+.user-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.user-info h2 {
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.user-info span {
+    width: 6rem;
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2.4rem;
+    font-size: 14px;
+    color: var(--bg-label-color);
+    background-color: var(--bg-color-violet);
+}
+
+.user-comments-header-left {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.comment-date {
+    display: flex;
+    gap: .8rem;
+    align-items: center;
+    color: var(--s737373);
+}
+
+.comment-rating {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    font-size: 2rem;
+    color: #EFC003;
+}
+
+.user-comments-items-main {}
+
+.user-comments-items-title {
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.user-comments-items-main p {
+    font-size: 1.4rem;
+}
+
+.user-comment-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--c737373);
+    font-size: 13px;
+}
+
+.user-comment-footer a {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    gap: .6rem;
+    color: var(--main-color);
+    font-family: yekan;
+}
+
+.name-product a {
+    text-decoration: underline;
+    color: var(--main-color);
+    font-size: 13px;
+    display: inline;
+}

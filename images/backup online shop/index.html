@@ -1,0 +1,1319 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./css/reset.css" />
+  <link rel="stylesheet" href="./css/index.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <title>Tak Shop</title>
+</head>
+
+<body>
+  <!-- ============== Start Navbar ============== -->
+  <div data-include="partials/navbar.html"></div>
+  <!-- ============== Finish Navbar ============== -->
+
+  <!-- ============== Start Main ============== -->
+  <main class="main">
+
+     <!-- <div class="menu-container">
+
+
+      <ul class="menu-categories">
+        <li class="active">
+          <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M20 30.3333H12C6.12 30.3333 4.33333 28.5466 4.33333 22.6666V9.33329C4.33333 3.45329 6.12 1.66663 12 1.66663H20C25.88 1.66663 27.6667 3.45329 27.6667 9.33329V22.6666C27.6667 28.5466 25.88 30.3333 20 30.3333ZM12 3.66663C7.22667 3.66663 6.33333 4.57329 6.33333 9.33329V22.6666C6.33333 27.4266 7.22667 28.3333 12 28.3333H20C24.7733 28.3333 25.6667 27.4266 25.6667 22.6666V9.33329C25.6667 4.57329 24.7733 3.66663 20 3.66663H12Z"
+              fill="#831FC1" />
+            <path
+              d="M18.6667 8.33337H13.3333C12.7867 8.33337 12.3333 7.88004 12.3333 7.33337C12.3333 6.78671 12.7867 6.33337 13.3333 6.33337H18.6667C19.2133 6.33337 19.6667 6.78671 19.6667 7.33337C19.6667 7.88004 19.2133 8.33337 18.6667 8.33337Z"
+              fill="#831FC1" />
+            <path
+              d="M16 26.48C14.3067 26.48 12.9333 25.1067 12.9333 23.4133C12.9333 21.72 14.3067 20.3467 16 20.3467C17.6933 20.3467 19.0667 21.72 19.0667 23.4133C19.0667 25.1067 17.6933 26.48 16 26.48ZM16 22.3333C15.4133 22.3333 14.9333 22.8133 14.9333 23.4C14.9333 23.9867 15.4133 24.4667 16 24.4667C16.5867 24.4667 17.0667 23.9867 17.0667 23.4C17.0667 22.8133 16.5867 22.3333 16 22.3333Z"
+              fill="#831FC1" />
+          </svg>
+
+          موبایل
+        </li>
+        <li>
+          <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M23.4133 23.96H8.58667C3.28 23.96 1.66667 22.3467 1.66667 17.04V8.58669C1.66667 3.28002 3.28 1.66669 8.58667 1.66669H23.4C28.7067 1.66669 30.32 3.28002 30.32 8.58669V17.0267C30.3333 22.3467 28.72 23.96 23.4133 23.96ZM8.58667 3.66669C4.4 3.66669 3.66667 4.40002 3.66667 8.58669V17.0267C3.66667 21.2134 4.4 21.9467 8.58667 21.9467H23.4C27.5867 21.9467 28.32 21.2134 28.32 17.0267V8.58669C28.32 4.40002 27.5867 3.66669 23.4 3.66669H8.58667Z"
+              fill="#131313" />
+            <path
+              d="M16 30.3334C15.4533 30.3334 15 29.88 15 29.3334V22.96C15 22.4134 15.4533 21.96 16 21.96C16.5467 21.96 17 22.4134 17 22.96V29.3334C17 29.88 16.5467 30.3334 16 30.3334Z"
+              fill="#131313" />
+            <path
+              d="M29.3333 18.3333H2.66667C2.12 18.3333 1.66667 17.88 1.66667 17.3333C1.66667 16.7866 2.12 16.3333 2.66667 16.3333H29.3333C29.88 16.3333 30.3333 16.7866 30.3333 17.3333C30.3333 17.88 29.88 18.3333 29.3333 18.3333Z"
+              fill="#131313" />
+            <path
+              d="M22 30.3333H10C9.45333 30.3333 9 29.88 9 29.3333C9 28.7866 9.45333 28.3333 10 28.3333H22C22.5467 28.3333 23 28.7866 23 29.3333C23 29.88 22.5467 30.3333 22 30.3333Z"
+              fill="#131313" />
+          </svg>
+
+          لپ تاپ
+        </li>
+        <li>
+          <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M8.69333 21.68C8.44 21.68 8.18667 21.5866 7.98667 21.3866C7.6 21 7.6 20.36 7.98667 19.9733L12.0533 15.9066C12.44 15.52 13.08 15.52 13.4667 15.9066C13.8533 16.2933 13.8533 16.9333 13.4667 17.32L9.4 21.3866C9.2 21.5733 8.94667 21.68 8.69333 21.68Z"
+              fill="#131313" />
+            <path
+              d="M12.8 21.72C12.5467 21.72 12.2933 21.6267 12.0933 21.4267L8.02667 17.36C7.64 16.9733 7.64 16.3333 8.02667 15.9467C8.41333 15.56 9.05333 15.56 9.44 15.9467L13.5067 20.0133C13.8933 20.4 13.8933 21.04 13.5067 21.4267C13.3067 21.6267 13.0533 21.72 12.8 21.72Z"
+              fill="#131313" />
+            <path
+              d="M18.0533 20C17.32 20 16.7067 19.4 16.7067 18.6666C16.7067 17.9333 17.2933 17.3333 18.0267 17.3333H18.0533C18.7867 17.3333 19.3867 17.9333 19.3867 18.6666C19.3867 19.4 18.8 20 18.0533 20Z"
+              fill="#131313" />
+            <path
+              d="M23.3067 20C22.5733 20 21.96 19.4 21.96 18.6666C21.96 17.9333 22.5467 17.3333 23.28 17.3333H23.3067C24.04 17.3333 24.64 17.9333 24.64 18.6666C24.64 19.4 24.04 20 23.3067 20Z"
+              fill="#131313" />
+            <path
+              d="M20.6667 22.6267C19.9333 22.6267 19.3333 22.04 19.3333 21.3067V21.28C19.3333 20.5467 19.9333 19.9467 20.6667 19.9467C21.4 19.9467 22 20.5467 22 21.28C22 22.0133 21.4133 22.6267 20.6667 22.6267Z"
+              fill="#131313" />
+            <path
+              d="M20.6667 17.3734C19.9333 17.3734 19.3333 16.7867 19.3333 16.0534V16.0267C19.3333 15.2934 19.9333 14.6934 20.6667 14.6934C21.4 14.6934 22 15.2934 22 16.0267C22 16.76 21.4133 17.3734 20.6667 17.3734Z"
+              fill="#131313" />
+            <path
+              d="M20 30.3333H12C4.76 30.3333 1.66667 27.24 1.66667 20V17.3333C1.66667 10.0933 4.76 7 12 7H20C27.24 7 30.3333 10.0933 30.3333 17.3333V20C30.3333 27.24 27.24 30.3333 20 30.3333ZM12 9C5.85333 9 3.66667 11.1867 3.66667 17.3333V20C3.66667 26.1467 5.85333 28.3333 12 28.3333H20C26.1467 28.3333 28.3333 26.1467 28.3333 20V17.3333C28.3333 11.1867 26.1467 9 20 9H12Z"
+              fill="#131313" />
+            <path
+              d="M17.32 9.00002H15.9867C14.7067 9.00002 13.6533 7.94669 13.6533 6.66669C13.6533 5.38669 14.6933 4.33335 15.9733 4.33335C16.1867 4.33335 16.3333 4.18669 16.3467 4.00002L16.36 2.65335C16.3733 2.10669 16.8133 1.66669 17.36 1.66669H17.3733C17.92 1.68002 18.3733 2.13335 18.36 2.68002L18.3467 4.02669C18.3333 5.29335 17.28 6.33335 16.0133 6.33335C15.8 6.33335 15.6667 6.48002 15.6667 6.66669C15.6667 6.85335 15.8133 7.00002 16 7.00002H17.3333C17.88 7.00002 18.3333 7.45335 18.3333 8.00002C18.3333 8.54669 17.8667 9.00002 17.32 9.00002Z"
+              fill="#131313" />
+          </svg>
+
+          لوازم جانبی لپ تاپ
+        </li>
+        <li>
+          <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M7.42667 30.2667C4.30667 30.2667 1.66667 27.6267 1.66667 24.5067V16.2933C1.6 12.4 3.04 8.73334 5.73333 5.98667C8.42667 3.25334 12.04 1.73334 15.9333 1.73334C23.88 1.73334 30.3333 8.2 30.3333 16.1333V24.3467C30.3333 27.52 27.7467 30.1067 24.5733 30.1067C21.4533 30.1067 18.8133 27.4667 18.8133 24.3467V20.6C18.8133 18.6667 20.3333 17.1467 22.2667 17.1467C24.2 17.1467 25.72 18.6667 25.72 20.6V24.64C25.72 25.1867 25.2667 25.64 24.72 25.64C24.1733 25.64 23.72 25.1867 23.72 24.64V20.6C23.72 19.6933 22.9867 19.1467 22.2667 19.1467C21.36 19.1467 20.8133 19.88 20.8133 20.6V24.3467C20.8133 26.3867 22.5333 28.1067 24.5733 28.1067C26.6133 28.1067 28.3333 26.3867 28.3333 24.3467V16.1333C28.3333 9.29334 22.7733 3.73334 15.9333 3.73334C12.5867 3.73334 9.48 5.02667 7.16 7.38667C4.84 9.74667 3.6 12.9067 3.66667 16.2667V24.5067C3.66667 26.5467 5.38667 28.2667 7.42667 28.2667C9.46667 28.2667 11.1867 26.5467 11.1867 24.5067V20.76C11.1867 19.8533 10.4533 19.3067 9.73333 19.3067C8.82667 19.3067 8.28 20.04 8.28 20.76V24.6533C8.28 25.2 7.82667 25.6533 7.28 25.6533C6.73333 25.6533 6.28 25.2 6.28 24.6533V20.76C6.28 18.8267 7.8 17.3067 9.73333 17.3067C11.6667 17.3067 13.1867 18.8267 13.1867 20.76V24.5067C13.1867 27.6267 10.5467 30.2667 7.42667 30.2667Z"
+              fill="#131313" />
+          </svg>
+
+          هدست و هدفون
+        </li>
+        <li>
+          <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M22.9867 30.3334H9.01334C5.28 30.3334 2.90667 28.1067 2.69333 24.3867L2 13.3867C1.89333 11.72 2.46667 10.12 3.61333 8.90669C4.74667 7.69335 6.34667 7.00002 8 7.00002C8.42667 7.00002 8.84 6.74669 9.04 6.34669L10 4.44002C10.7867 2.88002 12.76 1.66669 14.48 1.66669H17.5333C19.2533 1.66669 21.2133 2.88002 22 4.42669L22.96 6.37335C23.16 6.74669 23.56 7.00002 24 7.00002C25.6533 7.00002 27.2533 7.69335 28.3867 8.90669C29.5333 10.1334 30.1067 11.72 30 13.3867L29.3067 24.4C29.0667 28.1734 26.76 30.3334 22.9867 30.3334ZM14.48 3.66669C13.4933 3.66669 12.24 4.44002 11.7867 5.33335L10.8267 7.25335C10.2667 8.33335 9.18667 9.00002 8 9.00002C6.88 9.00002 5.84 9.45335 5.06667 10.2667C4.30667 11.08 3.92 12.1467 4 13.2534L4.69333 24.2667C4.85333 26.96 6.30667 28.3334 9.01334 28.3334H22.9867C25.68 28.3334 27.1333 26.96 27.3067 24.2667L28 13.2534C28.0667 12.1467 27.6933 11.08 26.9333 10.2667C26.16 9.45335 25.12 9.00002 24 9.00002C22.8133 9.00002 21.7333 8.33335 21.1733 7.28002L20.2 5.33335C19.76 4.45335 18.5067 3.68002 17.52 3.68002H14.48V3.66669Z"
+              fill="#131313" />
+            <path
+              d="M18 11.6667H14C13.4533 11.6667 13 11.2134 13 10.6667C13 10.12 13.4533 9.66669 14 9.66669H18C18.5467 9.66669 19 10.12 19 10.6667C19 11.2134 18.5467 11.6667 18 11.6667Z"
+              fill="#131313" />
+            <path
+              d="M16 25C13.0533 25 10.6667 22.6133 10.6667 19.6666C10.6667 16.72 13.0533 14.3333 16 14.3333C18.9467 14.3333 21.3333 16.72 21.3333 19.6666C21.3333 22.6133 18.9467 25 16 25ZM16 16.3333C14.16 16.3333 12.6667 17.8266 12.6667 19.6666C12.6667 21.5066 14.16 23 16 23C17.84 23 19.3333 21.5066 19.3333 19.6666C19.3333 17.8266 17.84 16.3333 16 16.3333Z"
+              fill="#131313" />
+          </svg>
+
+          دوربین
+        </li>
+        <li>
+          <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M26.6667 19.6666C24.64 19.6666 23 18.0266 23 16C23 13.9733 24.64 12.3333 26.6667 12.3333C28.6933 12.3333 30.3333 13.9733 30.3333 16C30.3333 18.0266 28.6933 19.6666 26.6667 19.6666ZM26.6667 14.3333C25.7467 14.3333 25 15.08 25 16C25 16.92 25.7467 17.6666 26.6667 17.6666C27.5867 17.6666 28.3333 16.92 28.3333 16C28.3333 15.08 27.5867 14.3333 26.6667 14.3333Z"
+              fill="#131313" />
+            <path
+              d="M26.6667 9.00002C24.64 9.00002 23 7.36002 23 5.33335C23 3.30669 24.64 1.66669 26.6667 1.66669C28.6933 1.66669 30.3333 3.30669 30.3333 5.33335C30.3333 7.36002 28.6933 9.00002 26.6667 9.00002ZM26.6667 3.66669C25.7467 3.66669 25 4.41335 25 5.33335C25 6.25335 25.7467 7.00002 26.6667 7.00002C27.5867 7.00002 28.3333 6.25335 28.3333 5.33335C28.3333 4.41335 27.5867 3.66669 26.6667 3.66669Z"
+              fill="#131313" />
+            <path
+              d="M26.6667 30.3333C24.64 30.3333 23 28.6933 23 26.6667C23 24.64 24.64 23 26.6667 23C28.6933 23 30.3333 24.64 30.3333 26.6667C30.3333 28.6933 28.6933 30.3333 26.6667 30.3333ZM26.6667 25C25.7467 25 25 25.7467 25 26.6667C25 27.5867 25.7467 28.3333 26.6667 28.3333C27.5867 28.3333 28.3333 27.5867 28.3333 26.6667C28.3333 25.7467 27.5867 25 26.6667 25Z"
+              fill="#131313" />
+            <path
+              d="M5.33333 19.6666C3.30667 19.6666 1.66667 18.0266 1.66667 16C1.66667 13.9733 3.30667 12.3333 5.33333 12.3333C7.36 12.3333 9 13.9733 9 16C9 18.0266 7.36 19.6666 5.33333 19.6666ZM5.33333 14.3333C4.41333 14.3333 3.66667 15.08 3.66667 16C3.66667 16.92 4.41333 17.6666 5.33333 17.6666C6.25333 17.6666 7 16.92 7 16C7 15.08 6.25333 14.3333 5.33333 14.3333Z"
+              fill="#131313" />
+            <path
+              d="M24 17H8C7.45333 17 7 16.5467 7 16C7 15.4533 7.45333 15 8 15H24C24.5467 15 25 15.4533 25 16C25 16.5467 24.5467 17 24 17Z"
+              fill="#131313" />
+            <path
+              d="M24 27.6666H18.6667C15.44 27.6666 13.6667 25.8933 13.6667 22.6666V9.33331C13.6667 6.10665 15.44 4.33331 18.6667 4.33331H24C24.5467 4.33331 25 4.78665 25 5.33331C25 5.87998 24.5467 6.33331 24 6.33331H18.6667C16.56 6.33331 15.6667 7.22665 15.6667 9.33331V22.6666C15.6667 24.7733 16.56 25.6666 18.6667 25.6666H24C24.5467 25.6666 25 26.12 25 26.6666C25 27.2133 24.5467 27.6666 24 27.6666Z"
+              fill="#131313" />
+          </svg>
+
+          اینترنت
+        </li>
+        <li>
+          <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M20.6667 26.3334H11.3333C7.68 26.3334 5.66667 24.32 5.66667 20.6667V11.3334C5.66667 7.68002 7.68 5.66669 11.3333 5.66669H20.6667C24.32 5.66669 26.3333 7.68002 26.3333 11.3334V20.6667C26.3333 24.32 24.32 26.3334 20.6667 26.3334ZM11.3333 7.66669C8.76 7.66669 7.66667 8.76002 7.66667 11.3334V20.6667C7.66667 23.24 8.76 24.3334 11.3333 24.3334H20.6667C23.24 24.3334 24.3333 23.24 24.3333 20.6667V11.3334C24.3333 8.76002 23.24 7.66669 20.6667 7.66669H11.3333Z"
+              fill="#131313" />
+            <path
+              d="M21.3333 3.66669H10.6667C10.12 3.66669 9.66667 3.21335 9.66667 2.66669C9.66667 2.12002 10.12 1.66669 10.6667 1.66669H21.3333C21.88 1.66669 22.3333 2.12002 22.3333 2.66669C22.3333 3.21335 21.88 3.66669 21.3333 3.66669Z"
+              fill="#131313" />
+            <path
+              d="M21.3333 30.3333H10.6667C10.12 30.3333 9.66667 29.88 9.66667 29.3333C9.66667 28.7866 10.12 28.3333 10.6667 28.3333H21.3333C21.88 28.3333 22.3333 28.7866 22.3333 29.3333C22.3333 29.88 21.88 30.3333 21.3333 30.3333Z"
+              fill="#131313" />
+            <path
+              d="M19.3333 17.6667H15.3333C14.7867 17.6667 14.3333 17.2134 14.3333 16.6667V12.6667C14.3333 12.12 14.7867 11.6667 15.3333 11.6667C15.88 11.6667 16.3333 12.12 16.3333 12.6667V15.6667H19.3333C19.88 15.6667 20.3333 16.12 20.3333 16.6667C20.3333 17.2134 19.88 17.6667 19.3333 17.6667Z"
+              fill="#131313" />
+          </svg>
+
+          ساعت هوشمند
+        </li>
+      </ul>
+
+
+      <div class="mega-content-wrapper">
+        <div class="mega-section">
+          <h4>دسته بندی بر اساس برند</h4>
+          <ul>
+            <li>آیفون</li>
+            <li>سامسونگ</li>
+            <li>شیائومی</li>
+            <li>هواوی</li>
+            <li>آنر</li>
+            <li>ریلمی</li>
+            <li>نوکیا</li>
+          </ul>
+        </div>
+
+        <div class="mega-section">
+          <h4>دسته بندی بر اساس قیمت</h4>
+          <ul>
+            <li>زیر پنج میلیون تومان</li>
+            <li>بین پنج تا هفت میلیون تومان</li>
+            <li>بین هفت تا ده میلیون تومان</li>
+            <li>بین ده تا پانزده میلیون تومان</li>
+            <li>بین پانزده تا بیست میلیون تومان</li>
+            <li>بین بیست تا سی میلیون تومان</li>
+            <li>بیش از سی میلیون تومان</li>
+          </ul>
+        </div>
+
+        <div class="mega-section">
+          <h4>دسته بندی بر اساس عملکرد</h4>
+          <ul>
+            <li>آیفون</li>
+            <li>سامسونگ</li>
+            <li>شیائومی</li>
+            <li>هواوی</li>
+            <li>آنر</li>
+            <li>ریلمی</li>
+            <li>نوکیا</li>
+          </ul>
+        </div>
+      </div>
+
+    </div> -->
+
+    <div class="hero-section">
+      <div class="container">
+
+
+        <div class="swiper hero-section-slider">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide"> <img src="./images/slide1.webp" alt="" /></div>
+            <div class="swiper-slide"> <img src="./images/slide2.webp" alt="" /></div>
+            <div class="swiper-slide"> <img src="./images/slide3.webp" alt="" /></div>
+            <div class="swiper-slide"> <img src="./images/slide4.webp" alt="" /></div>
+          </div>
+
+          <div class="swiper-pagination"></div>
+
+          <div class="swiper-nav-buttons">
+            <div class="swiper-button-next">
+              <svg width="14" height="22" viewBox="0 0 14 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M11.6 0.199951L13.28 1.99995L4.40003 11L13.28 20L11.6 21.8L0.800029 11L11.6 0.199951Z"
+                  fill="#831FC1" />
+              </svg>
+            </div>
+            <div class="swiper-button-prev">
+              <svg width="14" height="22" viewBox="0 0 14 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M2.39997 0.199951L0.719971 1.99995L9.59997 11L0.719971 20L2.39997 21.8L13.2 11L2.39997 0.199951Z"
+                  fill="#831FC1" />
+              </svg>
+
+
+            </div>
+
+
+          </div>
+
+
+        </div>
+
+
+
+      </div>
+    </div>
+
+    <section class="category">
+      <div class="container">
+        <div class="section_header_container">
+          <h2 class="section_title">دسته بندی محصولات ما</h2>
+          <span class="section_desc">در این سکشن شما میتوانید محصولات ما را به صورت دسته بندی مشاهده
+            کنید و در صورت تمایل به صفحه مورد نظر بروید</span>
+        </div>
+
+        <div class="category_items_container">
+          <div class="category_item">
+            <img src="./images/mobile-category.png" alt="" />
+            <span>موبایل</span>
+          </div>
+
+          <div class="category_item">
+            <img src="./images/laptop-category.png" alt="" />
+            <span>لپ تاب</span>
+          </div>
+
+          <div class="category_item">
+            <img src="./images/accesory-category.png" alt="" />
+            <span>لوازم جانبی</span>
+          </div>
+
+          <div class="category_item">
+            <img src="./images/headphone-category.png" alt="" />
+            <span>هدست و هدفون</span>
+          </div>
+
+          <div class="category_item">
+            <img src="./images/camera-category.png" alt="" />
+            <span>دوربین</span>
+          </div>
+
+          <div class="category_item">
+            <img src="./images/modem-category.png" alt="" />
+            <span>اینترنت</span>
+          </div>
+
+          <div class="category_item">
+            <img src="./images/smart-watch-category.png" alt="" />
+            <span>ساعت هوشمند</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="discount">
+      <div class="container">
+        <div class="discount_wrapper">
+          <div class="discount_right">
+            <h3 class="discount_right_title">کالاهایی با بیشترین تخفیف</h3>
+            <p class="discount_right_desc">
+              در این سکشن شما میتوانید کالاهایی که تخفیف زیادی دارن رومشاهده
+              کنید.
+            </p>
+
+            <div class="discount_right_timer">
+              <span class="">زمان <br />
+                باقیمانده</span>
+
+              <div class="timer_box">
+
+
+                <div class="timer_box_item">
+                  <span class="timer_box_item_number discount_second">59</span>
+                  <span class="timer_box_item_label">ثانیه</span>
+                </div>
+
+                <div class="timer_box_item" id="box-center">
+                  <span class="timer_box_item_number discount_minut">:10</span>
+                  <span class="timer_box_item_label">دقیقه</span>
+                </div>
+
+                <div class="timer_box_item">
+                  <span class="timer_box_item_number discount_hour">:13</span>
+                  <span class="timer_box_item_label">ساعت</span>
+                </div>
+
+
+              </div>
+            </div>
+
+            <a href="#" class="discount_right_btn">
+              مشاهده همه
+              <svg width="11" height="18" viewBox="0 0 11 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M9.00002 18L10.4 16.5L3.00002 9L10.4 1.5L9.00002 0L2.47955e-05 9L9.00002 18Z" fill="white" />
+              </svg>
+
+            </a>
+          </div>
+
+          <div class="discount_left">
+
+
+
+            <div class="swiper discount_slider">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="discount_left_item">
+                    <img src="./images/Offer/macbook.png" alt="" />
+                    <div class="discount_left_item_info">
+                      <span class="discount_left_item_title">لپ تاپ 16 اینچی ایسوس مدل Vivobook 16 </span>
+                      <div class="discount_left_item_rating">
+                        <span class="product_send_post">
+                          <img src="./images/svgs/post.svg" alt="">
+                          رایگان
+                        </span>
+                        <span class="product_rating_count">4.0
+                          <img src="./images/svgs/product-rating.svg" alt="">
+                        </span>
+                      </div>
+
+                      <div class="product_org_price">
+                        <span class="discount_range">7%</span>
+
+                        <span id="sss"><del>41,720,000 </del> تومان</span>
+
+                      </div>
+
+                      <h3 class="orginal_price">39,000,000 تومان</h3>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="discount_left_item">
+                    <img src="./images/Offer/headphone.png" alt="" />
+                    <div class="discount_left_item_info">
+                      <span class="discount_left_item_title"> هدفون بلوتوثی مانستر مدلCozy Pods </span>
+                      <div class="discount_left_item_rating">
+                        <span class="product_send_post">
+                          <img src="./images/svgs/post.svg" alt="">
+                          رایگان
+                        </span>
+                        <span class="product_rating_count">3.8
+                          <img src="./images/svgs/product-rating.svg" alt="">
+                        </span>
+                      </div>
+
+                      <div class="product_org_price">
+                        <span class="discount_range">34%</span>
+
+                        <span id="sss"><del> 2,500,000 </del> تومان</span>
+
+                      </div>
+
+                      <h3 class="orginal_price">1,640,000 تومان </h3>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="discount_left_item">
+                    <img src="./images/Offer/macbook.png" alt="" />
+                    <div class="discount_left_item_info">
+                      <span class="discount_left_item_title">لپ تاپ 16 اینچی ایسوس مدل Vivobook 16 </span>
+                      <div class="discount_left_item_rating">
+                        <span class="product_send_post">
+                          <img src="./images/svgs/post.svg" alt="">
+                          رایگان
+                        </span>
+                        <span class="product_rating_count">4.8
+                          <img src="./images/svgs/product-rating.svg" alt="">
+                        </span>
+                      </div>
+
+                      <div class="product_org_price">
+                        <span class="discount_range">7%</span>
+
+                        <span id="sss"><del>109,850,000 </del> تومان</span>
+
+                      </div>
+
+                      <h3 class="orginal_price">101,700,000 تومان </h3>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="discount_left_item">
+                    <img src="./images/Offer/camera.png" alt="" />
+                    <div class="discount_left_item_info">
+                      <span class="discount_left_item_title"> دوربین عکاسی مدلEOS 250D </span>
+                      <div class="discount_left_item_rating">
+                        <span class="product_send_post">
+                          <img src="./images/svgs/post.svg" alt="">
+                          رایگان
+                        </span>
+                        <span class="product_rating_count">4.7
+                          <img src="./images/svgs/product-rating.svg" alt="">
+                        </span>
+                      </div>
+
+                      <div class="product_org_price">
+                        <span class="discount_range">15%</span>
+
+                        <span id="sss"><del>52,200,000 </del> تومان</span>
+
+                      </div>
+
+                      <h3 class="orginal_price">44,400,000 تومان </h3>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="discount_left_item">
+                    <img src="./images/Offer/nothingphone.png" alt="" />
+                    <div class="discount_left_item_info">
+                      <span class="discount_left_item_title">گوشی موبایل مدل Phone 2 </span>
+                      <div class="discount_left_item_rating">
+                        <span class="product_send_post">
+                          <img src="./images/svgs/post.svg" alt="">
+                          رایگان
+                        </span>
+                        <span class="product_rating_count">4.0
+                          <img src="./images/svgs/product-rating.svg" alt="">
+                        </span>
+                      </div>
+
+                      <div class="product_org_price">
+                        <span class="discount_range">3%</span>
+
+                        <span id="sss"><del>33,500,000 </del> تومان</span>
+
+                      </div>
+
+                      <h3 class="orginal_price">31,200,000 تومان </h3>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="discount_left_item">
+                    <img src="./images/Offer/nothingphone.png" alt="" />
+                    <div class="discount_left_item_info">
+                      <span class="discount_left_item_title">گوشی موبایل مدل Phone 2 </span>
+                      <div class="discount_left_item_rating">
+                        <span class="product_send_post">
+                          <img src="./images/svgs/post.svg" alt="">
+                          رایگان
+                        </span>
+                        <span class="product_rating_count">4.0
+                          <img src="./images/svgs/product-rating.svg" alt="">
+                        </span>
+                      </div>
+
+                      <div class="product_org_price">
+                        <span class="discount_range">3%</span>
+
+                        <span id="sss"><del>33,500,000 </del> تومان</span>
+
+                      </div>
+
+                      <h3 class="orginal_price">31,200,000 تومان </h3>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="discount_left_item">
+                    <img src="./images/Offer/nothingphone.png" alt="" />
+                    <div class="discount_left_item_info">
+                      <span class="discount_left_item_title">گوشی موبایل مدل Phone 2 </span>
+                      <div class="discount_left_item_rating">
+                        <span class="product_send_post">
+                          <img src="./images/svgs/post.svg" alt="">
+                          رایگان
+                        </span>
+                        <span class="product_rating_count">4.0
+                          <img src="./images/svgs/product-rating.svg" alt="">
+                        </span>
+                      </div>
+
+                      <div class="product_org_price">
+                        <span class="discount_range">3%</span>
+
+                        <span id="sss"><del>33,500,000 </del> تومان</span>
+
+                      </div>
+
+                      <h3 class="orginal_price">31,200,000 تومان </h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="swiper-button-prev">
+                <svg width="14" height="22" viewBox="0 0 14 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M11.6 0.199951L13.28 1.99995L4.40003 11L13.28 20L11.6 21.8L0.800029 11L11.6 0.199951Z"
+                    fill="#831FC1"></path>
+                </svg>
+              </div>
+              <div class="swiper-button-next">
+                <svg width="14" height="22" viewBox="0 0 14 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M2.39997 0.199951L0.719971 1.99995L9.59997 11L0.719971 20L2.39997 21.8L13.2 11L2.39997 0.199951Z"
+                    fill="#831FC1"></path>
+                </svg>
+              </div>
+
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          </div>
+        </div>
+    </section>
+
+    <section class="best_selling_products">
+      <div class="container">
+        <div class="section_header_container">
+          <h2 class="section_title">محصولات پر فروش</h2>
+          <span class="section_desc">در این سکشن شما میتوانید محصولات پر فروش تک شاپ را در طول هفته گذشته مشاهده
+            بکنید</span>
+        </div>
+
+        <div class="best_selling_products_wrapper">
+
+
+
+          <!-- Slider main container -->
+          <div class="swiper best-sell-slider">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+
+
+              <div class="swiper-slide">
+                <div class="selling_products_item">
+                  <img class="best_product_img" src="./images/best-sell/PS5.png" alt="">
+
+                  <span class="discount_left_item_title best-sell-title"> کنسول سونی مدل <br>Ps5 Slim </span>
+
+                  <div id="info" class="discount_left_item_rating">
+                    <span class="product_send_post">
+                      <img src="./images/svgs/post.svg" alt="">
+                      رایگان
+                    </span>
+                    <span class="product_rating_count">3.8
+                      <img src="./images/svgs/product-rating.svg" alt="">
+                    </span>
+                  </div>
+
+                  <h3 class="orginal_price">38,000,000 تومان</h3>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="selling_products_item">
+                  <img class="best_product_img" src="./images/best-sell/Headset.png" alt="">
+
+                  <span class="discount_left_item_title best-sell-title"> هدست بلوتوثی وونک مدلV800 </span>
+
+                  <div id="info" class="discount_left_item_rating">
+                    <span class="product_send_post">
+                      <img src="./images/svgs/post.svg" alt="">
+                      رایگان
+                    </span>
+                    <span class="product_rating_count">3.8
+                      <img src="./images/svgs/product-rating.svg" alt="">
+                    </span>
+                  </div>
+
+                  <div class="product_org_price">
+                    <span class="discount_range">5%</span>
+
+                    <span id="sss"><del> 2,050,000 </del> تومان</span>
+
+                  </div>
+
+                  <h3 class="orginal_price">1,950,000 تومان </h3>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="selling_products_item">
+                  <img class="best_product_img" src="./images/best-sell/Modem.png" alt="">
+
+                  <span class="discount_left_item_title best-sell-title"> مودم روتر<br> VDSL/ADSL </span>
+
+                  <div id="info" class="discount_left_item_rating">
+                    <span class="product_send_post">
+                      <img src="./images/svgs/post.svg" alt="">
+                      رایگان
+                    </span>
+                    <span class="product_rating_count">3.1
+                      <img src="./images/svgs/product-rating.svg" alt="">
+                    </span>
+                  </div>
+
+                  <h3 class="orginal_price">1,700,000 تومان </h3>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="selling_products_item">
+                  <img class="best_product_img" src="./images/best-sell/TUF.png" alt="">
+
+                  <span class="discount_left_item_title best-sell-title"> لپ تاب 17.3 اینچی ایسوس مدلTUF Gaming F17
+                  </span>
+
+                  <div id="info" class="discount_left_item_rating info">
+
+                    <span class="product_rating_count">4.8
+                      <img src="./images/svgs/product-rating.svg" alt="">
+                    </span>
+                  </div>
+
+                  <div class="product_org_price">
+                    <span class="discount_range">5%</span>
+
+                    <span id="sss"><del> 84,000,000 </del> تومان</span>
+
+                  </div>
+
+                  <h3 class="orginal_price">83,000,000 تومان </h3>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="selling_products_item">
+                  <img class="best_product_img" src="./images/best-sell/Speaker.png" alt="">
+
+                  <span class="discount_left_item_title best-sell-title">اسپیکر بلوتوثی تسکو مدلTS 2316 </span>
+
+                  <div id="info" class="discount_left_item_rating">
+
+                    <span class="product_send_post">
+                      <img src="./images/svgs/post.svg" alt="">
+                      رایگان
+                    </span>
+
+                    <span class="product_rating_count">4.7
+                      <img src="./images/svgs/product-rating.svg" alt="">
+                    </span>
+                  </div>
+
+                  <div class="product_org_price">
+                    <span class="discount_range">5%</span>
+
+                    <span id="sss"><del> 968,000 </del> تومان</span>
+
+                  </div>
+
+                  <h3 class="orginal_price">841,000 تومان </h3>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="selling_products_item">
+                  <img class="best_product_img" src="./images/best-sell/Modem.png" alt="">
+
+                  <span class="discount_left_item_title best-sell-title"> مودم روتر<br> VDSL/ADSL </span>
+
+                  <div id="info" class="discount_left_item_rating">
+                    <span class="product_send_post">
+                      <img src="./images/svgs/post.svg" alt="">
+                      رایگان
+                    </span>
+                    <span class="product_rating_count">3.1
+                      <img src="./images/svgs/product-rating.svg" alt="">
+                    </span>
+                  </div>
+
+                  <h3 class="orginal_price">1,700,000 تومان </h3>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="selling_products_item">
+                  <img class="best_product_img" src="./images/best-sell/PS5.png" alt="">
+
+                  <span class="discount_left_item_title best-sell-title"> کنسول سونی مدل <br>Ps5 Slim </span>
+
+                  <div id="info" class="discount_left_item_rating">
+                    <span class="product_send_post">
+                      <img src="./images/svgs/post.svg" alt="">
+                      رایگان
+                    </span>
+                    <span class="product_rating_count">3.8
+                      <img src="./images/svgs/product-rating.svg" alt="">
+                    </span>
+                  </div>
+
+                  <h3 class="orginal_price">38,000,000 تومان</h3>
+                </div>
+              </div>
+
+            </div>
+
+
+
+            <div class="swiper-button-prev">
+              <svg width="14" height="22" viewBox="0 0 14 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M11.6 0.199951L13.28 1.99995L4.40003 11L13.28 20L11.6 21.8L0.800029 11L11.6 0.199951Z"
+                  fill="#831FC1"></path>
+              </svg>
+            </div>
+            <div class="swiper-button-next">
+              <svg width="14" height="22" viewBox="0 0 14 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M2.39997 0.199951L0.719971 1.99995L9.59997 11L0.719971 20L2.39997 21.8L13.2 11L2.39997 0.199951Z"
+                  fill="#831FC1"></path>
+              </svg>
+            </div>
+
+
+          </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+
+      </div>
+
+      <a class="show_all" href="#">
+        مشاهده همه
+        <img src="./images/Vector (1).png" alt="">
+      </a>
+    </section>
+
+    <section class="brand">
+      <div class="container">
+        <div class="section_header_container">
+          <h2 class="section_title">برند های محبوب</h2>
+          <span class="section_desc">در این سکشن شما میتوانید برند های محبوب را که بیشترین فروش را دارن مشاهده
+            بکنید</span>
+        </div>
+        <div class="branding_wrapper">
+          <div class="brand_img">
+            <img src="./images/brand/samsung.png" alt="">
+          </div>
+          <div class="brand_img">
+            <img src="./images/brand/X.Vision.png" alt="">
+          </div>
+          <div class="brand_img">
+            <img src="./images/brand/Huawei.png" alt="">
+          </div>
+          <div class="brand_img">
+            <img src="./images/brand/HP.png" alt="">
+          </div>
+          <div class="brand_img">
+            <img src="./images/brand/TSCO.png" alt="">
+          </div>
+          <div class="brand_img">
+            <img src="./images/brand/Apple.png" alt="">
+          </div>
+          <div class="brand_img">
+            <img src="./images/brand/Canon.png" alt="">
+          </div>
+          <div class="brand_img">
+            <img src="./images/brand/xiaomi.png" alt="">
+          </div>
+        </div>
+        <a class="show_all" href="#">
+          مشاهده همه
+          <img src="./images/Vector (1).png" alt="">
+        </a>
+      </div>
+    </section>
+
+    <section class="new_product">
+      <div class="container">
+
+
+        <div class="section_header_container">
+          <h2 class="section_title"> محصولات تازه </h2>
+          <span class="section_desc">در این سکشن شما میتوانید محصولاتی را که جدیدا به سایت اضافه شده اند را مشاهده
+            بکنید</span>
+        </div>
+
+        <div class="new_product_wrapper">
+
+          <div class="swiper new-product-slider">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="selling_products_item">
+                  <img class="best_product_img" src="./images/new-product-img/dual-shock.png" alt="">
+
+                  <span class="discount_left_item_title best-sell-title"> دسته بازی کنسول مدلDUAL.SHOCK4 </span>
+
+                  <div id="info" class="discount_left_item_rating">
+                    <span class="product_send_post">
+                      <img src="./images/svgs/post.svg" alt="">
+                      رایگان
+                    </span>
+                    <span class="product_rating_count">4.6
+                      <img src="./images/svgs/product-rating.svg" alt="">
+                    </span>
+                  </div>
+
+                  <h3 class="orginal_price">38,000,000 تومان</h3>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="selling_products_item">
+                  <img class="best_product_img" src="./images/new-product-img/hard.png" alt="">
+                  <span class="discount_left_item_title best-sell-title"> هارد اکستنرال مدلMy Passport </span>
+
+                  <div id="info" class="discount_left_item_rating">
+                    <span class="product_send_post">
+                      <img src="./images/svgs/post.svg" alt="">
+                      رایگان
+                    </span>
+                    <span class="product_rating_count">4.0
+                      <img src="./images/svgs/product-rating.svg" alt="">
+                    </span>
+                  </div>
+
+                  <h3 class="orginal_price">5,950,000 تومان</h3>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="selling_products_item">
+                  <img class="best_product_img" src="./images/new-product-img/flsh.png" alt="">
+                  <span class="discount_left_item_title best-sell-title"> فلش مموری کوئین مدل GLINK - 64GB </span>
+
+                  <div id="info" class="discount_left_item_rating">
+                    <span class="product_send_post">
+                      <img src="./images/svgs/post.svg" alt="">
+                      رایگان
+                    </span>
+                    <span class="product_rating_count">3.1
+                      <img src="./images/svgs/product-rating.svg" alt="">
+                    </span>
+                  </div>
+
+                  <h3 class="orginal_price">213,000 تومان</h3>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="selling_products_item">
+                  <img class="best_product_img" src="./images/new-product-img/tablet.png" alt="">
+                  <span class="discount_left_item_title best-sell-title"> تبلت 11 اینچ شیائومی مدلRedmi Pad SE </span>
+
+                  <div id="info" class="discount_left_item_rating">
+                    <span class="product_send_post">
+                      <img src="./images/svgs/post.svg" alt="">
+                      رایگان
+                    </span>
+                    <span class="product_rating_count">3.8
+                      <img src="./images/svgs/product-rating.svg" alt="">
+                    </span>
+                  </div>
+
+                  <h3 class="orginal_price">14,720,000 تومان</h3>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="selling_products_item">
+                  <img class="best_product_img" src="./images/new-product-img/dual-shock.png" alt="">
+
+                  <span class="discount_left_item_title best-sell-title"> دسته بازی کنسول مدلDUAL.SHOCK4 </span>
+
+                  <div id="info" class="discount_left_item_rating">
+                    <span class="product_send_post">
+                      <img src="./images/svgs/post.svg" alt="">
+                      رایگان
+                    </span>
+                    <span class="product_rating_count">4.6
+                      <img src="./images/svgs/product-rating.svg" alt="">
+                    </span>
+                  </div>
+
+                  <h3 class="orginal_price">38,000,000 تومان</h3>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="selling_products_item">
+                  <img class="best_product_img" src="./images/new-product-img/speaker.png" alt="">
+                  <span class="discount_left_item_title best-sell-title"> اسپیکر <br> بلوتوثی تسکو مدلTS 2316 </span>
+
+                  <div id="info" class="discount_left_item_rating">
+                    <span class="product_send_post">
+                      <img src="./images/svgs/post.svg" alt="">
+                      رایگان
+                    </span>
+                    <span class="product_rating_count">4.7
+                      <img src="./images/svgs/product-rating.svg" alt="">
+                    </span>
+                  </div>
+
+                  <h3 class="orginal_price">841,000 تومان</h3>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="selling_products_item">
+                  <img class="best_product_img" src="./images/new-product-img/hard.png" alt="">
+                  <span class="discount_left_item_title best-sell-title"> هارد اکستنرال مدلMy Passport </span>
+
+                  <div id="info" class="discount_left_item_rating">
+                    <span class="product_send_post">
+                      <img src="./images/svgs/post.svg" alt="">
+                      رایگان
+                    </span>
+                    <span class="product_rating_count">4.0
+                      <img src="./images/svgs/product-rating.svg" alt="">
+                    </span>
+                  </div>
+
+                  <h3 class="orginal_price">5,950,000 تومان</h3>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="swiper-button-prev">
+              <svg width="14" height="22" viewBox="0 0 14 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M11.6 0.199951L13.28 1.99995L4.40003 11L13.28 20L11.6 21.8L0.800029 11L11.6 0.199951Z"
+                  fill="#831FC1"></path>
+              </svg>
+            </div>
+            <div class="swiper-button-next">
+              <svg width="14" height="22" viewBox="0 0 14 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M2.39997 0.199951L0.719971 1.99995L9.59997 11L0.719971 20L2.39997 21.8L13.2 11L2.39997 0.199951Z"
+                  fill="#831FC1"></path>
+              </svg>
+            </div>
+
+          </div>
+
+
+
+
+
+
+
+        </div>
+
+
+        <a class="show_all" href="#">
+          مشاهده همه
+          <img src="./images/Vector (1).png" alt="">
+        </a>
+      </div>
+    </section>
+
+    <section class="popular_laptop">
+      <div class="container">
+        <img src="./images/Banner.png" alt="">
+      </div>
+    </section>
+
+    <section class="blog">
+
+      <div class="container">
+        <div class="section_header_container">
+          <h2 class="section_title"> بلاگ پست </h2>
+          <span class="section_desc">در این سکشن شما میتوانید اخبار و مقالات تک شاپ را مشاهده بکنید</span>
+        </div>
+        <div class="blow-container">
+          <div class="blog_wrapper">
+
+
+            <div class="swiper blog-slider">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="blog_item">
+                    <div class="blog_cover">
+                      <img src="./images/blog-img/blog1.png" alt="">
+                    </div>
+
+                    <h3 class="blog_title">نقد و بررسی گوشی Samsung S25-Ultra</h3>
+                    <div class="blog_info">
+                      <span class="blog_date">
+                        <img src="./images/logo/calender.png" alt="">
+                        10 بهمن
+                      </span>
+                      <span class="blog_category">
+                        <img src="./images/logo/newspaper.png" alt="">
+                        نقد و بررسی
+                      </span>
+                    </div>
+
+                    <a href="#" class="show_blog">
+                      ادامه مطلب
+                      <img src="./images/logo/s.png" alt="">
+                    </a>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="blog_item">
+                    <div class="blog_cover">
+                      <img src="./images/blog-img/blog2.jpg" alt="">
+                    </div>
+
+                    <h3 class="blog_title"> بهترین لپ تاب های گیمینگ سال 2025 </h3>
+                    <div class="blog_info">
+                      <span class="blog_date">
+                        <img src="./images/logo/calender.png" alt="">
+                        9 بهمن
+                      </span>
+                      <span class="blog_category">
+                        <img src="./images/logo/newspaper.png" alt="">
+                        پیشنهادات
+                      </span>
+                    </div>
+
+                    <a href="#" class="show_blog">
+                      ادامه مطلب
+                      <img src="./images/logo/s.png" alt="">
+                    </a>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="blog_item">
+                    <div class="blog_cover">
+                      <img src="./images/blog-img/blog3.png" alt="">
+                    </div>
+
+                    <h3 class="blog_title">رونمایی «کانن» از دوربین EOS M۵ و یک لنز جدید </h3>
+                    <div class="blog_info">
+                      <span class="blog_date">
+                        <img src="./images/logo/calender.png" alt="">
+                        9 بهمن
+                      </span>
+                      <span class="blog_category">
+                        <img src="./images/logo/newspaper.png" alt="">
+                        اخبار
+                      </span>
+                    </div>
+
+                    <a href="#" class="show_blog">
+                      ادامه مطلب
+                      <img src="./images/logo/s.png" alt="">
+                    </a>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="blog_item">
+                    <div class="blog_cover">
+                      <img src="./images/blog-img/blog1.png" alt="">
+                    </div>
+
+                    <h3 class="blog_title">نقد و بررسی گوشی Samsung S25-Ultra</h3>
+                    <div class="blog_info">
+                      <span class="blog_date">
+                        <img src="./images/logo/calender.png" alt="">
+                        10 بهمن
+                      </span>
+                      <span class="blog_category">
+                        <img src="./images/logo/newspaper.png" alt="">
+                        نقد و بررسی
+                      </span>
+                    </div>
+
+                    <a href="#" class="show_blog">
+                      ادامه مطلب
+                      <img src="./images/logo/s.png" alt="">
+                    </a>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="blog_item">
+                    <div class="blog_cover">
+                      <img src="./images/blog-img/blog4.jpg" alt="">
+                    </div>
+
+                    <h3 class="blog_title">بهترین هارد دیسک برای ایکس باکس سری اس</h3>
+                    <div class="blog_info">
+                      <span class="blog_date">
+                        <img src="./images/logo/calender.png" alt="">
+                        8 بهمن
+                      </span>
+                      <span class="blog_category">
+                        <img src="./images/logo/newspaper.png" alt="">
+                        پیشنهادات
+                      </span>
+                    </div>
+
+                    <a href="#" class="show_blog">
+                      ادامه مطلب
+                      <img src="./images/logo/s.png" alt="">
+                    </a>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="blog_item">
+                    <div class="blog_cover">
+                      <img src="./images/blog-img/blog5.jpg" alt="">
+                    </div>
+
+                    <h3 class="blog_title">اس 25 اولترا ایفون 16 پرومکس را در بنچمارک شکست داد</h3>
+                    <div class="blog_info">
+                      <span class="blog_date">
+                        <img src="./images/logo/calender.png" alt="">
+                        8 بهمن
+                      </span>
+                      <span class="blog_category">
+                        <img src="./images/logo/newspaper.png" alt="">
+                        اخبار
+                      </span>
+                    </div>
+
+                    <a href="#" class="show_blog">
+                      ادامه مطلب
+                      <img src="./images/logo/s.png" alt="">
+                    </a>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="blog_item">
+                    <div class="blog_cover">
+                      <img src="./images/blog-img/blog2.jpg" alt="">
+                    </div>
+
+                    <h3 class="blog_title"> بهترین لپ تاب های گیمینگ سال 2025 </h3>
+                    <div class="blog_info">
+                      <span class="blog_date">
+                        <img src="./images/logo/calender.png" alt="">
+                        9 بهمن
+                      </span>
+                      <span class="blog_category">
+                        <img src="./images/logo/newspaper.png" alt="">
+                        پیشنهادات
+                      </span>
+                    </div>
+
+                    <a href="#" class="show_blog">
+                      ادامه مطلب
+                      <img src="./images/logo/s.png" alt="">
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="swiper-button-prev">
+                <svg width="14" height="22" viewBox="0 0 14 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M11.6 0.199951L13.28 1.99995L4.40003 11L13.28 20L11.6 21.8L0.800029 11L11.6 0.199951Z"
+                    fill="#831FC1"></path>
+                </svg>
+              </div>
+              <div class="swiper-button-next">
+                <svg width="14" height="22" viewBox="0 0 14 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M2.39997 0.199951L0.719971 1.99995L9.59997 11L0.719971 20L2.39997 21.8L13.2 11L2.39997 0.199951Z"
+                    fill="#831FC1"></path>
+                </svg>
+              </div>
+
+            </div>
+
+
+
+
+
+
+
+
+
+          </div>
+          <a class="show_all" href="#">
+            مشاهده همه
+            <img src="./images/Vector (1).png" alt="">
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="FAQ">
+      <div class="container">
+        <div class="section_header_container">
+          <h2 class="section_title"> سوالات متداول </h2>
+          <span class="section_desc">در این سکشن شما میتوانید سوالات متداول را به صورت دسته بندی شده مشاهده کنید</span>
+        </div>
+        <div class="faq_wrapper">
+          <div class="faq_right">
+            <p class="faq_right_desc">
+              در این سکشن شما میتوانید سوالات متداول را به صورت دسته بندی شده مشاهده بکنید. هدف ما این است که شما را به
+              بهترین نحو راهنمایی کنیم.
+            </p>
+
+            <ul class="faq_right_links">
+              <li class="faq_right_list"><a href="#">سوالات مربوط به تک شاپ</a></li>
+              <li class="faq_right_list"><a href="#"> سوالات مربوط به خرید </a></li>
+              <li class="faq_right_list"><a href="#"> سوالات مربوط به تحویل کالا </a></li>
+              <li class="faq_right_list"><a href="#"> سوالات مربوط به گارانتی </a></li>
+              <li class="faq_right_list"><a href="#"> سوالات مربوط به خدمات </a></li>
+            </ul>
+
+            <a class="call_support_box" href="#">
+              تماس با پشتیبانی
+            </a>
+          </div>
+
+          <div class="faq_left">
+            <div class="accordion">
+
+              <div class="accordion-item">
+                <button class="accordion-toggle">
+                  <span class="accordion_title">تک شاپ چه محصولاتی را ارائه میدهد؟</span>
+                  <span class="arrow"><img src="./images/logo/arrow-bottom.png" alt=""></span>
+
+                </button>
+                <div class="accordion-panel">
+                  <p class="acordion_faq">محتوای بخش اول اینجاست.</p>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <button class="accordion-toggle">
+                  <span class="accordion_title">آیا محصولات تک شاپ گارانتی دارند؟ </span>
+                  <span class="arrow"><img src="./images/logo/arrow-bottom.png" alt=""></span>
+                </button>
+                <div class="accordion-panel">
+                  <p class="acordion_faq">محتوای بخش اول اینجاست.</p>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <button class="accordion-toggle">
+                  <span class="accordion_title">چگونه میتوانم سفارشم را پیگیری کنم؟</span>
+                  <span class="arrow"><img src="./images/logo/arrow-bottom.png" alt=""></span>
+                </button>
+                <div class="accordion-panel">
+                  <p class="acordion_faq">محتوای بخش اول اینجاست.</p>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <button class="accordion-toggle">
+                  <span class="accordion_title">مدت زمان ارسال سفارش چقدر است؟</span>
+                  <span class="arrow"><img src="./images/logo/arrow-bottom.png" alt=""></span>
+                </button>
+                <div class="accordion-panel">
+                  <p class="acordion_faq">محتوای بخش اول اینجاست.</p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <!-- ============== Finish Main ============== -->
+
+  <!-- ============== Start Footer ============== -->
+  <div data-include="partials/footer.html"></div>
+  <!-- ============== Finish Footer ============== -->
+</body>
+
+<script src="./js/include.js"></script>
+<script src="./js/index.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="./js/swiper/swiper.js"></script>
+<script>
+  fetch('/components/navbar.html')
+    .then(res => res.text())
+    .then(html => {
+      document.getElementById('navbar-container').innerHTML = html;
+
+      // بعد از اینکه navbar وارد شد، فایل megaMenu.js رو لود کن
+      const script = document.createElement('script');
+      script.src = '/js/megaMenu.js';
+      document.body.appendChild(script);
+    });
+</script>
+
+</html>
