@@ -1,9 +1,4 @@
 
-
-
-
-
-
 // ==== Mega Menu Handling
 
 const loadMegaMenuNavbar = () => {

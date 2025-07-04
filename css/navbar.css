@@ -68,10 +68,23 @@
   height: 3.2rem;
 }
 
-.menu-categories li:hover,
-.menu-categories li.active {
-  background-color: #f0e6ff;
-  color: #8000ff;
+.menu-categories li svg path {
+  fill: var(--megamenu-color);
+}
+
+.menu-categories li:hover svg path {
+  fill: var(--main-color);
+}
+
+.menu-categories li:hover {
+  background-color: #f0e6ff10;
+  color: var(--main-color);
+}
+
+.menu-categori li:first-child {
+  background-color: #f0e6ff10;
+  color: var(--main-color);
+
 }
 
 .mega-content-wrapper {
