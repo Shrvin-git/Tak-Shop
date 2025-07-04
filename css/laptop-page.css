@@ -477,7 +477,7 @@
 
 .acordion_faq {
   padding: 2rem;
-  background-color: rgba(243, 233, 249, 1);
+  background-color: var(--accordion-open-bg-color);
   color: var(--txt-black);
 
 }
