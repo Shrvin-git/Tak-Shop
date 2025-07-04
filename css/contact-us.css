@@ -156,4 +156,10 @@
     padding: .8rem;
     font-size: 18px;
     margin-top: 2.5rem;
+    transition: all .3s ease;
+    cursor: pointer;
+}
+
+.send-message:hover{
+    box-shadow: 0 0 1rem var(--box-shadow);
 }

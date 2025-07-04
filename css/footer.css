@@ -7,19 +7,23 @@
 .footer {
   margin-top: 5rem;
 }
-.newsletter-container  {
+
+.newsletter-container {
   background-color: rgba(55, 13, 81, 1);
   color: var(--txt-color);
   padding: 1.2rem;
 }
+
 .newsletter-wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
 .newsletter-right {
   width: 28%;
 }
+
 .newsletter-left {
   width: 55%;
 }
@@ -44,16 +48,19 @@
   /* padding-right: 15px; */
   padding: 5px 15px 5px 5px;
 }
+
 .newsletter-input {
   background-color: transparent;
   color: var(--txt-color);
   font-size: 1.6rem;
 }
+
 .newsletter-input::placeholder {
   color: rgb(251, 251, 251);
   font-size: 1.6rem;
   font-family: "yekan";
 }
+
 .newsletter-button {
   width: 10.6rem;
   height: 4rem;
@@ -63,7 +70,14 @@
   font-family: "yekan";
   font-size: 1.6rem;
   border: none;
+  transition: all .3s ease;
+  cursor: pointer;
 }
+
+.newsletter-button:hover {
+  box-shadow: 0 0 1rem var(--box-shadow);
+}
+
 /* ============== Finish Newsletter ============== */
 
 /* ============== Start Footer ============== */
@@ -72,23 +86,28 @@
   justify-content: space-between;
   margin-top: 3rem;
 }
+
 .footer-top__right {
   width: 29rem;
 }
-.logo-site {
-}
+
+.logo-site {}
+
 .footer-top__right__text {
   color: var(--links-color);
   font-size: 1.8rem;
   margin-top: 1.7rem;
 }
+
 .footer-top__links {
   display: flex;
 }
+
 .footer_links {
   width: 31rem;
   text-align: center;
 }
+
 .footer_links h2 {
   font-size: 2rem;
   font-weight: 600;
@@ -113,14 +132,15 @@
   justify-content: space-between;
   font-weight: 600;
 }
-.footer-bottom__right {
-}
+
+.footer-bottom__right {}
+
 .site-information_wrapper {
   display: flex;
   gap: 5rem;
 }
-.site-information {
-}
+
+.site-information {}
 
 .email,
 .location,
@@ -131,22 +151,24 @@
   margin-bottom: 1rem;
 }
 
-.email {
-}
-.location {
-}
-.phone {
-}
-.footer-bottom__left {
-}
+.email {}
+
+.location {}
+
+.phone {}
+
+.footer-bottom__left {}
+
 .social-media__wrapper {
   display: flex;
   align-items: center;
   gap: 8rem;
 }
+
 .social-media_item:hover img {
   transform: scale(1.1);
 }
+
 .social-media_item img {
   cursor: pointer;
   transition: all 0.2s ease-in;

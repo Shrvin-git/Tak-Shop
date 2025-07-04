@@ -338,7 +338,12 @@
     color: #fff;
     border: none;
     border-radius: .9rem;
+    transition: all .3s ease;
+cursor: pointer;
+}
 
+.confirm:hover{
+  box-shadow: 0 0 1rem var(--box-shadow);
 }
 
 .discount {

@@ -414,6 +414,11 @@
   color: var(--txt-color);
   border-radius: .8rem;
   padding: .8rem 3.6rem;
+  transition: all .3s ease;
+}
+
+.call_support_box:hover{
+  box-shadow: 0 0 1rem var(--box-shadow);
 }
 
 .faq_left {

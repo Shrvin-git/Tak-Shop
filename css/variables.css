@@ -33,8 +33,9 @@
   --s737373: #737373;
   --label-order: #727272;
   --levelC698E2: #C698E2;
-  --line831FC1:#831FC1;
-  --slider-btn:#F3E9F9;
+  --line831FC1: #831FC1;
+  --slider-btn: #F3E9F9;
+  --box-shadow: #831fc1;
 }
 
 
@@ -54,8 +55,9 @@
 
 
 
-  --slider-btn:#121212;
-  --line831FC1:#831FC1;
+  --box-shadow: #bbbbbb91;
+  --slider-btn: #121212;
+  --line831FC1: #831FC1;
   --levelC698E2: #370D51;
   --label-order: #424242;
   --s737373: #E1E1E1;
