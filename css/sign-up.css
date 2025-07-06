@@ -9,7 +9,7 @@
     justify-content: center;
     background-color: rgba(0, 0, 0, 0.6);
     padding-bottom: 10rem;
-    margin-top: 10rem;
+    margin-top: 6rem;
     padding-top: 3rem;
 }
 
@@ -38,14 +38,12 @@
 
 .signup-login {
     font-weight: 600;
-    font-size: 24px;
-    line-height: 100%;
-    letter-spacing: 0%;
+    font-size: 1.8rem;
     text-align: center;
 }
 
 .signup-login a {
-    color: var(--txt-black);
+    color: var(--main-color);
     font-family: yekan;
 }
 
@@ -72,7 +70,7 @@
 }
 
 #phone_number::placeholder {
-    font-size: 2.5rem;
+    font-size: 1.8rem;
     font-family: yekan;
     color: rgba(198, 152, 226, 1);
     display: flex;
@@ -158,12 +156,10 @@ input[type="checkbox"]:checked::before {
     color: var(--txt-black);
     border: none;
     outline: none;
-    margin-bottom: 1.5rem;
-    transition: border 0.3s ease;
 }
 
 .form-input::placeholder {
-    font-size: 2.2rem;
+    font-size: 1.8rem;
     color: rgba(198, 152, 226, 1);
 }
 
@@ -176,7 +172,7 @@ input[type="checkbox"]:checked::before {
 .form-inputs-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 2rem;
+    gap: 1rem;
     width: 100%;
     margin-bottom: 2rem;
 }
@@ -192,14 +188,10 @@ input[type="checkbox"]:checked::before {
     font-size: 1.6rem;
     font-family: yekan;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
-    transition: 0.3s ease;
     color: var(--txt-black);
 }
 
-.form-input:focus {
-    outline: none;
-    box-shadow: 0 0 0 3px rgba(198, 152, 226, 1);
-}
+
 
 .form-input::placeholder {
     color: rgba(198, 152, 226, 1);

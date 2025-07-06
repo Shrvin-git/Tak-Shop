@@ -3,12 +3,18 @@
   src: url("../fonts/fonnts.com-YekanBakh-Bold.ttf") format("truetype");
 }
 
-
-
-
-
-/* 
 @font-face {
-  font-family: "yekan";
-  src: url("../fonts/fonnts.com-YekanBakh-Regular.ttf") format("truetype");
-} */
+  font-family: 'yekan-semibold';
+  font-style: normal;
+  font-weight: 600;
+  src: url('../fonts/') format('truetype'),
+    url('../fonts/YekanBakh-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'yekan-bold';
+  font-style: normal;
+  /* font-weight: 600; */
+  src: url('../fonts/') format('truetype'),
+    url('../fonts/YekanBakh-Bold.ttf') format('truetype');
+}

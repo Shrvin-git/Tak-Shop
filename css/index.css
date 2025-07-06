@@ -368,7 +368,7 @@ ul {
 }
 
 #info {
-  margin: 2rem 0;
+  margin: 1rem 0;
 }
 
 .info {
@@ -616,9 +616,9 @@ ul {
 }
 
 .accordion_title {
-  font-family: yekan;
+  font-family: yekan-semibold;
   font-weight: 700;
-  font-size: 24px;
+  font-size: 20px;
   color: var(--txt-black);
 }
 
