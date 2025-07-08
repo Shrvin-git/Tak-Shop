@@ -251,6 +251,9 @@ ul {
 }
 
 .discount_left_item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   width: 20rem;
   height: 28rem;
   background-color: var(--bg-color);
@@ -345,6 +348,9 @@ ul {
 }
 
 .selling_products_item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   width: 24rem;
   height: 30rem;
   border-radius: 0.8rem;
@@ -559,7 +565,8 @@ ul {
   padding: .8rem 3.6rem;
   transition: all .3s ease;
 }
-.call_support_box:hover{
+
+.call_support_box:hover {
   box-shadow: 0 0 1rem var(--box-shadow);
 }
 

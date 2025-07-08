@@ -666,6 +666,9 @@
 }
 
 .selling_products_item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     width: 24rem;
     height: 30rem;
     border-radius: 0.8rem;

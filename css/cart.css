@@ -556,6 +556,9 @@ cursor: pointer;
 }
 
 .selling_products_item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   width: 24rem;
   height: 30rem;
   border-radius: 0.8rem;
@@ -579,7 +582,7 @@ cursor: pointer;
 }
 
 #info {
-  margin: 2rem 0;
+  margin: .7rem 0;
 }
 
 .info {
