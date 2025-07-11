@@ -59,7 +59,8 @@
 }
 
 .email-or-username {
-    margin-top: 3rem ;   margin-bottom: 1rem;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
 }
 
 form label {
@@ -81,12 +82,14 @@ form label {
     font-size: 2rem;
     font-family: yekan;
 }
-.login-inputs input::placeholder{
-    font-size: 1.7rem;    font-family: yekan !important;
+
+.login-inputs input::placeholder {
+    font-size: 1.7rem;
+    font-family: yekan !important;
     color: rgba(198, 152, 226, 1);
 
 }
-  
+
 .login-inputs input:focus {
     border: 2px solid var(--main-color);
 }
@@ -97,6 +100,8 @@ form label {
 }
 
 .motto-site {
+    display: flex;
+    align-items: center;
     gap: 0.5rem;
     font-size: 16px;
 }
