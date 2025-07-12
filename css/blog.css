@@ -237,7 +237,7 @@
 .blog-category--active {
     background-color: var(--main-color);
     transition: all .3s ease;
-    color: #EAEAEA;
+    color: #eaeaea;
 }
 
 /* ? ============================ Blog New Finishd =============================== */

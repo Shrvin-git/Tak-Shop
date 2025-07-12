@@ -1,8 +1,20 @@
+import { getAndShowAllUserInformation } from "./userMainInfo.js";
+import { getAndShowAllNotification } from "./notification.js";
+import { getAndShowAllPopularProducts } from "./popularProducts.js";
+import { getAndShowAllComments } from "./comments.js";
+import { getAndShowAllOrders } from "./orders.js";
+import { getAndShowAllGiftCart } from "./giftCart.js";
+
+
+
+// ! User Panel Sections Handles
 const sectionListElem = document.querySelectorAll('.profile-sidebar-item');
 const allSectionsElem = document.querySelectorAll('.user-panel');
 
 sectionListElem.forEach(item => {
     item.addEventListener('click', e => {
+
+
         const sectionItem = e.target.closest('.profile-sidebar-item'); // مهم!
         if (!sectionItem) return;
 
@@ -21,11 +33,45 @@ sectionListElem.forEach(item => {
         // مدیریت کلاس active برای آیتم‌های سایدبار
         sectionListElem.forEach(i => i.classList.remove('item-active'));
         sectionItem.classList.add('item-active');
+
+        // * Loded Js 
+        switch (dataSetSection) {
+
+            case 'main-info':
+                getAndShowAllUserInformation()
+                break;
+
+            case 'message':
+                getAndShowAllNotification()
+                break;
+
+            case 'popular-product':
+                getAndShowAllPopularProducts()
+                break;
+
+            case 'comments':
+                getAndShowAllComments()
+                break;
+
+            case 'user-order':
+                getAndShowAllOrders()
+                break;
+
+            case 'gift-cart':
+                getAndShowAllGiftCart()
+                break;
+
+            default:
+                break;
+        }
+
     });
 });
 
 
 
+
+// ! Orders Sections Handles
 const orderSectionsElem = document.querySelectorAll('.order-modes');
 const orderMoodesCounter = document.querySelectorAll('.order-moodes-counter');
 
@@ -49,13 +95,15 @@ orderSectionsElem.forEach(item => {
 });
 
 
-const blogCategoryItems = document.querySelectorAll('.blog-category-items')
 
-blogCategoryItems.forEach(item => {
-    item.addEventListener('click', e => {
-        blogCategoryItems.forEach(item => {
-            item.classList.remove('blog-category--active')
-        })
-        e.target.classList.add('blog-category--active')
-    })
-})
+
+
+
+
+
+
+
+
+
+
+
