@@ -185,3 +185,143 @@
 }
 
 /* ============== Finish Footer ============== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ? Media Queries ================================================================ */
+
+
+@media (min-width: 1400px) {
+  .container {
+    width: 1250px;
+  }
+}
+
+/* =========================================================================================== */
+@media screen and (max-width: 1400px) {}
+
+/* =========================================================================================== */
+@media screen and (max-width: 1200px) {
+  .footer_links {
+    width: 15rem;
+  }
+
+  .newsletter-right {
+
+    width: 35rem;
+  }
+
+  .social-media__wrapper {
+    gap: 5rem;
+  }
+}
+
+/* =========================================================================================== */
+@media screen and (max-width: 992px) {
+  .social-media__wrapper {
+    gap: 3rem;
+  }
+
+  .newsletter-wrapper {
+    flex-direction: column;
+    gap: 1.2rem;
+  }
+
+  .faq_right,
+  .faq_left {
+    width: 100%;
+  }
+
+
+  .newsletter-left {
+    width: 100%;
+  }
+
+
+  .footer-bottom {
+    flex-direction: column;
+    gap: 3rem;
+  }
+}
+
+/* =========================================================================================== */
+@media screen and (max-width: 768px) {
+  .footer-top {
+    flex-direction: column;
+    gap: 3rem;
+  }
+
+  .footer-top__right,
+  .footer-top__links {
+    width: 100%;
+  }
+
+
+  .footer-top__links {
+    justify-content: space-between;
+  }
+
+  .copy_righr_wrapper {
+    font-size: 1.4rem;
+  }
+
+  .footer {
+
+    margin-bottom: 7rem;
+  }
+}
+
+/* =========================================================================================== */
+@media screen and (max-width: 576px) {
+  .footer_links h2 {
+    font-size: 1.6rem
+  }
+  .copy_righr_wrapper {
+    font-size: 1.2rem;
+  }
+  .footer_links a {
+    font-size: 1.4rem;
+  }
+
+  .site-information {
+    font-size: 1.2rem;
+  }
+
+  .footer-top__right__text {
+    font-size: 1.4rem;
+  }
+
+  .footer_links li {
+    margin-bottom: 1.5rem;
+  }
+}
+
+/* =========================================================================================== */
+@media screen and (max-width: 470px) {}
+
+/* =========================================================================================== */
+@media screen and (max-width: 400px) {}
