@@ -6,7 +6,7 @@ logOutBtn.addEventListener('click', e => {
     localStorage.removeItem('token')
 
     showSwal(
-        'آیا از حذف این کاربر اطمینان دارید؟',
+        ' واقعا میخوای از حساب کاربری حارج بشی؟ ',
         'warning',
         'بله',
         'نه',
@@ -20,7 +20,7 @@ logOutBtn.addEventListener('click', e => {
                 });
 
                 if (res.ok) {
-                    showSwal('کاربر با موفقیت حذف شد', 'success', 'فهمیدم');
+                    showSwal('با موفقیت خلرج شدید', 'success', 'فهمیدم', async () => { location.href = 'index.html' });
                     getAndShowAllUsers();
                 }
             }

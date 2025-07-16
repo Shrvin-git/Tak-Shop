@@ -9,40 +9,6 @@
 @import "default.css";
 
 
-
-
-/* ================ Start Default ================ */
-
-/* html {
-  font-size: 10px;
-  scroll-behavior: smooth;
-}
-
-body {
-  font-family: "yekan";
-  color: var(--txt-color3);
-  background-color: var(--bg-Body);
-  font-size: 1.6rem;
-  line-height: 1.5;
-}
-
-input {
-  border: none;
-  outline: none;
-}
-
-a {
-  text-decoration: none;
-}
-
-ul {
-  list-style-type: none;
-  padding-left: 0;
-  margin: 0;
-} */
-
-/* ================ Finish Default ================ */
-
 /* ============== Start Main ============== */
 
 .main {
@@ -115,7 +81,7 @@ ul {
   align-items: center;
   background-color: var(--bg-color);
   border-radius: 1rem;
-  width: 15.5rem;
+  width: 11.5rem;
   padding: 2.4rem;
   cursor: pointer;
   transition: all 0.2s ease-in;
@@ -351,7 +317,7 @@ ul {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 24rem;
+  width: 23rem;
   height: 30rem;
   border-radius: 0.8rem;
   background-color: var(--bg-color);
@@ -616,6 +582,11 @@ ul {
   display: flex;
   align-items: center;
   justify-content: center;
+  color: var(--main-color);
+}
+
+.arrow svg path {
+  stroke: var(--main-color);
 }
 
 .arrow.open {
@@ -635,3 +606,190 @@ ul {
   color: var(--txt-black);
 
 }
+
+
+
+
+
+
+
+
+
+/* ? Media Queries */
+
+
+@media (min-width: 1400px) {
+  .container {
+    width: 1250px;
+  }
+}
+
+/* =========================================================================================== */
+@media screen and (max-width: 1400px) {
+  .nav-bar__links {
+    gap: 3rem;
+  }
+
+  .category_item {
+    width: 9.5rem;
+  }
+
+  .category_item span {
+    font-size: 1.4rem;
+  }
+
+  .discount_left_item {
+    width: 18rem;
+  }
+
+  .selling_products_item,
+  .blog_item {
+    width: 21rem;
+  }
+
+  .blog_date,
+  .blog_category {
+    padding: 0 1.1rem;
+  }
+
+  .blog_title {
+    font-size: 14px;
+  }
+}
+
+/* =========================================================================================== */
+@media screen and (max-width: 1200px) {
+
+  .nav-bar__links a {
+    font-size: 1.4rem;
+  }
+
+  .nav-bar__links {
+    gap: 2rem;
+  }
+
+  .logo-site span {
+    font-size: 2rem;
+  }
+
+  .discount_wrapper {
+    overflow: hidden;
+    gap: 2.5rem;
+  }
+
+  .brand_img {
+    width: 8rem;
+  }
+
+  .selling_products_item,
+  .blog_item {
+    width: 18.5rem;
+
+  }
+
+  .faq_right {
+    width: 26rem;
+  }
+
+  .faq_left {
+    width: 65rem;
+  }
+
+  .newsletter-right {
+    width: 35rem;
+
+  }
+
+  .footer_links {
+    width: 20rem;
+  }
+
+  .footer_links {
+    width: 12rem;
+  }
+
+  .category_item {
+    width: 13rem;
+  }
+
+  .category_item img {
+    width: 80%;
+  }
+
+  .category_item span {
+    font-size: 1.4rem;
+  }
+
+
+  .hero-section-slider {
+    height: 30rem !important;
+  }
+}
+
+/* =========================================================================================== */
+@media screen and (max-width: 992px) {
+  .hero-section {
+    height: 30rem;
+  }
+
+  .newsletter-wrapper {
+    flex-direction: column;
+    gap: 1.2rem;
+  }
+
+  .footer_links {
+    width: 15rem;
+  }
+
+  .faq_wrapper {
+    flex-direction: column;
+  }
+
+  .faq_right,
+  .faq_left {
+    width: 100%;
+  }
+
+  .selling_products_item,
+  .blog_item {
+    width: 21.5rem;
+  }
+
+
+  .social-media__wrapper {
+    gap: 3rem;
+  }
+
+  .discount_left_item {
+    width: 20rem;
+  }
+
+  .user-profile {
+    width: 12rem;
+  }
+
+  .user-profile span {
+    font-size: 1.4rem;
+  }
+
+  .change-them {
+    width: 3.5rem;
+    height: 3.5rem;
+  }
+
+  .nav-bar__links a{
+    font-size: 1.3rem;
+  }
+}
+
+/* =========================================================================================== */
+@media screen and (max-width: 768px) {}
+
+/* =========================================================================================== */
+@media screen and (max-width: 576px) {}
+
+/* =========================================================================================== */
+@media screen and (max-width: 470px) {}
+
+/* =========================================================================================== */
+@media screen and (max-width: 400px) {}
