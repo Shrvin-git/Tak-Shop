@@ -32,7 +32,7 @@ const discountSlider = new Swiper('.discount_slider', {
         },
         640: {
             slidesPerView: 2,
-            spaceBetween: 20,
+            spaceBetween: 0,
         },
         768: {
             slidesPerView: 3,
@@ -63,7 +63,7 @@ const productCategorie = new Swiper('.product_category', {
             slidesPerView: 2,
         },
         640: {
-            slidesPerView: 2,
+            slidesPerView: 3,
             spaceBetween: 20,
         },
         768: {
@@ -103,8 +103,8 @@ const bestSellSlider = new Swiper('.best-sell-slider', {
 
     breakpoints: {
         640: {
-            slidesPerView: 2,
-            spaceBetween: 20,
+            slidesPerView: 3,
+            spaceBetween: 100,
         },
 
 
@@ -143,8 +143,8 @@ const newProductsSlider = new Swiper('.new-product-slider', {
 
     breakpoints: {
         640: {
-            slidesPerView: 2,
-            spaceBetween: 20,
+            slidesPerView: 3,
+            spaceBetween: 100,
         },
 
 
@@ -184,8 +184,8 @@ const blogSlider = new Swiper('.blog-slider', {
 
     breakpoints: {
         640: {
-            slidesPerView: 2,
-            spaceBetween: 20,
+            slidesPerView: 3,
+            spaceBetween: 100,
         },
 
 
