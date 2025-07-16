@@ -1,9 +1,10 @@
-import { loadFooterSite } from "./core/include.js";
+import { loadFooterSite, loadMenuSite } from "./core/include.js";
 import { loadMegaMenuNavbar } from "./ui/megaMenu.js";
 import { accordionToggle } from "./ui/accordion.js";
 
 window.addEventListener('load', () => {
     loadFooterSite()
+    loadMenuSite()
     loadMegaMenuNavbar()
     accordionToggle()
 })

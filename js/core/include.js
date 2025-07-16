@@ -12,4 +12,21 @@ const loadFooterSite = () => {
 
 }
 
-export { loadFooterSite }
+const loadMenuSite = () => {
+  const el = document.querySelector('[data-include="partials/menu.html"]');
+  if (el) {
+    fetch('partials/menu.html')
+      .then(res => res.ok ? res.text() : Promise.reject('فایل منو پیدا نشد'))
+      .then(html => {
+        el.innerHTML = html;
+      })
+      .catch(err => {
+        el.innerHTML = err;
+      });
+  }
+};
+
+
+
+
+export { loadFooterSite, loadMenuSite }

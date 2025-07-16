@@ -45,6 +45,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  
 }
 
 
@@ -53,10 +54,10 @@
   align-items: center;
   justify-content: space-between;
   background-color: var(--bg-color);
-  width: 20rem;
+  width: 19.5rem;
   border-radius: 1.2rem;
   padding: 2.5rem 0;
-
+box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.20);
 }
 
 .laptop_brnad_img {
@@ -417,7 +418,7 @@
   transition: all .3s ease;
 }
 
-.call_support_box:hover{
+.call_support_box:hover {
   box-shadow: 0 0 1rem var(--box-shadow);
 }
 
@@ -486,3 +487,45 @@
   color: var(--txt-black);
 
 }
+
+
+
+
+
+
+
+
+
+/* ? Media Queries */
+
+
+@media (min-width: 1400px) {
+  .container {
+    width: 1250px;
+  }
+}
+
+/* =========================================================================================== */
+@media screen and (max-width: 1400px) {}
+
+/* =========================================================================================== */
+@media screen and (max-width: 1200px) {
+  .hero-section-slider {
+    height: 30rem;
+  }
+}
+
+/* =========================================================================================== */
+@media screen and (max-width: 992px) {}
+
+/* =========================================================================================== */
+@media screen and (max-width: 768px) {}
+
+/* =========================================================================================== */
+@media screen and (max-width: 576px) {}
+
+/* =========================================================================================== */
+@media screen and (max-width: 470px) {}
+
+/* =========================================================================================== */
+@media screen and (max-width: 400px) {}

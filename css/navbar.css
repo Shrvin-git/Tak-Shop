@@ -404,6 +404,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  display: none;
 }
 
 .toggle-menu span {
@@ -444,8 +445,81 @@
   visibility: hidden;
 }
 
+.mega-menu-overlay {
+  opacity: 0;
+  visibility: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: #00000085;
+  z-index: 100;
+  backdrop-filter: blur(5px);
+}
 
 
+
+
+.menu-mobile-bottom {
+  border-top: 2px solid var(--main-color);
+  border-top-left-radius: 0.8rem;
+  border-top-right-radius: 0.8rem;
+  box-shadow: 0px 1px 20px 0px #5e5e5e;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  background-color: var(--bg-color);
+}
+
+.menu-mobile-items {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20%;
+  padding-top: 2rem;
+}
+
+.menu-mobile-items svg path {
+  fill: var(--txt);
+}
+
+.menu-mobile-items span {
+  width: 2.5rem;
+  height: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: .5rem;
+}
+
+.menu-mobile-items span svg {
+  width: 100%;
+  height: 100%;
+}
+
+.menu-mobile-items a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: var(--txt);
+}
+
+
+.menu-active {
+  color: var(--main-color) !important;
+}
+
+.menu-active path {
+  fill: var(--main-color) !important;
+  stroke: var(--main-color) !important;
+}
 
 
 
@@ -460,10 +534,18 @@
 }
 
 /* =========================================================================================== */
-@media screen and (max-width: 1400px) {}
+@media screen and (max-width: 1400px) {
+  .nav-bar__links {
+    gap: 3rem;
+  }
+}
 
 /* =========================================================================================== */
 @media screen and (max-width: 1200px) {
+  .nav-bar__links {
+    gap: 2rem;
+  }
+
   .nav-bar__links a {
     font-size: 1.4rem;
   }
@@ -490,8 +572,16 @@
 
 /* =========================================================================================== */
 @media screen and (max-width: 768px) {
+  .menu-mobile-bottom {
+    display: flex;
+  }
+
   .nav-bar__links-container {
     display: none;
+  }
+
+  .toggle-menu {
+    display: flex;
   }
 
   .user-profile {
