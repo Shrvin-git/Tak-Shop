@@ -121,11 +121,12 @@ Grid system
 
 
 
+
 /* sm */
 
 @media (min-width: 576px) {
     .container {
-        width: 630px;
+        width: 100%;
     }
 
     .col-sm-1 {
