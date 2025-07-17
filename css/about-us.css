@@ -237,6 +237,11 @@ section {
 
 /* =========================================================================================== */
 @media screen and (max-width: 768px) {
+
+    .about-us-title h1 {
+        text-align: center;
+    }
+
     .abous-us-sections {
         flex-direction: column-reverse;
     }

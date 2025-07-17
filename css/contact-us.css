@@ -10,8 +10,8 @@
 
 .contact-us {
     background-color: var(--main-color);
-  margin-top: 10rem;
-  padding-top: 8rem;
+    margin-top: 10rem;
+    padding-top: 8rem;
 }
 
 .container {}
@@ -20,6 +20,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding-bottom: 8rem;
 }
 
 .contact-us-right {
@@ -160,6 +161,78 @@
     cursor: pointer;
 }
 
-.send-message:hover{
+.send-message:hover {
     box-shadow: 0 0 1rem var(--box-shadow);
 }
+
+
+
+
+
+
+
+
+
+
+/* ? Media Queries ================================================================ */
+
+
+@media (min-width: 1400px) {
+    .container {
+        width: 1250px;
+    }
+}
+
+/* =========================================================================================== */
+@media screen and (max-width: 1400px) {}
+
+/* =========================================================================================== */
+@media screen and (max-width: 1200px) {
+    .contact-us-right h1 {
+        font-size: 3rem;
+    }
+
+    .contact-us-right p {
+        font-size: 1.6rem;
+    }
+}
+
+/* =========================================================================================== */
+@media screen and (max-width: 992px) {
+    .contact-us-wrapper {
+        flex-direction: column;
+        gap: 4rem;
+    }
+
+
+    .contact-us-left {
+        width: 100%;
+    }
+
+    .contact-us-right {
+        width: 100%;
+    }
+}
+
+/* =========================================================================================== */
+@media screen and (max-width: 768px) {
+    .contact-us-left form {
+        flex-direction: column;
+    }
+
+    .inpust-items {
+        width: 100%;
+    }
+    .info{
+        align-items: center;
+    }
+}
+
+/* =========================================================================================== */
+@media screen and (max-width: 576px) {}
+
+/* =========================================================================================== */
+@media screen and (max-width: 470px) {}
+
+/* =========================================================================================== */
+@media screen and (max-width: 400px) {}
