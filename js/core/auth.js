@@ -9,33 +9,26 @@ const register = async () => {
     const emailInputElem = document.querySelector('#email')
     const phoneNumberInputElem = document.querySelector('#phone')
     const passwordInputElem = document.querySelector('#password')
-    const userRole = 'admin'
 
 
     const newUserInfo = {
-        firstName: firstNameInputElem.value,
-        lastName: lastNameInputElem.value,
-        userName: userNameInputElem.value,
+        first_name: firstNameInputElem.value,
+        last_name: lastNameInputElem.value,
+        // username: userNameInputElem.value,
         email: emailInputElem.value,
-        mobile: phoneNumberInputElem.value,
+        // phone: phoneNumberInputElem.value,
         password: passwordInputElem.value,
-        role: userRole
     }
 
-    const res = await fetch(`https://takshop.liara.run/signUp.php`, {
+    const res = await fetch(`http://localhost:4000/auth/register`, {
         method: `POST`,
+        headers: {
+            "Content-Type": "application/json"
+        },
         body: JSON.stringify(newUserInfo)
     })
     const data = await res.json()
-    console.log(data.status);
-    if (data.status === "ok") {
-        showSwal(
-            'با موفقیت ثبت نام شدید ^^',
-            'success',
-            'برو بریم',
-            async () => { location.href = 'index.html' }
-        );
-    }
+    console.log(data);
 
 }
 const login = async () => {
@@ -47,8 +40,11 @@ const login = async () => {
         password: phoneNumberInputElem.value,
     }
 
-    const res = await fetch(`https://takshop.liara.run/signIn.php`, {
+    const res = await fetch(`http://localhost:4000/auth/login`, {
         method: `POST`,
+        headers: {
+            "Content-Type": "application/json"
+        },
         body: JSON.stringify(newUserInfo)
     })
     const data = await res.json()
