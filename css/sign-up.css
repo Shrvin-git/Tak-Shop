@@ -37,7 +37,6 @@
 }
 
 .signup-login {
-    font-weight: 600;
     font-size: 1.8rem;
     text-align: center;
 }
@@ -244,7 +243,108 @@ input[type="number"] {
 }
 
 
-input.input-ltr {
+/* input.input-ltr {
     direction: ltr;
     text-align: left;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ? Media Queries ================================================================ */
+
+
+@media (min-width: 1400px) {
+    .container {
+        width: 1250px;
+    }
 }
+
+/* =========================================================================================== */
+@media screen and (max-width: 1400px) {}
+
+/* =========================================================================================== */
+@media screen and (max-width: 1200px) {}
+
+/* =========================================================================================== */
+@media screen and (max-width: 992px) {}
+
+/* =========================================================================================== */
+@media screen and (max-width: 768px) {
+    .sign_up {
+        width: 95%;
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+
+    .form-inputs-grid {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 1rem;
+    }
+
+    .form-desc {
+        margin-bottom: .5rem;
+    }
+
+    .signup-login {
+        font-size: 1.6rem;
+    }
+
+    .website_logo {
+        font-size: 2.4rem;
+    }
+
+    .website_logo img {
+        width: 3rem;
+    }
+
+    .sent_info {
+        font-size: 1.6rem;
+    }
+
+    .form-input::placeholder {
+        font-size: 1.6rem;
+    }
+}
+
+/* =========================================================================================== */
+@media screen and (max-width: 576px) {
+    .form-input {
+        width: 90%;
+        height: 4.5rem;
+        margin: auto;
+        font-size: 1.4rem;
+        border-radius: .5rem;
+    }
+
+    .form-input::placeholder {
+        font-size: 1.4rem;
+    }
+
+    .form-desc{
+        text-align: center;
+
+        width: 90%;
+    }
+
+    .motto-site{
+        font-size: 12px;
+    }
+}
+
+/* =========================================================================================== */
+@media screen and (max-width: 470px) {}
+
+/* =========================================================================================== */
+@media screen and (max-width: 400px) {}
