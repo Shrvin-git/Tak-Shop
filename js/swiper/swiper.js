@@ -29,18 +29,25 @@ const discountSlider = new Swiper('.discount_slider', {
     breakpoints: {
         300: {
             slidesPerView: 2,
+            spaceBetween: 20,
+
         },
         640: {
             slidesPerView: 2,
-            spaceBetween: 0,
+            spaceBetween: 10,
         },
         768: {
             slidesPerView: 3,
             spaceBetween: 10,
         },
         998: {
+            slidesPerView: 4,
+            spaceBetween: 10,
+        },
+
+        1200: {
             slidesPerView: 5,
-            spaceBetween: 40,
+            spaceBetween: 10,
         },
     },
 
@@ -51,6 +58,10 @@ const discountSlider = new Swiper('.discount_slider', {
 
     freeMode: true,
 
+    autoplay: {
+        delay: 2000, // تاخیر بین اسلایدها
+        disableOnInteraction: false, // بعد از تعامل کاربر هم ادامه دهد
+    },
 
 });
 
@@ -61,7 +72,7 @@ const productCategorie = new Swiper('.product_category', {
     breakpoints: {
         300: {
             slidesPerView: 2,
-            spaceBetween: 50,
+            spaceBetween: 10,
 
         },
         640: {
@@ -84,7 +95,10 @@ const productCategorie = new Swiper('.product_category', {
         },
     },
 
-
+    autoplay: {
+        delay: 2000, // تاخیر بین اسلایدها
+        disableOnInteraction: false, // بعد از تعامل کاربر هم ادامه دهد
+    },
 
 });
 
@@ -108,20 +122,20 @@ const bestSellSlider = new Swiper('.best-sell-slider', {
             slidesPerView: 2,
             spaceBetween: 10,
         },
+
         640: {
             slidesPerView: 3,
             spaceBetween: 100,
         },
 
-
         768: {
             slidesPerView: 4,
-            spaceBetween: 90,
+            spaceBetween: 10,
         },
 
         992: {
             slidesPerView: 4,
-            spaceBetween: 40,
+            spaceBetween: 10,
         },
 
         1024: {
@@ -148,12 +162,12 @@ const newProductsSlider = new Swiper('.new-product-slider', {
     },
 
     breakpoints: {
-       
+
         350: {
             slidesPerView: 2,
             spaceBetween: 10,
         },
-       
+
         640: {
             slidesPerView: 3,
             spaceBetween: 100,
@@ -199,8 +213,8 @@ const blogSlider = new Swiper('.blog-slider', {
             slidesPerView: 2,
             spaceBetween: 10,
         },
-        
-        
+
+
         640: {
             slidesPerView: 3,
             spaceBetween: 10,

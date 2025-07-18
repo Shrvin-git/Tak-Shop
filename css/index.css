@@ -220,7 +220,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 20rem;
+  width: 100%;
   height: 28rem;
   background-color: var(--bg-color);
   border-radius: 0.8rem;
@@ -317,7 +317,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 23rem;
+  width: 95%;
   height: 30rem;
   border-radius: 0.8rem;
   background-color: var(--bg-color);
@@ -402,14 +402,20 @@
 }
 
 .blog_item {
-  width: 24rem;
+  width: 100%;
   background-color: var(--bg-color);
   border-radius: 0.8rem;
   box-shadow: 0px 0px 6px 0px #00000033;
-
   padding-bottom: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  height: 30rem;
+  justify-content: space-between;
 }
 
+.show_blog {
+  color: var(--main-color);
+}
 
 .blog_cover img {
   width: 100%;
@@ -641,11 +647,10 @@
   }
 
   .discount_left_item {
-    width: 18rem;
+    width: 100%;
   }
 
-  .selling_products_item,
-  .blog_item {
+  .selling_products_item {
     width: 21rem;
   }
 
@@ -683,8 +688,7 @@
     width: 8rem;
   }
 
-  .selling_products_item,
-  .blog_item {
+  .selling_products_item {
     width: 18.5rem;
 
   }
@@ -743,9 +747,8 @@
     width: 100%;
   }
 
-  .selling_products_item,
-  .blog_item {
-    width: 21.5rem;
+  .selling_products_item {
+    width: 95%;
   }
 
 
@@ -754,7 +757,7 @@
   }
 
   .discount_left_item {
-    width: 20rem;
+    width: 95%;
   }
 
   .user-profile {
@@ -830,9 +833,9 @@
   }
 
 
-  .discount_slider .swiper-slide {
+  /* .discount_slider .swiper-slide {
     width: 21rem !important;
-  }
+  } */
 
   .best-sell-slider .swiper-slide {}
 
@@ -843,7 +846,9 @@
     gap: 3rem;
   }
 
-
+  .discount_left_item {
+    width: 100%;
+  }
 
 }
 
@@ -873,8 +878,7 @@
     width: 10rem;
   }
 
-  .selling_products_item,
-  .blog_item {
+  .selling_products_item {
     width: 17.5rem !important;
   }
 
@@ -920,7 +924,8 @@
   .discount_right {
     width: 100%;
   }
-  .discount_left{
+
+  .discount_left {
     width: 100%;
   }
 
@@ -929,21 +934,29 @@
   }
 
   .discount_right_title {
-    font-size: 1.6rem;
+    font-size: 1.8rem;
   }
 
   .discount_right_desc {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
   }
 
-.discount_right_timer{
-  width: 55%;
-  margin: auto;
-  margin-bottom: 1.5rem;
-}
+  .discount_right_timer {
+    width: 55%;
+    margin: auto;
+    margin-bottom: 1.5rem;
+  }
 
   .accordion_title {
     font-size: 1.5rem;
+  }
+
+  .orginal_price {
+    font-size: 1.6rem;
+  }
+
+  #sss {
+    font-size: 12px;
   }
 }
 
