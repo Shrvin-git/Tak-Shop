@@ -203,13 +203,13 @@ const blogSlider = new Swiper('.blog-slider', {
         
         640: {
             slidesPerView: 3,
-            spaceBetween: 100,
+            spaceBetween: 10,
         },
 
 
         768: {
             slidesPerView: 4,
-            spaceBetween: 90,
+            spaceBetween: 10,
         },
 
         992: {
