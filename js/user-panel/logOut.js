@@ -1,4 +1,5 @@
 import { showSwal } from "../core/utils.js";
+import { getToken } from "../core/utils.js";
 
 const logOutBtn = document.querySelector('.logout-account')
 
@@ -12,17 +13,16 @@ logOutBtn.addEventListener('click', e => {
         'نه',
         async (result) => {
             if (result.isConfirmed) {
-                const res = await fetch(`http://localhost:4000/v1/users/${userID}`, {
-                    method: 'DELETE',
+                const res = await fetch(`http://localhost:4000/user/profile`, {
+                    method: 'GET',
                     headers: {
                         Authorization: `Bearer ${getToken()}`,
                     },
                 });
 
-                if (res.ok) {
-                    showSwal('با موفقیت خلرج شدید', 'success', 'فهمیدم', async () => { location.href = 'index.html' });
-                    getAndShowAllUsers();
-                }
+                const data = await res.json()
+
+                console.log(data);
             }
         }
     );

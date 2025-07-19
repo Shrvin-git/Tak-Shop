@@ -85,7 +85,7 @@ const productCategorie = new Swiper('.product_category', {
         },
 
         992: {
-            slidesPerView: 5,
+            slidesPerView: 4,
             spaceBetween: 10,
         },
 
@@ -120,12 +120,12 @@ const bestSellSlider = new Swiper('.best-sell-slider', {
     breakpoints: {
         350: {
             slidesPerView: 2,
-            spaceBetween: 10,
+            spaceBetween: 20,
         },
 
         640: {
             slidesPerView: 3,
-            spaceBetween: 100,
+            spaceBetween: 10,
         },
 
         768: {
@@ -165,18 +165,18 @@ const newProductsSlider = new Swiper('.new-product-slider', {
 
         350: {
             slidesPerView: 2,
-            spaceBetween: 10,
+            spaceBetween: 20,
         },
 
         640: {
             slidesPerView: 3,
-            spaceBetween: 100,
+            spaceBetween: 10,
         },
 
 
         768: {
             slidesPerView: 4,
-            spaceBetween: 90,
+            spaceBetween: 10,
         },
 
         992: {

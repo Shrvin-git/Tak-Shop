@@ -1,3 +1,5 @@
+import { getToken } from "../core/utils.js"
+
 const discountSecondElem = document.querySelector('.discount_second')
 const discountMinutElem = document.querySelector('.discount_minut')
 const discountHourElem = document.querySelector('.discount_hour')

@@ -29,3 +29,41 @@ ul {
 }
 
 /* ================ Finish Default ================ */
+
+
+
+
+
+.swal2-popup{
+  background-color: var(--bg-body-color);
+}
+
+.swal2-title {
+  font-size: 1.8rem;
+  color: var(--txt-color3);
+}
+
+.swal-popup {
+  font-size: 18px;
+  padding: 2rem;
+}
+
+.swal-confirm-btn {
+  font-size: 16px;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: bold;
+  font-family: yekan;
+}
+
+.swal-cancel-btn {
+  font-size: 16px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+
+.swal-confirm-btn{
+  background-color: var(--main-color);
+}

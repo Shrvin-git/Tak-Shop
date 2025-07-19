@@ -1,9 +1,7 @@
 const showSwal = (title, icon, confirmButtonText, cancelButtonTextOrCallback, maybeCallback) => {
-    
     let cancelButtonText = null;
     let callback;
 
-    // اگه پارامتر چهارم تابع هست
     if (typeof cancelButtonTextOrCallback === 'function') {
         callback = cancelButtonTextOrCallback;
     } else {
@@ -17,10 +15,32 @@ const showSwal = (title, icon, confirmButtonText, cancelButtonTextOrCallback, ma
         confirmButtonText,
         cancelButtonText,
         showCancelButton: !!cancelButtonText,
-        reverseButtons: true, // برای فارسی بهتره
-        confirmButtonColor: '#00ff08',
+        reverseButtons: true,
         cancelButtonColor: '#d33',
+        customClass: {
+            confirmButton: 'swal-confirm-btn',
+            cancelButton: 'swal-cancel-btn',
+            popup: 'swal-popup'
+        }
     }).then((result) => callback(result));
 };
 
-export { showSwal }
+const saveIntoLocalStorage = (key, value) => {
+    return localStorage.setItem(key, JSON.stringify(value))
+}
+
+const getFromLocalStorage = (key) => {
+    return JSON.stringify(localStorage.getItem(key));
+};
+
+const getToken = () => {
+    const userInfos = JSON.parse(localStorage.getItem("user"));
+    return userInfos ? userInfos.token : null
+};
+
+export {
+    showSwal,
+    saveIntoLocalStorage,
+    getFromLocalStorage,
+    getToken,
+}
