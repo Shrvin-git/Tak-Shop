@@ -52,7 +52,6 @@ ul {
   font-size: 16px;
   padding: 10px 20px;
   border-radius: 8px;
-  font-weight: bold;
   font-family: yekan;
 }
 
@@ -60,10 +59,11 @@ ul {
   font-size: 16px;
   padding: 10px 20px;
   border-radius: 10px;
-  font-weight: bold;
+  font-family: yekan;
 }
 
 
 .swal-confirm-btn{
   background-color: var(--main-color);
 }
+

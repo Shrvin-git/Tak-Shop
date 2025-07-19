@@ -148,7 +148,7 @@ menuMobileSize.insertAdjacentHTML('beforeend',
             پروفایل
         </a>
         ` : `
-        <a a href = "login.html" >
+        <a a href = "sign-up.html" >
             <span>
                <img src="./images/logo/user-edit.svg" alt="">
             </span>
