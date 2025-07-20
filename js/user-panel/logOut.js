@@ -3,9 +3,9 @@ import { getToken } from "../core/utils.js";
 
 const logOutBtn = document.querySelector('.logout-account')
 
-logOutBtn.addEventListener('click', e => {
-    localStorage.removeItem('token')
 
+
+logOutBtn.addEventListener('click', e => {
     showSwal(
         ' واقعا میخوای از حساب کاربری حارج بشی؟ ',
         'warning',
@@ -13,20 +13,21 @@ logOutBtn.addEventListener('click', e => {
         'نه',
         async (result) => {
             if (result.isConfirmed) {
+                const token = getToken();
+
                 const res = await fetch(`http://localhost:4000/user/profile`, {
-                    method: 'GET',
                     headers: {
                         Authorization: `Bearer ${getToken()}`,
                     },
                 });
 
-                const data = await res.json()
-
+                const data = await res.json();
                 console.log(data);
+                
             }
         }
     );
-})
+});
 
 
 

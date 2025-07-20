@@ -1,6 +1,6 @@
 
 
-const getAndShowAllUserInformation = async () => { console.log('Loged');}
+const getAndShowAllUserInformation = async () => { console.log('Loged'); }
 
 
 export { getAndShowAllUserInformation }

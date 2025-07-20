@@ -207,3 +207,103 @@
     width: 95%;
     height: 100%;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ? Media Queries ================================================================ */
+
+
+@media (min-width: 1400px) {
+    .container {
+        width: 1250px;
+    }
+}
+
+/* =========================================================================================== */
+@media screen and (max-width: 1400px) {}
+
+/* =========================================================================================== */
+@media screen and (max-width: 1200px) {}
+
+/* =========================================================================================== */
+@media screen and (max-width: 992px) {
+
+    .user-otder-main-header h1 {
+        font-size: 2rem;
+    }
+
+    .user-order-info-items {
+        width: 17rem;
+    }
+
+    .user-order-info-container {
+        margin: 3rem 0;
+    }
+
+    .user-order-info-items h3 {
+        font-size: 1.5rem;
+    }
+
+    .user-order-info-items span {
+        font-size: 12px;
+    }
+
+    .products-deliverd h3 {
+        font-size: 1.6rem;
+    }
+
+    .products-deliverd h4 {
+        font-size: 1.4rem;
+    }
+
+    .user-order-level-line-top {
+        font-size: 12px;
+    }
+
+    .products-image {
+        width: 9rem;
+        height: 8rem;
+    }
+
+    .products-image img {
+        width: 95%;
+    }
+
+    .user-otder-header-bottom {
+        gap: 3rem;
+    }
+}
+
+/* =========================================================================================== */
+@media screen and (max-width: 768px) {}
+
+/* =========================================================================================== */
+@media screen and (max-width: 576px) {}
+
+/* =========================================================================================== */
+@media screen and (max-width: 470px) {}
+
+/* =========================================================================================== */
+@media screen and (max-width: 400px) {}

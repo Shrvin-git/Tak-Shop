@@ -1011,10 +1011,9 @@
         padding: 1rem;
     }
 
-    .best-sell-title{
-    }
+    .best-sell-title {}
 
-    .orginal_price{
+    .orginal_price {
         font-size: 1.6rem;
     }
 }
@@ -1062,7 +1061,8 @@
     .description-left img {
         width: 70%;
     }
-    .description-title{
+
+    .description-title {
         display: none;
     }
 }
@@ -1077,8 +1077,76 @@
         font-size: 2rem;
     }
 
-    .best-sell-title{
+    .best-sell-title {
         font-size: 1.4rem;
+    }
+
+    .review-content p {
+        font-size: 12px;
+    }
+
+    .review-content strong {
+        margin: .5rem 0;
+        font-size: 1.4rem;
+    }
+
+    .review-meta span {
+        font-size: 12px;
+    }
+
+    .review-rating svg {
+        width: 2rem;
+        height: 2rem;
+    }
+
+    .review-date svg {
+        width: 1.5rem;
+    }
+
+    .review-meta {
+        gap: 1.5rem;
+    }
+
+    .avatar {
+        width: 4rem;
+        height: 4rem;
+    }
+
+    .reviewer-name {
+        font-size: 14px;
+    }
+
+    .badge {
+        font-size: 10px;
+    }
+
+    .review-actions {
+        justify-content: space-between;
+    }
+
+    .action {
+        font-size: 12px;
+        width: 48%;
+        padding: 8px;
+    }
+
+    .action svg {
+        width: 2rem;
+        height: 2rem;
+    }
+
+
+    .best-sell-slider .swiper-button-prev,
+    .best-sell-slider .swiper-button-next {
+        width: 3rem !important;
+        height: 3rem !important;
+        border-radius: .6rem !important;
+    }
+
+    .best-sell-slider .swiper-button-prev svg,
+    .best-sell-slider .swiper-button-next svg {
+        width: 1.2rem !important;
+        height: 1.2rem !important;
     }
 }
 

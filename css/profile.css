@@ -101,7 +101,9 @@
 
 
 /* *================================= user panel header===================================== * */
-.user-panel {}
+.user-panel {
+    display: none !important;
+}
 
 .user-panel-container {
     width: 72%;
@@ -157,3 +159,85 @@
     color: #831FC1;
     /* وقتی فعال شد */
 }
+
+
+
+
+
+
+
+
+/* ? Media Queries ================================================================ */
+
+
+@media (min-width: 1400px) {
+    .container {
+        width: 1250px;
+    }
+}
+
+/* =========================================================================================== */
+@media screen and (max-width: 1400px) {}
+
+/* =========================================================================================== */
+@media screen and (max-width: 1200px) {}
+
+/* =========================================================================================== */
+@media screen and (max-width: 992px) {
+    .profile-sidebar {
+        width: 35%;
+    }
+
+    .profile-sidebar-top {
+        height: 10rem;
+    }
+
+    .profile-sidebar_header {
+        height: 13rem;
+    }
+
+    .profile-sidebar-items-wrapper {
+        gap: 1.2rem;
+    }
+
+    .item-active {
+        font-size: 1.8rem !important;
+    }
+
+    .profile-sidebar-item {
+        font-size: 1.4rem;
+    }
+
+    .profile-sidebar_header-img {
+        width: 8rem;
+        height: 8rem;
+        /* bottom: 5rem; */
+    }
+}
+
+/* =========================================================================================== */
+@media screen and (max-width: 768px) {
+    .main {
+        padding-top: 2rem;
+    }
+
+    .profile-sidebar {
+        width: 100%;
+    }
+
+    .user-panel-container{
+        width: 0;
+    }
+    .profile-content-wrapper{
+        gap: 0 !important;
+    }
+}
+
+/* =========================================================================================== */
+@media screen and (max-width: 576px) {}
+
+/* =========================================================================================== */
+@media screen and (max-width: 470px) {}
+
+/* =========================================================================================== */
+@media screen and (max-width: 400px) {}

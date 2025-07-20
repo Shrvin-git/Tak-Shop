@@ -10,6 +10,8 @@ import { getAndShowAllGiftCart } from "./giftCart.js";
 // ! User Panel Sections Handles
 const sectionListElem = document.querySelectorAll('.profile-sidebar-item');
 const allSectionsElem = document.querySelectorAll('.user-panel');
+const profileSidebarElem = document.querySelector('.profile-sidebar')
+
 
 sectionListElem.forEach(item => {
     item.addEventListener('click', e => {
@@ -27,7 +29,8 @@ sectionListElem.forEach(item => {
         // نمایش سکشن انتخاب شده
         const targetSection = document.querySelector(`#${dataSetSection}`);
         if (targetSection) {
-            targetSection.style.display = 'block';
+            targetSection.style.display = 'flex';
+            profileSidebarElem.style.display = 'none'
         }
 
         // مدیریت کلاس active برای آیتم‌های سایدبار
