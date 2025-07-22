@@ -217,7 +217,7 @@
 }
 
 .discount_left_item {
-    width: 26.5rem;
+    width: 23%;
     height: auto;
     background-color: var(--bg-color);
     border-radius: 0.8rem;
@@ -368,3 +368,154 @@
     margin: 0 !important;
     justify-content: end;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ? Media Queries ================================================================ */
+
+
+@media (min-width: 1400px) {
+    .container {
+        width: 1250px;
+    }
+}
+
+/* =========================================================================================== */
+@media screen and (max-width: 1400px) {}
+
+/* =========================================================================================== */
+@media screen and (max-width: 1200px) {
+    .discount_left_item_title {
+        font-size: 1.6rem;
+    }
+
+    .discount_left_item {
+        border-radius: .5rem;
+    }
+
+    .product-cover {
+        height: auto;
+    }
+
+    .product_rating_count {
+        font-size: 1.4rem;
+    }
+
+    .orginal_price {
+        font-size: 1.8rem;
+    }
+
+    .discount_left_item img {
+        width: 70%;
+    }
+}
+
+/* =========================================================================================== */
+@media screen and (max-width: 992px) {
+    .discount_left_item {
+        width: 32%;
+    }
+
+    .products-filter {
+        width: 30%;
+    }
+
+    .all-labtop-wrapper {
+        justify-content: space-between;
+        gap: 1.2rem;
+    }
+
+    .all-products-left {
+        width: 70%;
+    }
+
+    .sort-items {
+        flex-wrap: wrap;
+    }
+
+    .all-products-sort span {
+        font-size: 1.4rem;
+        font-weight: 400;
+    }
+
+    .discount_left_item_title {
+        font-size: 1.4rem;
+    }
+
+    .orginal_price {
+        font-size: 1.6rem;
+    }
+
+    .product_rating_count img {
+        width: 1.8rem;
+        height: 1.8rem;
+    }
+
+    .product_send_post img {
+        width: 16px;
+        height: 14px;
+    }
+
+    .product_send_post {
+        font-size: 1rem;
+    }
+}
+
+/* =========================================================================================== */
+@media screen and (max-width: 768px) {
+    .products-filter {
+        display: none;
+    }
+
+    .all-products-left {
+        width: 100%;
+    }
+
+    .discount_left_item {
+
+        padding: 1rem;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .product-cover{
+        width: 40%;
+    }
+    .product-cover img{
+        width: 100%;
+    }
+    .discount_left_item_info{
+        width: 60%;
+    }
+}
+
+/* =========================================================================================== */
+@media screen and (max-width: 576px) {}
+
+/* =========================================================================================== */
+@media screen and (max-width: 470px) {}
+
+/* =========================================================================================== */
+@media screen and (max-width: 400px) {}

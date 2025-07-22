@@ -46,7 +46,7 @@
 
 .form-items input {
     width: 100%;
-    background-color: transparent;
+    background-color: transparent !important;
     border-radius: .9rem;
     padding-right: 1.2rem;
     font-size: 1.8rem;
@@ -119,7 +119,7 @@
         height: 2rem;
     }
 
-    .input-right{
+    .input-right {
         width: 85%;
     }
 }
@@ -128,7 +128,41 @@
 @media screen and (max-width: 768px) {}
 
 /* =========================================================================================== */
-@media screen and (max-width: 576px) {}
+@media screen and (max-width: 576px) {
+    .input-wrapper {
+        padding: 1.5rem;
+        border-radius: .5rem;
+    }
+
+    .form-items {
+        width: 100%;
+    }
+
+    .input-right svg {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+
+    .user-panel-header {
+        margin-bottom: 1.5rem;
+    }
+
+    .user-panel-header-desc {
+        font-size: 12px;
+    }
+
+    .user-panel-header-title {
+        font-size: 2rem;
+    }
+
+    #edit-info {
+        row-gap: 2rem;
+    }
+
+    .form-items input {
+        font-size: 1.6rem;
+    }
+}
 
 /* =========================================================================================== */
 @media screen and (max-width: 470px) {}

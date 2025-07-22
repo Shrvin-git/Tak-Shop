@@ -1,3 +1,6 @@
-const getAndShowAllPopularProducts = async () => { console.log('Loged');}
+const getAndShowAllPopularProducts = async () => {
+
+
+}
 
 export { getAndShowAllPopularProducts }

@@ -102,8 +102,12 @@
 
 /* *================================= user panel header===================================== * */
 .user-panel {
-    display: none !important;
+    display: none;
 }
+
+
+
+
 
 .user-panel-container {
     width: 72%;
@@ -225,12 +229,56 @@
         width: 100%;
     }
 
-    .user-panel-container{
+    .user-panel-container {
         width: 0;
     }
-    .profile-content-wrapper{
+
+    .profile-content-wrapper {
         gap: 0 !important;
     }
+
+    .user-panel {
+        display: none !important;
+    }
+
+
+    .user-panel-container--open {
+        width: 100%;
+    }
+
+    .user-panel--active {
+        display: block !important;
+    }
+
+    .remove{
+        display: none !important;
+    }
+
+    .profile-sidebar--toggle {
+        display: none;
+    }
+
+    .user-panel-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .flash-back {
+        width: 3.6rem;
+        height: 3.6rem;
+        cursor: pointer;
+    }
+
+    .flash-back svg {
+        width: 100%;
+        height: 100%;
+    }
+
+    .flash-back svg path{
+        fill: var(--txt-color3);
+    }
+
 }
 
 /* =========================================================================================== */

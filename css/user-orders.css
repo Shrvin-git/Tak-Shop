@@ -300,7 +300,32 @@
 @media screen and (max-width: 768px) {}
 
 /* =========================================================================================== */
-@media screen and (max-width: 576px) {}
+@media screen and (max-width: 576px) {
+    .user-order-level {
+        flex-direction: column-reverse;
+    }
+
+    .products-deliverd,
+    .user-order-level-line {
+        width: 100%;
+    }
+
+    .user-order-level-line {
+        margin-bottom: 2rem;
+    }
+
+    .order-modes--active {
+        font-size: 1.6rem !important;
+    }
+
+    .user-otder-header-bottom {
+        gap: 2rem;
+    }
+
+    .order-modes {
+        font-size: 1.2rem;
+    }
+}
 
 /* =========================================================================================== */
 @media screen and (max-width: 470px) {}

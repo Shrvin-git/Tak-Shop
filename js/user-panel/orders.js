@@ -1,3 +1,6 @@
-const getAndShowAllOrders = async () => {console.log('Loged'); }
+const getAndShowAllOrders = async () => {
+
+    
+ }
 
 export { getAndShowAllOrders }

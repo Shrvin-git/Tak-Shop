@@ -188,7 +188,53 @@
 @media screen and (max-width: 768px) {}
 
 /* =========================================================================================== */
-@media screen and (max-width: 576px) {}
+@media screen and (max-width: 576px) {
+    .popular-products-items {
+        width: 100%;
+        flex-direction: row;
+    }
+
+    .popular-products-cover {
+        height: auto;
+        width: 30%;
+    }
+
+    .popular-products-cover img {
+        width: 100%;
+    }
+
+
+    .popular-products-left {
+        width: 65%;
+    }
+
+    .popular-products-name,
+    .popular-products-price span,
+    .popular-products-main div del {
+        font-weight: 300;
+    }
+
+    .delete-in-popular-product {
+        margin-top: .8rem;
+    }
+
+    .popular-products-main div del {
+        font-size: 12px;
+    }
+
+    .delete-in-popular-product,
+    .add-to-cart {
+        border-radius: .6rem;
+        font-size: 1.4rem;
+    }
+
+    .delete-in-popular-product svg,
+    .add-to-cart svg {
+        width: 1.6rem;
+        height: 1.8rem;
+    }
+
+}
 
 /* =========================================================================================== */
 @media screen and (max-width: 470px) {}

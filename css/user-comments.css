@@ -181,7 +181,42 @@
 @media screen and (max-width: 768px) {}
 
 /* =========================================================================================== */
-@media screen and (max-width: 576px) {}
+@media screen and (max-width: 576px) {
+
+    .notif-items-header {
+        font-size: 1.4rem;
+    }
+
+    .notif-header-icon svg {
+        width: 16px;
+        height: 16px;
+    }
+
+    .notif-items-main {
+        font-size: 12px;
+    }
+
+    .user-comments-header-left {
+        font-size: 1.2rem;
+    }
+
+    .comment-rating {
+        font-size: 1.6rem;
+    }
+
+    .notif-header-icon {
+        width: 3.5rem;
+        height: 3.5rem;
+    }
+
+    .comment-date svg {
+        width: 1.5rem;
+    }
+
+    .comment-rating svg {
+        width: 2rem;
+    }
+}
 
 /* =========================================================================================== */
 @media screen and (max-width: 470px) {}

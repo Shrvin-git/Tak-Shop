@@ -2,7 +2,6 @@
 @import "navbar.css";
 @import "helpers.css";
 @import "swiper.css";
-
 @import "footer.css";
 @import "default.css";
 
@@ -45,7 +44,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  
+
 }
 
 
@@ -54,10 +53,10 @@
   align-items: center;
   justify-content: space-between;
   background-color: var(--bg-color);
-  width: 19.5rem;
+  width: 100%;
   border-radius: 1.2rem;
   padding: 2.5rem 0;
-box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.20);
+  box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.20);
 }
 
 .laptop_brnad_img {
@@ -100,7 +99,7 @@ box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.20);
 
 .laptop_by_usage {
   background-color: var(--bg-color);
-  width: 16.5rem;
+  width: 100%rem;
   border-radius: 12px;
   text-align: center;
   padding: 2.5rem;
@@ -230,7 +229,9 @@ box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.20);
 /* ================= category-by-cpu ================ */
 
 
-.category-by-cpu {}
+.category-by-cpu {
+  margin-bottom: 10rem;
+}
 
 .category-by-cpu img {
   width: 100%;
@@ -246,7 +247,7 @@ box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.20);
   background-color: var(--bg-color);
   border-radius: .9rem;
   display: block;
-  width: 19rem;
+  width: 100%;
   padding-bottom: 2.5rem;
 }
 
@@ -264,10 +265,13 @@ box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.20);
 }
 
 .category-by-price-item {
-  display: block;
-  width: 19rem;
+  width: 100%;
   background-color: var(--bg-color);
   border-radius: .9rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
 }
 
 .category-by-price-item img {
@@ -291,10 +295,14 @@ box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.20);
 }
 
 .blog_item {
-  width: 24rem;
+  width: 100%;
+  height: 30rem;
   background-color: var(--bg-color);
   border-radius: 0.8rem;
   padding-bottom: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 
@@ -348,6 +356,7 @@ box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.20);
 .show_blog {
   text-shadow: 0px 0px 10px #d772ff93;
   display: flex;
+  color: var(--main-color);
   align-items: center;
   justify-content: center;
   gap: .5rem;
@@ -475,7 +484,7 @@ box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.20);
 }
 
 .accordion_title {
-  font-family: yekan;
+  font-family: yekan-semibold;
   font-weight: 700;
   font-size: 24px;
   color: var(--txt-black);
@@ -506,26 +515,201 @@ box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.20);
 }
 
 /* =========================================================================================== */
-@media screen and (max-width: 1400px) {}
+@media screen and (max-width: 1400px) {
+
+  .blog_date,
+  .blog_category {
+    padding: 0 1rem;
+  }
+
+  .accordion_title {
+    font-size: 2rem;
+  }
+}
 
 /* =========================================================================================== */
 @media screen and (max-width: 1200px) {
   .hero-section-slider {
     height: 30rem;
   }
+
+  .laptop_brnad_img {
+    width: 13rem;
+    height: 13rem;
+  }
+
+  .laptop_brnad_img img {
+    width: 80%;
+  }
+
+  .laptop_brand_items {
+    padding: 2rem 0;
+  }
+
+  .faq_right {
+    width: 26rem;
+  }
+
+  .faq_left {
+    width: 65rem;
+  }
 }
 
 /* =========================================================================================== */
-@media screen and (max-width: 992px) {}
+@media screen and (max-width: 992px) {
+  .blog_title {
+    font-size: 1.4rem;
+  }
+
+  .blog_date,
+  .blog_category {
+    font-size: 1.2rem !important;
+  }
+
+  .laptop_best_sell_items-header {
+    font-size: 1.6rem;
+  }
+
+  .laptop_best_sell_items_left {
+    width: 100%;
+  }
+
+  .laptop_best_sell_items_right img {
+    width: 45%;
+  }
+
+  .laptop_best_sell_items_right {
+    width: 100%;
+  }
+
+  .laptop_best_sell_items {
+    flex-direction: column;
+  }
+
+  .category-by-price-item img {
+    width: 80%;
+  }
+
+  .category-by-price-item {
+    padding: 1rem 0;
+  }
+
+  .faq_wrapper {
+    flex-direction: column;
+  }
+
+  .faq_right,
+  .faq_left {
+    width: 100%;
+  }
+
+}
 
 /* =========================================================================================== */
-@media screen and (max-width: 768px) {}
+@media screen and (max-width: 768px) {
+  .hero-section {
+    height: 20rem;
+  }
+
+  .hero-section-slider {
+    height: 21rem !important;
+  }
+
+  .main {
+    padding-top: 2.5rem;
+  }
+
+  .hero-section-slider .swiper-button-next,
+  .hero-section-slider .swiper-button-prev {
+    display: none;
+  }
+
+  .laptop-usage-label {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .5rem;
+    width: 30%;
+  }
+
+  .category-by-cpu img {
+    width: 75%;
+  }
+}
 
 /* =========================================================================================== */
-@media screen and (max-width: 576px) {}
+@media screen and (max-width: 576px) {
+  .hero-section {
+    height: 10rem;
+  }
+
+  .hero-section-slider {
+    height: 13.5rem !important;
+    border-radius: 1rem;
+  }
+
+  .laptop_brnad_img {
+    width: 11rem;
+    height: 11rem;
+  }
+
+  .laptop_brand_items a {
+    gap: 1rem;
+  }
+
+  .laptop_brnad_img img {
+    width: 75%;
+  }
+
+  .laptop_by_usage {
+    padding: 1.5rem;
+  }
+
+  .div1 {
+    font-size: 12px;
+  }
+
+  .laptop-usage-label span {
+    font-size: 8px;
+  }
+
+  .laptop-price span {
+    font-size: 1.6rem;
+  }
+
+  .laptop_best_sell_items-header {
+    align-items: baseline;
+  }
+
+  .accordion_title {
+        font-size: 1.4rem;
+    }
+
+}
 
 /* =========================================================================================== */
-@media screen and (max-width: 470px) {}
+@media screen and (max-width: 470px) {
+  .laptop_best_sell_items {
+    width: 100%;
+    flex-direction: row;
+  }
+
+  .laptop_best_sell_items_right {
+    width: 40%;
+  }
+
+  .laptop_best_sell_items_left {
+    width: 60%;
+  }
+
+  .laptop_best_sell_items_right img {
+    width: 80%;
+
+  }
+
+  .laptop_best_sell_items-main {
+    text-align: center;
+  }
+}
 
 /* =========================================================================================== */
 @media screen and (max-width: 400px) {}

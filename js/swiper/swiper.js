@@ -240,3 +240,182 @@ const blogSlider = new Swiper('.blog-slider', {
     freeMode: true
 
 });
+
+
+const laptopBrand = new Swiper('.laptop-brnad', {
+    loop: true,
+
+    autoplay: {
+        delay: 1800, // تاخیر بین اسلایدها
+        disableOnInteraction: false, // بعد از تعامل کاربر هم ادامه دهد
+    },
+
+    pagination: {
+        el: '.swiper-pagination',
+    },
+
+    navigation: {
+        prevEl: '.swiper-button-prev',
+        nextEl: '.swiper-button-next',
+    },
+
+    breakpoints: {
+        350: {
+            slidesPerView: 3,
+            spaceBetween: 10,
+        },
+
+        640: {
+            slidesPerView: 4,
+            spaceBetween: 20,
+        },
+
+        768: {
+            slidesPerView: 5,
+            spaceBetween: 10,
+        },
+
+        992: {
+            slidesPerView: 4,
+            spaceBetween: 10,
+        },
+
+        1024: {
+            slidesPerView: 6,
+            spaceBetween: 10,
+        },
+    },
+
+});
+
+
+const categoryUsagePrice = new Swiper('.laptop-brnadd', {
+    loop: true,
+    autoplay: {
+        delay: 1800, // تاخیر بین اسلایدها
+        disableOnInteraction: false, // بعد از تعامل کاربر هم ادامه دهد
+    },
+    freeMode: true,
+
+    pagination: {
+        el: '.swiper-pagination',
+    },
+
+    navigation: {
+        prevEl: '.swiper-button-prev',
+        nextEl: '.swiper-button-next',
+    },
+
+    breakpoints: {
+        350: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+        },
+
+        640: {
+            slidesPerView: 4,
+            spaceBetween: 20,
+        },
+
+        768: {
+            slidesPerView: 6,
+            spaceBetween: 10,
+        },
+
+        992: {
+            slidesPerView: 6,
+            spaceBetween: 10,
+        },
+
+        1024: {
+            slidesPerView: 6,
+            spaceBetween: 10,
+        },
+    },
+
+});
+
+
+//     loop: true,
+
+
+
+//     pagination: {
+//         el: '.swiper-pagination',
+//     },
+
+//     navigation: {
+//         prevEl: '.swiper-button-prev',
+//         nextEl: '.swiper-button-next',
+//     },
+
+//     breakpoints: {
+//         350: {
+//             slidesPerView: 2,
+//             spaceBetween: 10,
+//         },
+
+//         640: {
+//             slidesPerView: 4,
+//             spaceBetween: 20,
+//         },
+
+//         768: {
+//             slidesPerView: 5,
+//             spaceBetween: 10,
+//         },
+
+//         992: {
+//             slidesPerView: 4,
+//             spaceBetween: 10,
+//         },
+
+//         1024: {
+//             slidesPerView: 7,
+//             spaceBetween: 10,
+//         },
+//     },
+
+// });
+
+
+// const priceCategorySlider = new Swiper('.swiper', {
+//     loop: true,
+
+
+
+
+
+//     navigation: {
+//         prevEl: '.swiper-button-prev',
+//         nextEl: '.swiper-button-next',
+//     },
+
+//     breakpoints: {
+//         350: {
+//             slidesPerView: 2,
+//             spaceBetween: 10,
+//         },
+
+//         640: {
+//             slidesPerView: 4,
+//             spaceBetween: 20,
+//         },
+
+//         768: {
+//             slidesPerView: 5,
+//             spaceBetween: 10,
+//         },
+
+//         992: {
+//             slidesPerView: 4,
+//             spaceBetween: 10,
+//         },
+
+//         1024: {
+//             slidesPerView: 7,
+//             spaceBetween: 10,
+//         },
+//     },
+
+// });

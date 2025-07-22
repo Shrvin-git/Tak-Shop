@@ -1,4 +1,7 @@
-    
-const getAndShowAllNotification = async () => {console.log('Loged'); }
+
+const getAndShowAllNotification = async () => {
+
+
+}
 
 export { getAndShowAllNotification }

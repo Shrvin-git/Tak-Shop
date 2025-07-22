@@ -1,2 +1,5 @@
-const getAndShowAllGiftCart = async () => { console.log('Loged'); }
+const getAndShowAllGiftCart = async () => {
+
+
+}
 export { getAndShowAllGiftCart }
