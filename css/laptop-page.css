@@ -681,8 +681,21 @@
   }
 
   .accordion_title {
-        font-size: 1.4rem;
-    }
+    font-size: 1.4rem;
+  }
+
+  .blog-slider .swiper-button-prev,
+  .blog-slider .swiper-button-next {
+    width: 3rem !important;
+    height: 3rem !important;
+    border-radius: .6rem !important;
+  }
+
+  .blog-slider .swiper-button-prev svg,
+  .blog-slider .swiper-button-next svg {
+    width: 1.2rem !important;
+    height: 1.2rem !important;
+  }
 
 }
 

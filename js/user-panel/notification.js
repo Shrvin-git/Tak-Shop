@@ -1,6 +1,7 @@
 
 const getAndShowAllNotification = async () => {
 
+console.log('Message');
 
 }
 

@@ -6,10 +6,10 @@ import { getToken } from "./core/utils.js";
 const userToken = getToken()
 
 window.addEventListener('load', () => {
-    loadFooterSite()
-    loadMenuSite()
-    loadMegaMenuNavbar()
-    accordionToggle()
+  loadFooterSite()
+  loadMenuSite()
+  loadMegaMenuNavbar()
+  accordionToggle()
 })
 
 const menuMobileToggleIcon = document.querySelector('.toggle-menu')
@@ -18,23 +18,23 @@ const categoryListItemsElem = document.querySelector('#list-items')
 
 
 categoryListItemsElem.addEventListener('click', e => {
-    document.querySelector('.mega-menu-mobile').classList.toggle('mega-menu-mobile--open')
-    document.querySelector('.sss').classList.toggle('sss-open')
+  document.querySelector('.mega-menu-mobile').classList.toggle('mega-menu-mobile--open')
+  document.querySelector('.sss').classList.toggle('sss-open')
 })
 
 menuMobileToggleIcon.addEventListener('click', e => {
-    document.querySelector('.menu-mobile').classList.toggle('menu-mobile--open')
+  document.querySelector('.menu-mobile').classList.toggle('menu-mobile--open')
 
-    const openMenuBtn = document.querySelector('#open')
-    const closeMenuBtn = document.querySelector('#close')
+  const openMenuBtn = document.querySelector('#open')
+  const closeMenuBtn = document.querySelector('#close')
 
-    if (closeMenuBtn.className === 'humbrger-icon-toggle') {
-        openMenuBtn.classList.add('humbrger-icon-toggle')
-        closeMenuBtn.classList.remove('humbrger-icon-toggle')
-    } else {
-        openMenuBtn.classList.remove('humbrger-icon-toggle')
-        closeMenuBtn.classList.add('humbrger-icon-toggle')
-    }
+  if (closeMenuBtn.className === 'humbrger-icon-toggle') {
+    openMenuBtn.classList.add('humbrger-icon-toggle')
+    closeMenuBtn.classList.remove('humbrger-icon-toggle')
+  } else {
+    openMenuBtn.classList.remove('humbrger-icon-toggle')
+    closeMenuBtn.classList.add('humbrger-icon-toggle')
+  }
 })
 
 
@@ -45,7 +45,7 @@ const registerBtnContainer = document.querySelector('.register-btn-wrapper')
 registerBtnContainer.innerHTML = ''
 
 registerBtnContainer.insertAdjacentHTML('beforeend',
-    `
+  `
     
           ${!userToken ? `<a class="user-profile" href="./login.html">
                              <span>ثبت نام / ورود</span>
@@ -54,7 +54,7 @@ registerBtnContainer.insertAdjacentHTML('beforeend',
               <path d="M32.6967 35.4168C32.6967 29.4135 26.0033 24.5335 20 24.5335C13.9967 24.5335 7.30334 29.4135 7.30334 35.4168M20 19.0935C21.9242 19.0935 23.7695 18.3291 25.1301 16.9686C26.4906 15.608 27.255 13.7626 27.255 11.8385C27.255 9.91435 26.4906 8.06901 25.1301 6.70844C23.7695 5.34786 21.9242 4.5835 20 4.5835C18.0759 4.5835 16.2305 5.34786 14.87 6.70844C13.5094 8.06901 12.745 9.91435 12.745 11.8385C12.745 13.7626 13.5094 15.608 14.87 16.9686C16.2305 18.3291 18.0759 19.0935 20 19.0935Z" stroke="#831FC1" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></path>
             </svg>
           </a> `
-    }
+  }
 
 
           
@@ -66,7 +66,7 @@ registerBtnContainer.insertAdjacentHTML('beforeend',
             </svg>
 
           </a>`: ''
-    }
+  }
          
         
     
@@ -84,7 +84,7 @@ const menuMobileSize = document.querySelector('.menu-mobile-bottom')
 menuMobileSize.innerHTML = ''
 
 menuMobileSize.insertAdjacentHTML('beforeend',
-    `
+  `
     
     <div class="menu-mobile-items">
       <a href="index.html">
@@ -153,10 +153,10 @@ menuMobileSize.insertAdjacentHTML('beforeend',
                <img src="./images/logo/user-edit.svg" alt="">
             </span>
             
-            ورود یا ثبت نلم
+            ورود یا ثبت نام
         </a> 
         `
-    }
+  }
 
     </div>
   

@@ -237,7 +237,9 @@ section {
 
 /* =========================================================================================== */
 @media screen and (max-width: 768px) {
-
+.main {
+        padding-top: 2rem;
+    }
     .about-us-title h1 {
         text-align: center;
     }

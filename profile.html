@@ -625,7 +625,7 @@
                 <div class="user-panel-container">
 
                     <!-- ! User Main Info  -->
-                    <div id="main-info" class="user-profile-content user-panel">
+                    <div id="main-info" class="user-profile-content user-panel user-panel--active">
 
                         <div class="user-panel-header">
                             <div class="user-panel-header-right">
@@ -653,7 +653,7 @@
                         <form action="#" id="edit-info">
                             <!-- نام و نام خانوادگی -->
                             <div class="form-items">
-                                <label for="name">نام و نام خانوادگی</label>
+                                <label for="name" >نام و نام خانوادگی</label>
                                 <div class="input-wrapper">
                                     <div class="input-right">
                                         <svg width="18" height="21" viewBox="0 0 18 21" fill="none"
@@ -664,7 +664,7 @@
                                                 stroke-linejoin="round" />
                                         </svg>
 
-                                        <input type="text" name="name">
+                                        <input type="text" name="name" id="name-family">
                                     </div>
                                     <div class="edit-btn">
                                         <svg width="24" height="25" viewBox="0 0 24 25" fill="none"
@@ -686,7 +686,7 @@
 
                             <!-- ایمیل -->
                             <div class="form-items">
-                                <label for="email"> ایمیل </label>
+                                <label for="email" > ایمیل </label>
                                 <div class="input-wrapper">
                                     <div class="input-right">
                                         <svg width="28" height="25" viewBox="0 0 28 25" fill="none"
@@ -2066,11 +2066,12 @@
     <!-- ============== Finish Mobile Menu ============== -->
 </body>
 
-<script src="./js/user-panel/user-panel.js"></script>
+<!-- <script src="./js/user-panel/user-panel.js"></script> -->
 <script src="./js/main.js" type="module"></script>
 <script src="./js/core/change-theme.js"></script>
 <script src="./js/user-panel/userPanel.js" type="module"></script>
 <script src="./js/user-panel/logOut.js" type="module"></script>
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="./js/user-panel/userMainInfo.js" type="module"></script>
 
 </html>

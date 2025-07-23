@@ -97,3 +97,50 @@ orderSectionsElem.forEach(item => {
     if (counter) counter.classList.add('active');
   });
 });
+
+
+// ======= Get Active Section Name =======
+
+function getActiveSectionName() {
+  const activeSection = document.querySelector('.user-panel--active');
+  return activeSection ? activeSection.id : null;
+}
+
+switch (getActiveSectionName()) {
+  case 'main-info':
+    getAndShowAllUserInformation()
+    break;
+
+  case 'message':
+    getAndShowAllNotification()
+    break;
+
+
+  case 'popular-product':
+    getAndShowAllPopularProducts()
+    break;
+
+
+  case 'comments':
+    getAndShowAllComments()
+    break;
+
+
+  case 'user-order':
+    getAndShowAllOrders()
+    break;
+
+
+  case 'gift-cart':
+    getAndShowAllGiftCart()
+    break;
+  default:
+    break;
+}
+
+
+// ====== Delete Class In Section User Main Info
+const mainUserInfoSection = document.querySelector('#main-info')
+if (window.innerWidth < 768) {
+  mainUserInfoSection.classList.remove('user-panel--active')
+}

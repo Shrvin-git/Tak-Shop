@@ -30,7 +30,7 @@ const register = async () => {
     });
 
     const data = await res.json();
-    console.log(data.token);
+
     if (res.ok) {
         showSwal(
             'با موفقیت ثبت نام شدید',
